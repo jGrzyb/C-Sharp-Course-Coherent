@@ -8,8 +8,7 @@
         int second = int.Parse(Console.ReadLine() ?? "0");
         if(first > second) 
         {
-            Console.WriteLine("First number must be greater than second");
-            return;
+            (first, second) = (second, first);
         }
 
         for(int i=first; i<=second; i++) 
