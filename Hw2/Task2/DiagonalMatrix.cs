@@ -30,7 +30,8 @@ public class DiagonalMatrix
         }
     }
 
-    private int getElement(int i, int j) {
+    private int getElement(int i, int j) 
+    {
         if(i == j)
         {
             return _diagonal[i];
@@ -45,7 +46,8 @@ public class DiagonalMatrix
         }
     }
 
-    private void setElement(int i, int j, int el) {
+    private void setElement(int i, int j, int el) 
+    {
         if(i == j)
         {
             _diagonal[i] = el;
@@ -93,7 +95,8 @@ public static class DiagonalMatrixExtensions
         int maxSize = (int)MathF.Max(dm1.Size, dm2.Size);
         int[] result = new int[maxSize];
 
-        for(int i=0; i<maxSize; i++) {
+        for(int i=0; i<maxSize; i++) 
+        {
             int v1 = i < dm1.Size ? dm1[i, i] : 0;
             int v2 = i < dm2.Size ? dm2[i, i] : 0;
             result[i] = v1 + v2;

@@ -1,7 +1,8 @@
 public class Lecture : Lesson
 {
     public string? Topic;
-    public Lecture(string? desc = null, string? topic = null) {
+    public Lecture(string? desc = null, string? topic = null) 
+    {
         Description = desc;
         Topic = topic;
     }

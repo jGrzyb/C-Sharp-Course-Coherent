@@ -3,7 +3,8 @@ public class PracticalLesson : Lesson
     public string? TaskCondidionLink;
     public string? SolutionLink;
 
-    public PracticalLesson(string? desc = null, string? condLink = null, string? solLink = null) {
+    public PracticalLesson(string? desc = null, string? condLink = null, string? solLink = null) 
+    {
         Description = desc;
         TaskCondidionLink = condLink;
         SolutionLink = solLink;

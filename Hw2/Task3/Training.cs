@@ -2,12 +2,14 @@ public class Training : AbstractCoherentEntity
 {
     private Lesson[] Entities = [];
 
-    public Training(string? desc, Lesson[] lessons) {
+    public Training(string? desc, Lesson[] lessons) 
+    {
         Description = desc;
         Entities = lessons;
     }
 
-    public Training(Lesson[] lessons) {
+    public Training(Lesson[] lessons) 
+    {
         Entities = lessons;
     }
 
