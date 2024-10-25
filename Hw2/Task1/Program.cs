@@ -1,6 +1,7 @@
 ﻿public class Program
 {
-    public static void Main(string[] args) {
+    public static void Main(string[] args) 
+    {
         PointMass pointMass0 = new PointMass();
         Console.WriteLine(pointMass0);
 

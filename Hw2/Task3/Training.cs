@@ -1,7 +1,15 @@
-public class Training
+public class Training : AbstractCoherentEntity
 {
-    public string? Description;
-    public AbstractCoherentEntity[] Entities = [];
+    private Lesson[] Entities = [];
+
+    public Training(string? desc, Lesson[] lessons) {
+        Description = desc;
+        Entities = lessons;
+    }
+
+    public Training(Lesson[] lessons) {
+        Entities = lessons;
+    }
 
     public bool IsPractical() 
     {
@@ -10,51 +18,18 @@ public class Training
 
     public Training Clone() 
     {
-        Training newTraining = new();
-        newTraining.Description = Description;
-        newTraining.Entities = new AbstractCoherentEntity[Entities.Length];
-        for(int i=0; i<Entities.Length; i++) 
-        {
-            if(Entities[i] is Lecture lecture) 
-            {
-                Lecture newLecture = new Lecture();
-                newLecture.Topic = lecture.Topic;
-                newTraining.Entities[i] = newLecture;
-            }
-            else if(Entities[i] is PracticalLesson practicalLesson) 
-            {
-                PracticalLesson newLesson = new PracticalLesson();
-                newLesson.SolutionLink = practicalLesson.SolutionLink;
-                newLesson.TaskCondidionLink = practicalLesson.TaskCondidionLink;
-                newTraining.Entities[i] = newLesson;
-            }
-        }
-        return newTraining;
+        Lesson[] newEntities = Entities.Select(x => x.Clone()).ToArray();
+        return new Training(Description, newEntities);
     }
 
     public override string ToString()
     {
-        string result = Description + "\n";
-        foreach(var e in Entities) 
-        {
-            if(e is Lecture lecture) 
-            {
-                result += "Lecture: " + lecture.Topic + lecture.Description + "\n";
-            }
-            else if(e is PracticalLesson ps) 
-            {
-                result += "Practical lesson: " + ps.Description + " " + ps.SolutionLink + " " + ps.TaskCondidionLink + "\n";
-            }
-        }
-        return result;
+        return Description + "\n" + string.Join("\n", Entities.Select(x => x.ToString())) + "\n";
     }
-}
 
-public static class TrainingExtension
-{
-    public static Training Add(this Training training, AbstractCoherentEntity entity)
+    public Training Add(Lesson entity)
     {
-        training.Entities = training.Entities.Concat([entity]).ToArray();
-        return training;
+        Entities = Entities.Concat([entity]).ToArray();
+        return this;
     }
 }

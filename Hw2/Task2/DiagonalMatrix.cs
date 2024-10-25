@@ -22,29 +22,37 @@ public class DiagonalMatrix
     {
         get 
         {
-            if(i == j)
-            {
-                return _diagonal[i];
-            }
-            else if(i >= 0 && i < Size && j >= 0 && j < Size) 
-            {
-                return 0;
-            }
-            else
-            {
-                throw new IndexOutOfRangeException("Index out of range");
-            }
+            return getElement(i, j);
         }
         set 
         { 
-            if(i == j)
-            {
-                _diagonal[i] = value;
-            }
-            else if(i < 0 || i >= Size || j < 0 || j >= Size) 
-            {
-                throw new IndexOutOfRangeException("Index out of range");
-            }
+            setElement(i, j, value);
+        }
+    }
+
+    private int getElement(int i, int j) {
+        if(i == j)
+        {
+            return _diagonal[i];
+        }
+        else if(i >= 0 && i < Size && j >= 0 && j < Size) 
+        {
+            return 0;
+        }
+        else
+        {
+            throw new IndexOutOfRangeException("Index out of range");
+        }
+    }
+
+    private void setElement(int i, int j, int el) {
+        if(i == j)
+        {
+            _diagonal[i] = el;
+        }
+        else if(i < 0 || i >= Size || j < 0 || j >= Size) 
+        {
+            throw new IndexOutOfRangeException("Index out of range");
         }
     }
 
@@ -62,10 +70,15 @@ public class DiagonalMatrix
         return false;
     }
 
-    public override int GetHashCode()
-    {
-        return base.GetHashCode();
-    }
+    // public override int GetHashCode()
+    // {
+    //     int hash = 104729;
+    //     foreach (int element in _diagonal)
+    //     {
+    //         hash = hash * 31 + element.GetHashCode();
+    //     }
+    //     return hash;
+    // }
 
     public override string ToString()
     {
