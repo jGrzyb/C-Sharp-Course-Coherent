@@ -14,7 +14,8 @@ public class DiagonalMatrix
         }
         else 
         {
-            _diagonal = numbers;
+            _diagonal = new int[numbers.Length];
+            Array.Copy(numbers, _diagonal, numbers.Length);
         }
     }
 
