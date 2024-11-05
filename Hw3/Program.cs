@@ -1,12 +1,12 @@
-﻿MyQueue<int> queue = new(10);
+﻿MyQueue<int> queue = new();
 Random rand = new();
-for(int i=0; i<30; i++) 
+for(int i=0; i<20; i++) 
 {
     try 
     {
         if(rand.Next() % 3 != 0)
         {
-            int value = rand.Next() % 20;
+            int value = rand.Next() % 20 + 1;
             Console.WriteLine("enqueue: " + value);
             queue.Enqueue(value);
         }
@@ -21,3 +21,6 @@ for(int i=0; i<30; i++)
         Console.WriteLine("Exception: " + e.Message);
     }
 }
+MyQueue<int> tailed = (MyQueue<int>)queue.Tail();
+Console.WriteLine("old queue: " + queue);
+Console.WriteLine("tail: " + tailed);

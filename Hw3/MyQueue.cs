@@ -2,43 +2,60 @@ using System.ComponentModel.DataAnnotations;
 
 public class MyQueue<T> : IQueue<T> 
 {
-    private int max = 5;
     private int front;
     private int rear = -1;
     private int itemCount = 0;
-    private T[] array;
+    private T[] array = new T[2];
 
-    public MyQueue(int maxItems)
+
+    public MyQueue() {}
+
+    public MyQueue(IQueue<T> queue)
     {
-        max = maxItems;
-        array = new T[max];
+        MyQueue<T> tempQueue = new MyQueue<T>();
+        while(!queue.IsEmpty()) 
+        {
+            T item = queue.Dequeue();
+            tempQueue.Enqueue(item);
+        }
+        while(!tempQueue.IsEmpty())
+        {
+            T item = tempQueue.Dequeue();
+            queue.Enqueue(item);
+            Enqueue(item);
+        }
+
     }
 
     public void Enqueue(T t)
     {
-        if(!IsFull())
+        if(itemCount >= array.Length)
         {
-            if(rear == max - 1)
-            {
-                rear = -1;
-            }
-            rear++;
-            array[rear] = t;
-            itemCount++;
+            T[] newArray = new T[array.Length * 2];
+            T[] tempArray = front < rear ? array[front..(rear+1)] : array[front..].Concat(array[..(rear+1)]).ToArray();
+            Array.Copy(tempArray, newArray, tempArray.Length);
+            front = 0;
+            rear = tempArray.Length - 1;
+            array = newArray;
         }
-        else {
-            throw new Exception("Queue is full");
+        if(rear == array.Length - 1)
+        {
+            rear = -1;
         }
+        rear++;
+        array[rear] = t;
+        itemCount++;
     }
 
     public T Dequeue()
     {
-        if(IsEmpty()) {
+        if(IsEmpty()) 
+        {
             throw new Exception("Queue is empty");
         }
         T data = array[front];
         front++;
-        if(front == max) 
+        if(front == array.Length) 
         {
             front = 0;
         }
@@ -46,28 +63,9 @@ public class MyQueue<T> : IQueue<T>
         return data;
     }
 
-    public T Peek()
-    {
-        if(itemCount == 0)
-        {
-            throw new Exception("No elements in queue");
-        }
-        return array[front];
-    }
-
-    public bool IsFull()
-    {
-        return itemCount >= max;
-    }
-
     public bool IsEmpty() 
     {
         return itemCount == 0;
-    }
-
-    public int GetSize()
-    {
-        return itemCount;
     }
 
     public override string ToString()
