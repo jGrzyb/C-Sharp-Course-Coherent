@@ -6,11 +6,11 @@ namespace Matrix
         private DiagonalMatrix<T> matrix;
         public MatrixTracker(DiagonalMatrix<T> matrix)
         {
-            matrix.ElementChanged += onMatrixChanged;
+            matrix.ElementChanged += OnMatrixChanged;
             this.matrix = matrix;
         }
 
-        private void onMatrixChanged(object sender, ElementChangedEventArgs<T> e)
+        private void OnMatrixChanged(object sender, ElementChangedEventArgs<T> e)
         {
             changes.Push(e);
             // Console.WriteLine("Change: " + string.Join(" ", [e.I, e.J, e.OldValue, e.NewValue]));

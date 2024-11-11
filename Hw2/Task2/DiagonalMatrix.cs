@@ -6,7 +6,7 @@ namespace Matrix
         private T[] _diagonal;
         public int Size
         {
-            get { return _diagonal.Length;}
+            get { return _diagonal.Length; }
         }
 
         public DiagonalMatrix(params T[] numbers) 
@@ -35,45 +35,60 @@ namespace Matrix
         {
             get 
             {
-                return getElement(i, j);
+                return GetElement(i, j);
             }
             set 
             { 
-                setElement(i, j, value);
+                SetElement(i, j, value);
             }
         }
 
-        private T getElement(int i, int j) 
+        private T GetElement(int i, int j) 
         {
-            if(i == j)
+            
+            if(!IsInsideMatrix(i, j)) 
+            {
+                throw new IndexOutOfRangeException("Index out of range");
+            }
+            else if(IsOnDiagonal(i, j))
             {
                 return _diagonal[i];
             }
-            else if(i >= 0 && i < Size && j >= 0 && j < Size) 
+            else
             {
                 return default;
             }
-            else
+        }
+
+        private bool IsInsideMatrix(int i, int j)
+        {
+            return i >= 0 && i < Size && j >= 0 && j < Size;
+        }
+
+        private bool IsOnDiagonal(int i, int j)
+        {
+            return i == j;
+        }
+
+        private void SetElement(int i, int j, T el) 
+        {
+            if(!IsInsideMatrix(i, j)) 
             {
                 throw new IndexOutOfRangeException("Index out of range");
             }
-        }
-
-        private void setElement(int i, int j, T el) 
-        {
-            if(i == j)
+            else if(IsOnDiagonal(i, j))
             {
                 if(_diagonal[i] is not null && !_diagonal[i]!.Equals(el))
                 {
-                    // Console.WriteLine("Set: " + string.Join(" ", [i, j, _diagonal[i], el]));
-                    OnElementChanged(i, j, _diagonal[i], el);
-                    _diagonal[i] = el;   
+                    UpdateElement(i, j, el);
                 }
             }
-            else if(i < 0 || i >= Size || j < 0 || j >= Size) 
-            {
-                throw new IndexOutOfRangeException("Index out of range");
-            }
+        }
+
+        private void UpdateElement(int i, int j, T el) 
+        {
+            OnElementChanged(i, j, _diagonal[i], el);
+            _diagonal[i] = el;   
         }
 
         // public int Track() 

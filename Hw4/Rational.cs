@@ -7,23 +7,30 @@ public class Rational : IComparable
     {
         if(m <= 0)
         {
-            throw new ArgumentException("M cannot be less or equal to 0");
+            N = -1*n;
+            M = -1*m;
         }
-        N = n;
-        M = m;
+        else
+        {
+            N = n;
+            M = m;
+        }
+        
         toIrreductible();
     }
 
     private void toIrreductible()
     {
-        for(int i=(int)MathF.Min(MathF.Abs(N), MathF.Abs(M)); i>0; i--) {
+        for(int i=(int)MathF.Min(MathF.Abs(N), MathF.Abs(M)); i>0; i--) 
+        {
             if(N % i == 0 && M % i == 0)
             {
                 N /= i;
                 M /= i;
             }
         }
-        if(N == 0) {
+        if(N == 0) 
+        {
             M = 1;
         }
     }
@@ -64,6 +71,10 @@ public class Rational : IComparable
     }
     public static Rational operator /(Rational a, Rational b)
     {
+        if(b.N == 0)
+        {
+            throw new ArgumentException("Dividing by zoro!");
+        }
         return new Rational((b.N > 0 ? 1 : -1) * a.N * b.M, (int)MathF.Abs(b.N) * a.M);
     }
 
