@@ -3,33 +3,16 @@ using System.Text.RegularExpressions;
 
 public class Catalog
 {
-    Dictionary<string, Book> dictionary = new();
-    private Regex r0 = new Regex(@"\d{3}-\d{1}-\d{2}-\d{6}-\d{1}");
-    private Regex r1 = new Regex(@"\d{13}");
+    Dictionary<Isbn, Book> dictionary = new();
 
     public void Add(string ISBN, Book book)
     {
-        if(r0.Match(ISBN).Success || r1.Match(ISBN).Success) 
-        {
-            dictionary.Add(ISBN.Replace("-", ""), book);
-        }
-        else 
-        {
-            throw new ArgumentException("Bad format of ISBN. It should be: XXX-X-XX-XXXXXX-X or XXXXXXXXXXXXX where X is digit");
-        }
+        dictionary.Add(new Isbn(ISBN), book);
     }
 
     public Book? GetBook(string ISBN)
     {
-        if(r0.Match(ISBN).Success || r1.Match(ISBN).Success) 
-        {
-            dictionary.TryGetValue(ISBN.Replace("-", ""), out Book? book);
-            return book ?? null;
-        }
-        else
-        {
-            throw new ArgumentException("Bad format of ISBN. It should be: XXX-X-XX-XXXXXX-X or XXXXXXXXXXXXX where X is digit");
-        }
+        return dictionary.FirstOrDefault(x => x.Key.ISBN == ISBN).Value;
     }
 
     public IEnumerable<string> GetTitlesAlphabetical()
@@ -46,8 +29,8 @@ public class Catalog
     {
         return dictionary.Values
             .SelectMany(x => x.Authors)
-            .Distinct()
-            .Select(x => (x, dictionary.Values.Count(y => y.Authors.Contains(x))));
+            .GroupBy(author => author)
+            .Select(group => (group.Key, group.Count()));
     }
 
 }

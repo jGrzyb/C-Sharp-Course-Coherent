@@ -3,7 +3,7 @@ using System.Text;
 
 public class SparseMatrix : IEnumerable<long>
 {
-    private Dictionary<int, long> nonZero = new();
+    private Dictionary<(int, int), long> nonZero = new();
     public int Height {get; private set;}
     public int Width {get; private set;}
 
@@ -40,18 +40,21 @@ public class SparseMatrix : IEnumerable<long>
     {
         get
         {
-            if(i < 0 || i >= Height || j < 0 || j >= Width) {
+            if(i < 0 || i >= Height || j < 0 || j >= Width) 
+            {
                 throw new IndexOutOfRangeException();
             }
-            return nonZero.TryGetValue(toFlattenIndex(i, j), out long value) ? value : 0;
+            return nonZero.TryGetValue((i, j), out long value) ? value : 0;
         }
         set
         {
-            if(i < 0 || i >= Height || j < 0 || j >= Width) {
+            if(i < 0 || i >= Height || j < 0 || j >= Width) 
+            {
                 throw new IndexOutOfRangeException();
             }
-            if(value != 0) {
-                nonZero[toFlattenIndex(i, j)] = value;
+            if(value != 0) 
+            {
+                nonZero[(i, j)] = value;
             }
         }
     }
@@ -69,8 +72,7 @@ public class SparseMatrix : IEnumerable<long>
         long[,] matrix = new long[Height, Width];
         foreach(var k in nonZero)
         {
-            (int i, int j) = toIndexes(k.Key);
-            matrix[i, j] = k.Value;
+            matrix[k.Key.Item1, k.Key.Item2] = k.Value;
         }
         return matrix;
     }
@@ -93,7 +95,13 @@ public class SparseMatrix : IEnumerable<long>
 
     public IEnumerator<long> GetEnumerator()
     {
-        return toMatrix().Cast<long>().GetEnumerator();
+        for(int i=0; i<Height; i++)
+        {
+            for(int j=0; j<Width; j++)
+            {
+                yield return this[i, j];
+            }
+        }
     }
 
     IEnumerator IEnumerable.GetEnumerator()
@@ -103,7 +111,7 @@ public class SparseMatrix : IEnumerable<long>
 
     public IEnumerable<(int, int, long)> GetNonZeroElements()
     {
-        return nonZero.OrderBy(x => x.Key).Select(x => (x.Key / Width, x.Key % Width, x.Value));
+        return nonZero.OrderBy(x => x.Key).Select(x => (x.Key.Item1, x.Key.Item2, x.Value));
     }
 
     public int GetCount(long value)
