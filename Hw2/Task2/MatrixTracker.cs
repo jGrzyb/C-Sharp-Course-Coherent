@@ -23,9 +23,10 @@ namespace Matrix
                 return;
             }
             ElementChangedEventArgs<T> change = changes.Pop();
+            matrix.ElementChanged -= OnMatrixChanged;
             // Console.WriteLine("Undo: " + string.Join(" ", [change.I, change.J, change.OldValue, change.NewValue]));
             matrix[change.I, change.J] = change.OldValue;
-            changes.Pop();
+            matrix.ElementChanged += OnMatrixChanged;
         }
     }
 }

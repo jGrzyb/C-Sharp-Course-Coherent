@@ -5,7 +5,7 @@ public class Rational : IComparable
 
     public Rational(int n, int m)
     {
-        if(m <= 0)
+        if(m < 0)
         {
             N = -1*n;
             M = -1*m;
@@ -16,10 +16,10 @@ public class Rational : IComparable
             M = m;
         }
         
-        toIrreductible();
+        ToIrreductible();
     }
 
-    private void toIrreductible()
+    private void ToIrreductible()
     {
         for(int i=(int)MathF.Min(MathF.Abs(N), MathF.Abs(M)); i>0; i--) 
         {
