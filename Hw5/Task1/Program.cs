@@ -10,3 +10,5 @@ Console.WriteLine(string.Join(" ", sm.Select(x => x)));
 Console.WriteLine(string.Join(" --- ", sm.GetNonZeroElements()));
 Console.WriteLine(sm.GetCount(1));
 Console.WriteLine(sm.GetCount(0));
+sm[0,0] = 0;
+Console.WriteLine(string.Join("---", sm.GetNonZeroElements()));

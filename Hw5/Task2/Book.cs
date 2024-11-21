@@ -6,13 +6,17 @@ public class Book
     public DateTime? ReleaseDate { get; }
     public HashSet<string> Authors { get; } = new();
 
-    public Book(string title, DateTime? releaseDate = null) 
+    public Book(string title, DateTime? releaseDate = null) : this(title, [], releaseDate)
     {
-        Title = title;
-        ReleaseDate = releaseDate;
     }
     public Book(string title, string[] authors, DateTime? releaseDate = null) 
     {
+        if(title is null) {
+            throw new ArgumentNullException(nameof(title));
+        }
+        if(authors is null) {
+            throw new ArgumentNullException(nameof(authors));
+        }
         Title = title;
         ReleaseDate = releaseDate;
         Authors = new HashSet<string>(authors);

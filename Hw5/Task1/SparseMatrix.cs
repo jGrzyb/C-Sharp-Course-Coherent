@@ -40,32 +40,37 @@ public class SparseMatrix : IEnumerable<long>
     {
         get
         {
-            if(i < 0 || i >= Height || j < 0 || j >= Width) 
-            {
-                throw new IndexOutOfRangeException();
-            }
-            return nonZero.TryGetValue((i, j), out long value) ? value : 0;
+            return get(i, j);
         }
         set
         {
-            if(i < 0 || i >= Height || j < 0 || j >= Width) 
-            {
-                throw new IndexOutOfRangeException();
-            }
-            if(value != 0) 
-            {
-                nonZero[(i, j)] = value;
-            }
+            set(i, j, value);
         }
     }
 
-    private (int a, int b) toIndexes(int flattenIndex)
+    private long get(int i, int j)
     {
-        return (flattenIndex / Width, flattenIndex % Width);
+        if(i < 0 || i >= Height || j < 0 || j >= Width) 
+        {
+            throw new IndexOutOfRangeException();
+        }
+        return nonZero.TryGetValue((i, j), out long value) ? value : 0;
     }
-    private int toFlattenIndex(int a, int b)
+
+    private void set(int i, int j, long value)
     {
-        return a * Width + b;
+        if(i < 0 || i >= Height || j < 0 || j >= Width) 
+        {
+            throw new IndexOutOfRangeException();
+        }
+        if(value != 0) 
+        {
+            nonZero[(i, j)] = value;
+        }
+        else if(nonZero.ContainsKey((i, j)))
+        {
+            nonZero.Remove((i, j));
+        }
     }
     public long[,] toMatrix()
     {
