@@ -50,7 +50,7 @@ public class SparseMatrix : IEnumerable<long>
 
     private long get(int i, int j)
     {
-        if(i < 0 || i >= Height || j < 0 || j >= Width) 
+        if(!areIndexesCorrect(i, j)) 
         {
             throw new IndexOutOfRangeException();
         }
@@ -59,7 +59,7 @@ public class SparseMatrix : IEnumerable<long>
 
     private void set(int i, int j, long value)
     {
-        if(i < 0 || i >= Height || j < 0 || j >= Width) 
+        if(!areIndexesCorrect(i, j)) 
         {
             throw new IndexOutOfRangeException();
         }
@@ -72,6 +72,11 @@ public class SparseMatrix : IEnumerable<long>
             nonZero.Remove((i, j));
         }
     }
+
+    private bool areIndexesCorrect(int i, int j) {
+        return i >= 0 || i < Height || j >= 0 || j < Width;
+    }
+
     public long[,] toMatrix()
     {
         long[,] matrix = new long[Height, Width];
