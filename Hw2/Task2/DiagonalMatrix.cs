@@ -1,108 +1,120 @@
-public class DiagonalMatrix
+namespace Matrix
 {
-    private int[] _diagonal;
-    public int Size
+    public delegate T AddElementsDelegate<T>(T a, T b);
+    public class DiagonalMatrix<T>
     {
-        get { return _diagonal.Length;}
-    }
-
-    public DiagonalMatrix(params int[] numbers) 
-    {
-        if(numbers == null) 
+        private T[] _diagonal;
+        public int Size
         {
-            _diagonal = [];
+            get { return _diagonal.Length; }
         }
-        else 
+
+        public DiagonalMatrix(params T[] numbers) 
         {
-            _diagonal = new int[numbers.Length];
-            Array.Copy(numbers, _diagonal, numbers.Length);
+            if(numbers == null) 
+            {
+                _diagonal = [];
+            }
+            else 
+            {
+                _diagonal = new T[numbers.Length];
+                Array.Copy(numbers, _diagonal, numbers.Length);
+            }
         }
-    }
 
-    public int this[int i, int j]
-    {
-        get 
+        public DiagonalMatrix(int size)
         {
-            return getElement(i, j);
-        }
-        set 
-        { 
-            setElement(i, j, value);
-        }
-    }
+            if(size < 0)
+            {
+                throw new ArgumentException("size cannot be negative");
+            }
+            _diagonal = new T[size];
+        }    
 
-    private int getElement(int i, int j) 
-    {
-        if(i == j)
+        public T this[int i, int j]
         {
-            return _diagonal[i];
+            get 
+            {
+                return GetElement(i, j);
+            }
+            set 
+            { 
+                SetElement(i, j, value);
+            }
         }
-        else if(i >= 0 && i < Size && j >= 0 && j < Size) 
+
+        private T GetElement(int i, int j) 
         {
-            return 0;
+            
+            if(!IsInsideMatrix(i, j)) 
+            {
+                throw new IndexOutOfRangeException("Index out of range");
+            }
+            else if(IsOnDiagonal(i, j))
+            {
+                return _diagonal[i];
+            }
+            else
+            {
+                return default;
+            }
         }
-        else
+
+        private bool IsInsideMatrix(int i, int j)
         {
-            throw new IndexOutOfRangeException("Index out of range");
+            return i >= 0 && i < Size && j >= 0 && j < Size;
         }
-    }
 
-    private void setElement(int i, int j, int el) 
-    {
-        if(i == j)
+        private bool IsOnDiagonal(int i, int j)
         {
-            _diagonal[i] = el;
+            return i == j;
         }
-        else if(i < 0 || i >= Size || j < 0 || j >= Size) 
+
+        private void SetElement(int i, int j, T el) 
         {
-            throw new IndexOutOfRangeException("Index out of range");
+            if(!IsInsideMatrix(i, j)) 
+            {
+                throw new IndexOutOfRangeException("Index out of range");
+            }
+            else if(IsOnDiagonal(i, j))
+            {
+                if(_diagonal[i] is not null && !_diagonal[i]!.Equals(el))
+                {
+                    UpdateElement(i, j, el);
+                }
+            }
         }
-    }
 
-    public int Track() 
-    {
-        return _diagonal.Sum();
-    }
-
-    public override bool Equals(object? obj)
-    {
-        if(obj is DiagonalMatrix dm) 
+        private void UpdateElement(int i, int j, T el) 
         {
-            return Enumerable.SequenceEqual(_diagonal, dm._diagonal);
+            OnElementChanged(i, j, _diagonal[i], el);
+            _diagonal[i] = el;   
         }
-        return false;
-    }
 
-    // public override int GetHashCode()
-    // {
-    //     int hash = 104729;
-    //     foreach (int element in _diagonal)
-    //     {
-    //         hash = hash * 31 + element.GetHashCode();
-    //     }
-    //     return hash;
-    // }
+        // public int Track() 
+        // {
+        //     return _diagonal.Sum();
+        // }
 
-    public override string ToString()
-    {
-        return string.Join(" ", _diagonal);
-    }
-}
+        // public override bool Equals(object? obj)
+        // {
+        //     if(obj is DiagonalMatrix dm) 
+        //     {
+        //         return Enumerable.SequenceEqual(_diagonal, dm._diagonal);
+        //     }
+        //     return false;
+        // }
 
-public static class DiagonalMatrixExtensions
-{
-    public static DiagonalMatrix Add(this DiagonalMatrix dm1, DiagonalMatrix dm2)
-    {
-        int maxSize = (int)MathF.Max(dm1.Size, dm2.Size);
-        int[] result = new int[maxSize];
-
-        for(int i=0; i<maxSize; i++) 
+        public override string ToString()
         {
-            int v1 = i < dm1.Size ? dm1[i, i] : 0;
-            int v2 = i < dm2.Size ? dm2[i, i] : 0;
-            result[i] = v1 + v2;
+            return string.Join(" ", _diagonal);
         }
 
-        return new DiagonalMatrix(result);
+        public delegate void ElementChangedEventHandler(object sender, ElementChangedEventArgs<T> e);
+        public event ElementChangedEventHandler? ElementChanged;
+        protected virtual void OnElementChanged(int i, int j, T oldValue, T newValue)
+        {
+            ElementChanged?.Invoke(this, new ElementChangedEventArgs<T>(i, j, oldValue, newValue));
+        }
     }
 }
