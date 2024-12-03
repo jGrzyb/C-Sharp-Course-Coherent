@@ -1,9 +1,15 @@
-using System.Collections.ObjectModel;
-using System.Text.RegularExpressions;
-
 public class Catalog
 {
-    Dictionary<Isbn, Book> dictionary = new();
+    public Dictionary<Isbn, Book> dictionary = new();
+
+
+    public Catalog()
+    {
+    }
+    public Catalog(Dictionary<Isbn, Book> dictionary)
+    {
+        this.dictionary = dictionary;
+    }
 
     public void Add(string ISBN, Book book)
     {
@@ -31,6 +37,11 @@ public class Catalog
             .SelectMany(x => x.Authors)
             .GroupBy(author => author)
             .Select(group => (group.Key, group.Count()));
+    }
+
+    public override string ToString()
+    {
+        return string.Join(Environment.NewLine, dictionary.Select(x => x.Value.ToString()));
     }
 
 }
