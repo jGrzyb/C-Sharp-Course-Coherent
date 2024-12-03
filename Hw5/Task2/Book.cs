@@ -4,7 +4,7 @@ using System.Text.Json.Serialization;
 [Serializable]
 public class Book
 {
-    public string Title { get; set; }
+    public string Title { get; set; } = "";
     public DateTime? ReleaseDate { get; set; }
     public HashSet<string> Authors { get; set; } = new();
 

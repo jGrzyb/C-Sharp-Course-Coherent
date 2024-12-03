@@ -45,8 +45,8 @@ public class XmlRepository : IRepository
     [Serializable]
     public class BookEntry 
     {
-        public string Isbn { get; set; }
-        public Book Book { get; set; }
+        public string Isbn { get; set; } = "";
+        public Book Book { get; set; } = new();
 
         public BookEntry()
         {
