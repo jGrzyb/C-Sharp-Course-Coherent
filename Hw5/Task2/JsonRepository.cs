@@ -29,7 +29,7 @@ public class JsonRepository : IRepository
 
     public void Save(string filePath, Catalog catalog)
     {
-        var strDict = catalog.dictionary.ToDictionary(x => x.Key.ISBN, x => x.Value);
+        var strDict = catalog.dictionary.ToDictionary(x => x.Key, x => x.Value);
         var json = JsonSerializer.Serialize(strDict, new JsonSerializerOptions { WriteIndented = true });
         File.WriteAllText(filePath, json);
     }

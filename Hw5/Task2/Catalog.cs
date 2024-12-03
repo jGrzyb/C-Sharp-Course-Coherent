@@ -1,24 +1,24 @@
 public class Catalog
 {
-    public Dictionary<Isbn, Book> dictionary = new();
+    public Dictionary<string, Book> dictionary = new();
 
 
     public Catalog()
     {
     }
-    public Catalog(Dictionary<Isbn, Book> dictionary)
+
+    public virtual void Add(string source, Book book)
     {
-        this.dictionary = dictionary;
+        if (!isKeyCorrect(source))
+        {
+            throw new ArgumentException("The key is not correct.");
+        }
+        dictionary.Add(source, book);
     }
 
-    public void Add(string ISBN, Book book)
+    public Book? GetBook(string source)
     {
-        dictionary.Add(new Isbn(ISBN), book);
-    }
-
-    public Book? GetBook(string ISBN)
-    {
-        return dictionary.FirstOrDefault(x => x.Key.ISBN == ISBN).Value;
+        return dictionary.FirstOrDefault(x => x.Key == source).Value;
     }
 
     public IEnumerable<string> GetTitlesAlphabetical()
@@ -28,10 +28,10 @@ public class Catalog
 
     public IEnumerable<Book> GetBooksByAuthor(string author)
     {
-        return dictionary.Select(x => x.Value).Where(x => x.Authors.Contains(author)).OrderBy(x => x.ReleaseDate);
+        return dictionary.Select(x => x.Value).Where(x => x.Authors.Select(n => n.ToString()).Contains(author)).OrderBy(x => x.ReleaseDate);
     }
 
-    public IEnumerable<(string, int)> GetAuthorsWithBookCount()
+    public IEnumerable<(Author, int)> GetAuthorsWithBookCount()
     {
         return dictionary.Values
             .SelectMany(x => x.Authors)
@@ -44,4 +44,7 @@ public class Catalog
         return string.Join(Environment.NewLine, dictionary.Select(x => x.Value.ToString()));
     }
 
+    public virtual string[] GetPressReleaseItems() => [];
+
+    protected virtual bool isKeyCorrect(string key) => true;
 }

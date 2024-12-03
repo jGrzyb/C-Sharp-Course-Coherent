@@ -27,13 +27,15 @@ public class XmlRepository : IRepository
             {
                 return default;
             }
-            return new Catalog(toDictionary((BookEntry[])res));
+            Catalog catalog = new();
+            ((BookEntry[])res).ToList().ForEach(x => catalog.Add(x.Isbn, x.Book));
+            return catalog;
         }
     }
 
     private BookEntry[] toBookEntries(Catalog catalog)
     {
-        return catalog.dictionary.Select(x => new BookEntry(x.Key.ISBN, x.Value)).ToArray();
+        return catalog.dictionary.Select(x => new BookEntry(x.Key, x.Value)).ToArray();
     }
 
     private Dictionary<Isbn, Book> toDictionary(BookEntry[] bookEntries)
