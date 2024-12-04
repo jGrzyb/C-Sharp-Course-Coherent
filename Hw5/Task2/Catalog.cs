@@ -1,3 +1,6 @@
+using System.Text.RegularExpressions;
+using Microsoft.VisualBasic.FileIO;
+
 public class Catalog
 {
     public Dictionary<string, Book> dictionary = new();
@@ -46,5 +49,37 @@ public class Catalog
 
     public virtual string[] GetPressReleaseItems() => [];
 
+    public virtual void ReadCSV(string path)
+    {
+        foreach (var line in ReadCsvLines(path))
+        {
+            Add(
+                line[3], 
+                new Book(
+                    line[6], 
+                    new HashSet<Author>([new Author(line[0])]), 
+                    DateTime.Parse(line[0])
+                )
+            );
+        }
+    }
+
     protected virtual bool isKeyCorrect(string key) => true;
+
+    protected IEnumerable<string[]> ReadCsvLines(string path)
+    {
+        using (TextFieldParser csvParser = new TextFieldParser(path))
+        {
+            csvParser.CommentTokens = new string[] { "#" };
+            csvParser.SetDelimiters(new string[] { "," });
+            csvParser.HasFieldsEnclosedInQuotes = true;
+
+            csvParser.ReadLine();
+
+            while (!csvParser.EndOfData)
+            {
+                yield return csvParser.ReadFields() ?? [];
+            }
+        }
+    }
 }

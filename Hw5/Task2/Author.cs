@@ -1,3 +1,5 @@
+using System.Text.RegularExpressions;
+
 [Serializable]
 public class Author 
 {
@@ -56,6 +58,26 @@ public class Author
         Name = name;
         Surname = surname;
         BirthDate = birthDate;
+    }
+
+    public Author(string data)
+    {
+        string[] words = data.Split(", ");
+        if (words.Length == 1)
+        {
+            Name = words[0];
+        }
+
+        if (words.Length == 2)
+        {
+            Surname = words[1];
+        }
+
+        var match = Regex.Match(data, @"\d{4}");
+        if (match.Success)
+        {
+            BirthDate = new DateTime(int.Parse(match.Value), 1, 1);
+        }
     }
 
     public override string ToString() 

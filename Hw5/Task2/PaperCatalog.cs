@@ -29,10 +29,29 @@ public class PaperCatalog : Catalog
 
     protected override bool isKeyCorrect(string key)
     {
-        if(!r0.Match(key).Success && !r1.Match(key).Success) 
-        {
-            return false;
-        }
+        // if(!r0.Match(key).Success && !r1.Match(key).Success) 
+        // {
+        //     return false;
+        // }
         return true;
+    }
+
+    public override void ReadCSV(string path)
+    {
+        foreach (var line in ReadCsvLines(path))
+        {
+            DateTime time = new DateTime();
+            DateTime.TryParse(line[3], out time);
+            Add(
+                line[2], 
+                new PaperBook(
+                    line[6], 
+                    new HashSet<Author>([new Author(line[0])]), 
+                    time,
+                    line[4],
+                    line[5].Split(',').ToList()
+                )
+            );
+        }
     }
 }

@@ -27,10 +27,29 @@ public class ECatalog : Catalog
 
     protected override bool isKeyCorrect(string key)
     {
-        if(!urlRegex.Match(key).Success) 
-        {
-            return false;
-        }
+        // if(!urlRegex.Match(key).Success) 
+        // {
+        //     return false;
+        // }
         return true;
+    }
+
+    public override void ReadCSV(string path)
+    {
+        foreach(var line in ReadCsvLines(path))
+        {
+            DateTime time = new DateTime();
+            DateTime.TryParse(line[3], out time);
+            Add(
+                line[2], 
+                new EBook(
+                    line[6], 
+                    new HashSet<Author>([new Author(line[0])]),
+                    time,
+                    line[2],
+                    line[1].Split(',')
+                )
+            );
+        }
     }
 }
