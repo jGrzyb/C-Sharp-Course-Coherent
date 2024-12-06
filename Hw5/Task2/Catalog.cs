@@ -1,18 +1,27 @@
-using System.Collections.ObjectModel;
 using System.Text.RegularExpressions;
+using Microsoft.VisualBasic.FileIO;
 
 public class Catalog
 {
-    Dictionary<Isbn, Book> dictionary = new();
+    public Dictionary<string, Book> dictionary = new();
 
-    public void Add(string ISBN, Book book)
+
+    public Catalog()
     {
-        dictionary.Add(new Isbn(ISBN), book);
     }
 
-    public Book? GetBook(string ISBN)
+    public virtual void Add(string source, Book book)
     {
-        return dictionary.FirstOrDefault(x => x.Key.ISBN == ISBN).Value;
+        if (!isKeyCorrect(source))
+        {
+            throw new ArgumentException("The key is not correct.");
+        }
+        dictionary.Add(source, book);
+    }
+
+    public Book? GetBook(string source)
+    {
+        return dictionary.FirstOrDefault(x => x.Key == source).Value;
     }
 
     public IEnumerable<string> GetTitlesAlphabetical()
@@ -22,10 +31,10 @@ public class Catalog
 
     public IEnumerable<Book> GetBooksByAuthor(string author)
     {
-        return dictionary.Select(x => x.Value).Where(x => x.Authors.Contains(author)).OrderBy(x => x.ReleaseDate);
+        return dictionary.Select(x => x.Value).Where(x => x.Authors.Select(n => n.ToString()).Contains(author)).OrderBy(x => x.ReleaseDate);
     }
 
-    public IEnumerable<(string, int)> GetAuthorsWithBookCount()
+    public IEnumerable<(Author, int)> GetAuthorsWithBookCount()
     {
         return dictionary.Values
             .SelectMany(x => x.Authors)
@@ -33,4 +42,44 @@ public class Catalog
             .Select(group => (group.Key, group.Count()));
     }
 
+    public override string ToString()
+    {
+        return string.Join(Environment.NewLine, dictionary.Select(x => x.Value.ToString()));
+    }
+
+    public virtual string[] GetPressReleaseItems() => [];
+
+    public virtual void ReadCSV(string path)
+    {
+        foreach (var line in ReadCsvLines(path))
+        {
+            Add(
+                line[3], 
+                new Book(
+                    line[6], 
+                    new HashSet<Author>([new Author(line[0])]), 
+                    DateTime.Parse(line[0])
+                )
+            );
+        }
+    }
+
+    protected virtual bool isKeyCorrect(string key) => true;
+
+    protected IEnumerable<string[]> ReadCsvLines(string path)
+    {
+        using (TextFieldParser csvParser = new TextFieldParser(path))
+        {
+            csvParser.CommentTokens = new string[] { "#" };
+            csvParser.SetDelimiters(new string[] { "," });
+            csvParser.HasFieldsEnclosedInQuotes = true;
+
+            csvParser.ReadLine();
+
+            while (!csvParser.EndOfData)
+            {
+                yield return csvParser.ReadFields() ?? [];
+            }
+        }
+    }
 }
