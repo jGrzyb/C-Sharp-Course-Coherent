@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfBookEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BookEntry>
+    <Isbn>9780515110234</Isbn>
+    <Book>
+      <Title>The Floating Admiral</Title>
+      <ReleaseDate>1990-05-10T00:00:00</ReleaseDate>
+      <Authors>
+        <string>The Detection Club</string>
+        <string>G.K. Chesterton</string>
+        <string>Victor L. Whitechurch</string>
+      </Authors>
+    </Book>
+  </BookEntry>
+  <BookEntry>
+    <Isbn>9780743285452</Isbn>
+    <Book>
+      <Title>The Sword of Shame</Title>
+      <ReleaseDate>2006-01-01T00:00:00</ReleaseDate>
+      <Authors>
+        <string>The medival Murders</string>
+        <string>Philip Gooden</string>
+        <string>Susanna Gregory</string>
+        <string>Michael Jecks</string>
+        <string>Brenard Knight</string>
+      </Authors>
+    </Book>
+  </BookEntry>
+  <BookEntry>
+    <Isbn>9780060763442</Isbn>
+    <Book>
+      <Title>The Last Templar</Title>
+      <ReleaseDate>1995-01-01T00:00:00</ReleaseDate>
+      <Authors>
+        <string>Michael Jecks</string>
+      </Authors>
+    </Book>
+  </BookEntry>
+  <BookEntry>
+    <Isbn>9780060763466</Isbn>
+    <Book>
+      <Title>The Merchant's Partner</Title>
+      <ReleaseDate>1996-06-13T00:00:00</ReleaseDate>
+      <Authors>
+        <string>Michael Jecks</string>
+      </Authors>
+    </Book>
+  </BookEntry>
+  <BookEntry>
+    <Isbn>9781569475126</Isbn>
+    <Book>
+      <Title>The Salisbury Manuscript</Title>
+      <ReleaseDate>2008-01-01T00:00:00</ReleaseDate>
+      <Authors>
+        <string>Philip Gooden</string>
+      </Authors>
+    </Book>
+  </BookEntry>
+</ArrayOfBookEntry>
