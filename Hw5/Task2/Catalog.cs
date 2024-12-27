@@ -26,12 +26,12 @@ public class Catalog
         return dictionary.Select(x => x.Value.Title).Order();
     }
 
-    public IEnumerable<Book> GetBooksByAuthor(string author)
+    public IEnumerable<Book> GetBooksByAuthor(Author author)
     {
         return dictionary.Select(x => x.Value).Where(x => x.Authors.Contains(author)).OrderBy(x => x.ReleaseDate);
     }
 
-    public IEnumerable<(string, int)> GetAuthorsWithBookCount()
+    public IEnumerable<(Author, int)> GetAuthorsWithBookCount()
     {
         return dictionary.Values
             .SelectMany(x => x.Authors)
