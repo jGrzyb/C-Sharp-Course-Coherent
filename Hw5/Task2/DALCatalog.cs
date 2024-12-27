@@ -1,5 +1,6 @@
 [Serializable]
-public class DALCatalog {
+public class DALCatalog 
+{
     public HashSet<DALBookEntry> dictionary {get; set;} = new();
 
     public DALCatalog() 

@@ -10,10 +10,12 @@ public class Book
 
     public Book(string title, HashSet<Author> authors, DateTime? releaseDate = null) 
     {
-        if(title is null) {
+        if(title is null) 
+        {
             throw new ArgumentNullException(nameof(title));
         }
-        if(authors is null) {
+        if(authors is null) 
+        {
             throw new ArgumentNullException(nameof(authors));
         }
         Title = title;
