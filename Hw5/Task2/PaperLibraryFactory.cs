@@ -1,16 +1,23 @@
+using System.Text.RegularExpressions;
+
 public class PaperLibraryFactory : LibraryAbstractFactory
 {
     protected override (string, Book) ParseFields(string[] fields)
     {
         var (title, releaseDate, authors) = ParseBookFields(fields);
 
-        string[] isbns = fields[5].Split(",");
+        string[] isbns = fields[5].Split(",").Where(x => !string.IsNullOrEmpty(x)).ToArray();
+        string? isbn = isbns.FirstOrDefault(x => x.Contains("isbn"))?[9..];
         string publisher = fields[4];
         
-        string identifier = isbns.Length > 0 && isbns[0].Length > 0 ? isbns[0] : fields[2];
+        if(isbn == null)
+        {
+            Console.WriteLine($"ISBN not found for book: `{title}`");
+            return default;
+        }
 
 
-        return (identifier, new PaperBook(title, new HashSet<Author>(authors), releaseDate, publisher, isbns.ToList()));
+        return (isbn, new PaperBook(title, new HashSet<Author>(authors), releaseDate, publisher, isbns.ToList()));
     }
     protected override bool isTypeCorrect(string[] fields)
     {

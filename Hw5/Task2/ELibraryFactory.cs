@@ -5,7 +5,7 @@ public class ELibraryFactory : LibraryAbstractFactory
         var (title, releaseDate, authors) = ParseBookFields(fields);
 
         string[] formats = fields[1].Split(",");
-        string downloadUrl = fields[5];
+        string downloadUrl = fields[2];
 
         string identifier = fields[2];
 

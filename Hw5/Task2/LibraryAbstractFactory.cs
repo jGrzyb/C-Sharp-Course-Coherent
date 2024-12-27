@@ -3,8 +3,8 @@ using Microsoft.VisualBasic.FileIO;
 
 public abstract class LibraryAbstractFactory 
 {
-    private Regex authorRegex = new(@"([\p{L}\p{M}\-']+, ?[\p{L}\p{M}\-']+(, ?\d{4})?)|([\p{L}\p{M}\-']+ [\p{L}\p{M}\-']+)");
-    private Regex nameRegex = new(@"[\p{L}\p{M}\-']+");
+    private Regex authorRegex = new(@"([\p{L}\p{M}\-\.']+, ?[\p{L}\p{M}\-\.']+(, ?\d{4})?)|([\p{L}\p{M}\-\.']+ [\p{L}\p{M}\-\.']+)");
+    private Regex nameRegex = new(@"[\p{L}\p{M}\-\.']+");
     private Regex dateRegex = new(@"\d{4}");
 
     public Library CreateLibrary(string filePath)
@@ -32,6 +32,10 @@ public abstract class LibraryAbstractFactory
                 //---------------------------------------------
 
                 (string isbn, Book book) = ParseFields(fields);
+                if(isbn is null || book is null)
+                {
+                    continue;
+                }
                 if(catalog.dictionary.ContainsKey(isbn)) 
                 {
                     Console.WriteLine($"Duplicate ISBN: `{isbn}`");
