@@ -2,9 +2,43 @@
   "author": {
     "Name": "Philip",
     "Surname": "Gooden",
-    "BirthDate": "1992-01-08T00:00:00"
+    "BirthDate": "1898-02-03T00:00:00"
   },
   "BookEntries": [
+    {
+      "ISBN": "9780743285452",
+      "Book": {
+        "Title": "The Sword of Shame",
+        "ReleaseDate": "2006-01-01T00:00:00",
+        "Authors": [
+          {
+            "Name": "The medival",
+            "Surname": "Murders",
+            "BirthDate": "1980-03-06T00:00:00"
+          },
+          {
+            "Name": "Philip",
+            "Surname": "Gooden",
+            "BirthDate": "1898-02-03T00:00:00"
+          },
+          {
+            "Name": "Susanna",
+            "Surname": "Gregory",
+            "BirthDate": "1998-09-09T00:00:00"
+          },
+          {
+            "Name": "Michael",
+            "Surname": "Jecks",
+            "BirthDate": "2003-05-04T00:00:00"
+          },
+          {
+            "Name": "Brenard",
+            "Surname": "Knight",
+            "BirthDate": "2002-02-01T00:00:00"
+          }
+        ]
+      }
+    },
     {
       "ISBN": "9781569475126",
       "Book": {
