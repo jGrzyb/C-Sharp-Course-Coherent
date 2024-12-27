@@ -23,7 +23,7 @@ public class DALCatalogAuthors
                 authorsWithBooks[author].Add(new DALBookEntry(entry.Key, entry.Value));
             }
         }
-        dictionary = authorsWithBooks.Select(x => new DALAuthorEntry(x.Key, x.Value)).ToHashSet();
+        dictionary = authorsWithBooks.Select(x => new DALAuthorEntry(new DALAuthor(x.Key), x.Value)).ToHashSet();
     }
 
     public Catalog ToCatalog()

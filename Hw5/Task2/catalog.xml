@@ -7,35 +7,21 @@
         <Title>The Floating Admiral</Title>
         <ReleaseDate>1990-05-10T00:00:00</ReleaseDate>
         <Authors>
-          <Author>
+          <DALAuthor>
             <Name>The Detection</Name>
             <Surname>Club</Surname>
             <BirthDate>2001-01-01T00:00:00</BirthDate>
-          </Author>
-          <Author>
+          </DALAuthor>
+          <DALAuthor>
             <Name>G.K.</Name>
             <Surname>Chesterton</Surname>
             <BirthDate>2000-02-05T00:00:00</BirthDate>
-          </Author>
-          <Author>
+          </DALAuthor>
+          <DALAuthor>
             <Name>Victor L.</Name>
             <Surname>Whitechurch</Surname>
             <BirthDate>1999-07-04T00:00:00</BirthDate>
-          </Author>
-        </Authors>
-      </Book>
-    </DALBookEntry>
-    <DALBookEntry>
-      <ISBN>9780060763466</ISBN>
-      <Book>
-        <Title>The Merchant's Partner</Title>
-        <ReleaseDate>1996-06-13T00:00:00</ReleaseDate>
-        <Authors>
-          <Author>
-            <Name>Michael</Name>
-            <Surname>Jecks</Surname>
-            <BirthDate>1993-02-04T00:00:00</BirthDate>
-          </Author>
+          </DALAuthor>
         </Authors>
       </Book>
     </DALBookEntry>
@@ -45,31 +31,59 @@
         <Title>The Sword of Shame</Title>
         <ReleaseDate>2006-01-01T00:00:00</ReleaseDate>
         <Authors>
-          <Author>
+          <DALAuthor>
             <Name>The medival</Name>
             <Surname>Murders</Surname>
             <BirthDate>1980-03-06T00:00:00</BirthDate>
-          </Author>
-          <Author>
+          </DALAuthor>
+          <DALAuthor>
             <Name>Philip</Name>
             <Surname>Gooden</Surname>
             <BirthDate>1898-02-03T00:00:00</BirthDate>
-          </Author>
-          <Author>
+          </DALAuthor>
+          <DALAuthor>
             <Name>Susanna</Name>
             <Surname>Gregory</Surname>
             <BirthDate>1998-09-09T00:00:00</BirthDate>
-          </Author>
-          <Author>
+          </DALAuthor>
+          <DALAuthor>
             <Name>Michael</Name>
             <Surname>Jecks</Surname>
             <BirthDate>2003-05-04T00:00:00</BirthDate>
-          </Author>
-          <Author>
+          </DALAuthor>
+          <DALAuthor>
             <Name>Brenard</Name>
             <Surname>Knight</Surname>
             <BirthDate>2002-02-01T00:00:00</BirthDate>
-          </Author>
+          </DALAuthor>
+        </Authors>
+      </Book>
+    </DALBookEntry>
+    <DALBookEntry>
+      <ISBN>9780060763442</ISBN>
+      <Book>
+        <Title>The Last Templar</Title>
+        <ReleaseDate>1995-01-01T00:00:00</ReleaseDate>
+        <Authors>
+          <DALAuthor>
+            <Name>Michael</Name>
+            <Surname>Jecks</Surname>
+            <BirthDate>1997-07-06T00:00:00</BirthDate>
+          </DALAuthor>
+        </Authors>
+      </Book>
+    </DALBookEntry>
+    <DALBookEntry>
+      <ISBN>9780060763466</ISBN>
+      <Book>
+        <Title>The Merchant's Partner</Title>
+        <ReleaseDate>1996-06-13T00:00:00</ReleaseDate>
+        <Authors>
+          <DALAuthor>
+            <Name>Michael</Name>
+            <Surname>Jecks</Surname>
+            <BirthDate>1993-02-04T00:00:00</BirthDate>
+          </DALAuthor>
         </Authors>
       </Book>
     </DALBookEntry>
@@ -79,11 +93,11 @@
         <Title>The Salisbury Manuscript</Title>
         <ReleaseDate>2008-01-01T00:00:00</ReleaseDate>
         <Authors>
-          <Author>
+          <DALAuthor>
             <Name>Philip</Name>
             <Surname>Gooden</Surname>
             <BirthDate>1992-01-08T00:00:00</BirthDate>
-          </Author>
+          </DALAuthor>
         </Authors>
       </Book>
     </DALBookEntry>

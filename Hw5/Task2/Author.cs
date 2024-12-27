@@ -41,10 +41,6 @@ public class Author
         }
     }
 
-    public Author() 
-    {
-    }
-
     public Author(string name, string surname, DateTime? birthDate = null) 
     {
         if(name is null) 
@@ -75,5 +71,19 @@ public class Author
         {
             throw new ArgumentException("Name is too long");
         }
+    }
+
+    public override bool Equals(object? obj)
+    {
+        if (obj is Author other)
+        {
+            return Name.Equals(other.Name, StringComparison.OrdinalIgnoreCase);
+        }
+        return false;
+    }
+
+    public override int GetHashCode()
+    {
+        return Name.ToLowerInvariant().GetHashCode();
     }
 }
