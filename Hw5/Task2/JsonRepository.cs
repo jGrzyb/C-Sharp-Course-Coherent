@@ -40,7 +40,8 @@ public class JsonRepository : IRepository
         DALCatalogAuthors authorsWithBooks = new(catalog);
         foreach(var entry in authorsWithBooks.dictionary)
         {
-            string fileName = filePath + "/" + entry.author.Name.Replace(" ", "_") + ".json";
+            string fileName = $"{filePath}/{entry.author.Name.Replace(" ", "_")}_{entry.author.Surname.Replace(" ", "_")}.json";
+            // string fileName = filePath + "/" + entry.author.Name.Replace(" ", "_") + ".json";
             var json = JsonSerializer.Serialize(entry, new JsonSerializerOptions { WriteIndented = true });
             File.WriteAllText(fileName, json);
         }
