@@ -1,7 +1,8 @@
 using System.Text.RegularExpressions;
 using Microsoft.VisualBasic.FileIO;
 
-public abstract class LibraryAbstractFactory {
+public abstract class LibraryAbstractFactory 
+{
     private Regex authorRegex = new(@"([\p{L}\p{M}\-']+, ?[\p{L}\p{M}\-']+(, ?\d{4})?)|([\p{L}\p{M}\-']+ [\p{L}\p{M}\-']+)");
     private Regex nameRegex = new(@"[\p{L}\p{M}\-']+");
     private Regex dateRegex = new(@"\d{4}");
@@ -22,7 +23,8 @@ public abstract class LibraryAbstractFactory {
                 string[] fields = csvParser.ReadFields() ?? [];
                 //---------------------------------------------
 
-                // if(isTypeCorrect(fields)) {
+                // if(isTypeCorrect(fields)) 
+                // {
                 //     (Isbn isbn, Book book) = ParseFields(fields);
                 //     catalog.dictionary.Add(isbn, book);
                 // }
@@ -48,7 +50,8 @@ public abstract class LibraryAbstractFactory {
     {
         MatchCollection matches = authorRegex.Matches(authors);
         List<Author> authorList = new();
-        if(matches.Count == 0) {
+        if(matches.Count == 0) 
+        {
             Console.WriteLine($"Invalid authors: `{authors}`");
         }
         foreach(Match match in matches)
@@ -58,26 +61,32 @@ public abstract class LibraryAbstractFactory {
             MatchCollection nameMatches = nameRegex.Matches(match.Value);
             MatchCollection dateMatches = dateRegex.Matches(match.Value);
 
-            if(nameMatches.Count == 0) {
+            if(nameMatches.Count == 0) 
+            {
                 Console.WriteLine($"Invalid author: `{match.Value}`");
                 continue;
             }
 
-            if(nameMatches.Count >= 1) {
+            if(nameMatches.Count >= 1) 
+            {
                 lastName = nameMatches[0].Value;
             }
-            if(nameMatches.Count >= 2) {
+            if(nameMatches.Count >= 2) 
+            {
                 firstName = nameMatches[1].Value;
             }
 
-            if(dateMatches.Count >= 1) {
+            if(dateMatches.Count >= 1) 
+            {
                 birthDate = new DateTime(int.Parse(dateMatches[0].Value), 1, 1);
             }
             
             Author author;
-            if(birthDate is null) {
+            if(birthDate is null) 
+            {
                 author = new Author(firstName, lastName);
-            } else {
+            } else 
+            {
                 author = new Author(firstName, lastName, birthDate.Value);
             }
             authorList.Add(author);

@@ -1,7 +1,8 @@
 using System.Text.Json.Serialization;
 using System.Xml.Serialization;
 
-public class PaperBook : Book {
+public class PaperBook : Book 
+{
     [JsonIgnore]
     [XmlIgnore]
     public List<string> Isbns { get; set; } = new();
