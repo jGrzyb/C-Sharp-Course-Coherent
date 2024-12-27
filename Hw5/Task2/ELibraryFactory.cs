@@ -1,6 +1,6 @@
 public class ELibraryFactory : LibraryAbstractFactory
 {
-    protected override (Isbn, Book) ParseFields(string[] fields)
+    protected override (string, Book) ParseFields(string[] fields)
     {
         var (title, releaseDate, authors) = ParseBookFields(fields);
 
@@ -10,7 +10,7 @@ public class ELibraryFactory : LibraryAbstractFactory
         string identifier = fields[2];
 
 
-        return (new Isbn(identifier), new EBook(title, new HashSet<Author>(authors), releaseDate, downloadUrl, formats));
+        return (identifier, new EBook(title, new HashSet<Author>(authors), releaseDate, downloadUrl, formats));
     }
     protected override bool isTypeCorrect(string[] fields)
     {

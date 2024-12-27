@@ -25,13 +25,18 @@ public abstract class LibraryAbstractFactory
 
                 // if(isTypeCorrect(fields)) 
                 // {
-                //     (Isbn isbn, Book book) = ParseFields(fields);
+                //     (string isbn, Book book) = ParseFields(fields);
                 //     catalog.dictionary.Add(isbn, book);
                 // }
 
                 //---------------------------------------------
 
-                (Isbn isbn, Book book) = ParseFields(fields);
+                (string isbn, Book book) = ParseFields(fields);
+                if(catalog.dictionary.ContainsKey(isbn)) 
+                {
+                    Console.WriteLine($"Duplicate ISBN: `{isbn}`");
+                    continue;
+                }
                 catalog.dictionary.Add(isbn, book);
                 
                 //---------------------------------------------
@@ -42,7 +47,7 @@ public abstract class LibraryAbstractFactory
     }
 
 
-    protected abstract (Isbn, Book) ParseFields(string[] fields);
+    protected abstract (string, Book) ParseFields(string[] fields);
     protected abstract bool isTypeCorrect(string[] fields);
 
 

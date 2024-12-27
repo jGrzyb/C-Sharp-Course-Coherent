@@ -3,7 +3,7 @@ using Microsoft.VisualBasic.FileIO;
 
 public class Catalog
 {
-    public Dictionary<Isbn, Book> dictionary = new();
+    public Dictionary<string, Book> dictionary = new();
 
 
     public Catalog()
@@ -12,12 +12,12 @@ public class Catalog
 
     public void Add(string ISBN, Book book)
     {
-        dictionary.Add(new Isbn(ISBN), book);
+        dictionary.Add(ISBN, book);
     }
 
     public Book? GetBook(string source)
     {
-        return dictionary.FirstOrDefault(x => x.Key.ISBN == source).Value;
+        return dictionary.FirstOrDefault(x => x.Key == source).Value;
     }
 
     public IEnumerable<string> GetTitlesAlphabetical()
