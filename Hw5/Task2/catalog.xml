@@ -2,30 +2,6 @@
 <DALCatalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <dictionary>
     <DALBookEntry>
-      <ISBN>9780515110234</ISBN>
-      <Book>
-        <Title>The Floating Admiral</Title>
-        <ReleaseDate>1990-05-10T00:00:00</ReleaseDate>
-        <Authors>
-          <DALAuthor>
-            <Name>The Detection</Name>
-            <Surname>Club</Surname>
-            <BirthDate>2001-01-01T00:00:00</BirthDate>
-          </DALAuthor>
-          <DALAuthor>
-            <Name>G.K.</Name>
-            <Surname>Chesterton</Surname>
-            <BirthDate>2000-02-05T00:00:00</BirthDate>
-          </DALAuthor>
-          <DALAuthor>
-            <Name>Victor L.</Name>
-            <Surname>Whitechurch</Surname>
-            <BirthDate>1999-07-04T00:00:00</BirthDate>
-          </DALAuthor>
-        </Authors>
-      </Book>
-    </DALBookEntry>
-    <DALBookEntry>
       <ISBN>9780743285452</ISBN>
       <Book>
         <Title>The Sword of Shame</Title>
@@ -55,6 +31,30 @@
             <Name>Brenard</Name>
             <Surname>Knight</Surname>
             <BirthDate>2002-02-01T00:00:00</BirthDate>
+          </DALAuthor>
+        </Authors>
+      </Book>
+    </DALBookEntry>
+    <DALBookEntry>
+      <ISBN>9780515110234</ISBN>
+      <Book>
+        <Title>The Floating Admiral</Title>
+        <ReleaseDate>1990-05-10T00:00:00</ReleaseDate>
+        <Authors>
+          <DALAuthor>
+            <Name>The Detection</Name>
+            <Surname>Club</Surname>
+            <BirthDate>2001-01-01T00:00:00</BirthDate>
+          </DALAuthor>
+          <DALAuthor>
+            <Name>G.K.</Name>
+            <Surname>Chesterton</Surname>
+            <BirthDate>2000-02-05T00:00:00</BirthDate>
+          </DALAuthor>
+          <DALAuthor>
+            <Name>Victor L.</Name>
+            <Surname>Whitechurch</Surname>
+            <BirthDate>1999-07-04T00:00:00</BirthDate>
           </DALAuthor>
         </Authors>
       </Book>
