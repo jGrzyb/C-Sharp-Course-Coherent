@@ -1,0 +1,23 @@
+{
+  "author": {
+    "Name": "Michael",
+    "Surname": "Jecks",
+    "BirthDate": "1993-02-04T00:00:00"
+  },
+  "BookEntries": [
+    {
+      "ISBN": "9780060763466",
+      "Book": {
+        "Title": "The Merchant\u0027s Partner",
+        "ReleaseDate": "1996-06-13T00:00:00",
+        "Authors": [
+          {
+            "Name": "Michael",
+            "Surname": "Jecks",
+            "BirthDate": "1993-02-04T00:00:00"
+          }
+        ]
+      }
+    }
+  ]
+}

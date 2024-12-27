@@ -3,34 +3,46 @@ using System.Text.Json;
 
 public class JsonRepository : IRepository
 {
-    public Catalog? Load(string filePath)
+    private const string filePath = "catalog";
+
+    public Catalog? Load()
     {
-        if (!File.Exists(filePath))
+        if (!Directory.Exists(filePath))
         {
             return default;
         }
 
-        var json = File.ReadAllText(filePath);
-        var strDict = JsonSerializer.Deserialize<Dictionary<string, Book>>(json, new JsonSerializerOptions { IncludeFields = true });
-        
-        if (strDict == null)
+        DALCatalogAuthors authorsWithBooks = new();
+        foreach (var file in Directory.EnumerateFiles(filePath))
         {
-            return default;
+            var json = File.ReadAllText(file);
+            var entry = JsonSerializer.Deserialize<DALAuthorEntry>(json);
+            if(entry == null)
+            {
+                Console.WriteLine("-------- Error: Could not deserialize file: " + file);
+                entry = new DALAuthorEntry();
+            }
+            authorsWithBooks.dictionary.Add(entry);
         }
 
-        Catalog catalog = new();
-        foreach (var (key, value) in strDict)
-        {
-            catalog.Add(key, value);
-        }
-
-        return catalog;
+        return authorsWithBooks.ToCatalog();
     }
 
-    public void Save(string filePath, Catalog catalog)
+    public void Save(Catalog catalog)
     {
-        var strDict = catalog.dictionary.ToDictionary(x => x.Key.ISBN, x => x.Value);
-        var json = JsonSerializer.Serialize(strDict, new JsonSerializerOptions { WriteIndented = true });
-        File.WriteAllText(filePath, json);
+        if (Directory.Exists(filePath))
+        {
+            Directory.Delete(filePath, true);
+        }
+
+        Directory.CreateDirectory(filePath);
+
+        DALCatalogAuthors authorsWithBooks = new(catalog);
+        foreach(var entry in authorsWithBooks.dictionary)
+        {
+            string fileName = filePath + "/" + entry.author.Name.Replace(" ", "_") + ".json";
+            var json = JsonSerializer.Serialize(entry, new JsonSerializerOptions { WriteIndented = true });
+            File.WriteAllText(fileName, json);
+        }
     }
 }

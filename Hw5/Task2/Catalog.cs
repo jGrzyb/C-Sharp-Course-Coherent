@@ -6,10 +6,6 @@ public class Catalog
     public Catalog()
     {
     }
-    public Catalog(Dictionary<Isbn, Book> dictionary)
-    {
-        this.dictionary = dictionary;
-    }
 
     public void Add(string ISBN, Book book)
     {

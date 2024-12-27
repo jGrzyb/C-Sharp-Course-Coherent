@@ -2,9 +2,6 @@ using System.Data.SqlTypes;
 
 public interface IRepository
 {
-    void Save(string filePath, Catalog data);
-    Catalog? Load(string filePath);
+    void Save(Catalog data);
+    Catalog? Load();
 }
-
-// sda, scl
-// BMP 280

@@ -53,13 +53,13 @@ Console.WriteLine();
 
 
 JsonRepository repository = new();
-repository.Save("catalog.json", catalog);
-catalog = repository.Load("catalog.json")!;
+repository.Save(catalog);
+catalog = repository.Load()!;
 Console.WriteLine(catalog.ToString());
 Console.WriteLine();
 
 XmlRepository xmlRepository = new();
-xmlRepository.Save("catalog.xml", catalog);
-catalog = xmlRepository.Load("catalog.xml")!;
+xmlRepository.Save(catalog);
+catalog = xmlRepository.Load()!;
 Console.WriteLine(catalog.ToString());
 Console.WriteLine();
