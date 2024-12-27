@@ -1,13 +1,16 @@
-public class Library<T> where T : Catalog, new()
+public class Library
 {
     public Catalog catalog;
-    public string[] PressReleaseItems => catalog.GetPressReleaseItems();
-    public void ReadCSV(string path) => catalog.ReadCSV(path);
-    
-    public Library()
+    public string[] PressReleaseItems;
+
+    public Library(Catalog catalog, string[] pressReleaseItems)
     {
-        catalog = new T();
+        this.catalog = catalog;
+        PressReleaseItems = pressReleaseItems;
     }
 
-    public override string ToString() => catalog.ToString();
+    public override string ToString()
+    {
+        return catalog + "\n\n" + string.Join(", ", PressReleaseItems);
+    }
 }

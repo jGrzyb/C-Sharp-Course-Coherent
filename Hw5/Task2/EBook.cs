@@ -14,4 +14,9 @@ public class EBook : Book {
         DownloadUrl = downloadUrl;
         Formats = formats;
     }
+
+    public override string[] GetPressRelease()
+    {
+        return Formats;
+    }
 }

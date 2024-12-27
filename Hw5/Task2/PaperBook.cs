@@ -14,4 +14,9 @@ public class PaperBook : Book {
         Publisher = publisher;
         Isbns = isbns.ToList();
     }
+
+    public override string[] GetPressRelease()
+    {
+        return [Publisher];
+    }
 }
