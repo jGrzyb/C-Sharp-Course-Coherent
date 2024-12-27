@@ -1,103 +1,91 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ArrayOfBookEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <BookEntry>
-    <Isbn>9780515110234</Isbn>
-    <Book>
-      <Title>The Floating Admiral</Title>
-      <ReleaseDate>1990-05-10T00:00:00</ReleaseDate>
-      <Authors>
-        <Author>
-          <Name>The Detection</Name>
-          <Surname>Club</Surname>
-          <BirthDate>2001-01-01T00:00:00</BirthDate>
-        </Author>
-        <Author>
-          <Name>G.K.</Name>
-          <Surname>Chesterton</Surname>
-          <BirthDate>2000-02-05T00:00:00</BirthDate>
-        </Author>
-        <Author>
-          <Name>Victor L.</Name>
-          <Surname>Whitechurch</Surname>
-          <BirthDate>1999-07-04T00:00:00</BirthDate>
-        </Author>
-      </Authors>
-    </Book>
-  </BookEntry>
-  <BookEntry>
-    <Isbn>9780743285452</Isbn>
-    <Book>
-      <Title>The Sword of Shame</Title>
-      <ReleaseDate>2006-01-01T00:00:00</ReleaseDate>
-      <Authors>
-        <Author>
-          <Name>The medival</Name>
-          <Surname>Murders</Surname>
-          <BirthDate>1980-03-06T00:00:00</BirthDate>
-        </Author>
-        <Author>
-          <Name>Philip</Name>
-          <Surname>Gooden</Surname>
-          <BirthDate>1898-02-03T00:00:00</BirthDate>
-        </Author>
-        <Author>
-          <Name>Susanna</Name>
-          <Surname>Gregory</Surname>
-          <BirthDate>1998-09-09T00:00:00</BirthDate>
-        </Author>
-        <Author>
-          <Name>Michael</Name>
-          <Surname>Jecks</Surname>
-          <BirthDate>2003-05-04T00:00:00</BirthDate>
-        </Author>
-        <Author>
-          <Name>Brenard</Name>
-          <Surname>Knight</Surname>
-          <BirthDate>2002-02-01T00:00:00</BirthDate>
-        </Author>
-      </Authors>
-    </Book>
-  </BookEntry>
-  <BookEntry>
-    <Isbn>9780060763442</Isbn>
-    <Book>
-      <Title>The Last Templar</Title>
-      <ReleaseDate>1995-01-01T00:00:00</ReleaseDate>
-      <Authors>
-        <Author>
-          <Name>Michael</Name>
-          <Surname>Jecks</Surname>
-          <BirthDate>1997-07-06T00:00:00</BirthDate>
-        </Author>
-      </Authors>
-    </Book>
-  </BookEntry>
-  <BookEntry>
-    <Isbn>9780060763466</Isbn>
-    <Book>
-      <Title>The Merchant's Partner</Title>
-      <ReleaseDate>1996-06-13T00:00:00</ReleaseDate>
-      <Authors>
-        <Author>
-          <Name>Michael</Name>
-          <Surname>Jecks</Surname>
-          <BirthDate>1993-02-04T00:00:00</BirthDate>
-        </Author>
-      </Authors>
-    </Book>
-  </BookEntry>
-  <BookEntry>
-    <Isbn>9781569475126</Isbn>
-    <Book>
-      <Title>The Salisbury Manuscript</Title>
-      <ReleaseDate>2008-01-01T00:00:00</ReleaseDate>
-      <Authors>
-        <Author>
-          <Name>Philip</Name>
-          <Surname>Gooden</Surname>
-          <BirthDate>1992-01-08T00:00:00</BirthDate>
-        </Author>
-      </Authors>
-    </Book>
-  </BookEntry>
-</ArrayOfBookEntry>
+<DALCatalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <dictionary>
+    <DALBookEntry>
+      <ISBN>9780515110234</ISBN>
+      <Book>
+        <Title>The Floating Admiral</Title>
+        <ReleaseDate>1990-05-10T00:00:00</ReleaseDate>
+        <Authors>
+          <Author>
+            <Name>The Detection</Name>
+            <Surname>Club</Surname>
+            <BirthDate>2001-01-01T00:00:00</BirthDate>
+          </Author>
+          <Author>
+            <Name>G.K.</Name>
+            <Surname>Chesterton</Surname>
+            <BirthDate>2000-02-05T00:00:00</BirthDate>
+          </Author>
+          <Author>
+            <Name>Victor L.</Name>
+            <Surname>Whitechurch</Surname>
+            <BirthDate>1999-07-04T00:00:00</BirthDate>
+          </Author>
+        </Authors>
+      </Book>
+    </DALBookEntry>
+    <DALBookEntry>
+      <ISBN>9780060763466</ISBN>
+      <Book>
+        <Title>The Merchant's Partner</Title>
+        <ReleaseDate>1996-06-13T00:00:00</ReleaseDate>
+        <Authors>
+          <Author>
+            <Name>Michael</Name>
+            <Surname>Jecks</Surname>
+            <BirthDate>1993-02-04T00:00:00</BirthDate>
+          </Author>
+        </Authors>
+      </Book>
+    </DALBookEntry>
+    <DALBookEntry>
+      <ISBN>9780743285452</ISBN>
+      <Book>
+        <Title>The Sword of Shame</Title>
+        <ReleaseDate>2006-01-01T00:00:00</ReleaseDate>
+        <Authors>
+          <Author>
+            <Name>The medival</Name>
+            <Surname>Murders</Surname>
+            <BirthDate>1980-03-06T00:00:00</BirthDate>
+          </Author>
+          <Author>
+            <Name>Philip</Name>
+            <Surname>Gooden</Surname>
+            <BirthDate>1898-02-03T00:00:00</BirthDate>
+          </Author>
+          <Author>
+            <Name>Susanna</Name>
+            <Surname>Gregory</Surname>
+            <BirthDate>1998-09-09T00:00:00</BirthDate>
+          </Author>
+          <Author>
+            <Name>Michael</Name>
+            <Surname>Jecks</Surname>
+            <BirthDate>2003-05-04T00:00:00</BirthDate>
+          </Author>
+          <Author>
+            <Name>Brenard</Name>
+            <Surname>Knight</Surname>
+            <BirthDate>2002-02-01T00:00:00</BirthDate>
+          </Author>
+        </Authors>
+      </Book>
+    </DALBookEntry>
+    <DALBookEntry>
+      <ISBN>9781569475126</ISBN>
+      <Book>
+        <Title>The Salisbury Manuscript</Title>
+        <ReleaseDate>2008-01-01T00:00:00</ReleaseDate>
+        <Authors>
+          <Author>
+            <Name>Philip</Name>
+            <Surname>Gooden</Surname>
+            <BirthDate>1992-01-08T00:00:00</BirthDate>
+          </Author>
+        </Authors>
+      </Book>
+    </DALBookEntry>
+  </dictionary>
+</DALCatalog>

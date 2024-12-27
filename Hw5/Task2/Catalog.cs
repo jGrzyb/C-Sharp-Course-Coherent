@@ -3,25 +3,21 @@ using Microsoft.VisualBasic.FileIO;
 
 public class Catalog
 {
-    public Dictionary<string, Book> dictionary = new();
+    public Dictionary<Isbn, Book> dictionary = new();
 
 
     public Catalog()
     {
     }
 
-    public virtual void Add(string source, Book book)
+    public void Add(string ISBN, Book book)
     {
-        if (!isKeyCorrect(source))
-        {
-            throw new ArgumentException("The key is not correct.");
-        }
-        dictionary.Add(source, book);
+        dictionary.Add(new Isbn(ISBN), book);
     }
 
     public Book? GetBook(string source)
     {
-        return dictionary.FirstOrDefault(x => x.Key == source).Value;
+        return dictionary.FirstOrDefault(x => x.Key.ISBN == source).Value;
     }
 
     public IEnumerable<string> GetTitlesAlphabetical()
@@ -29,9 +25,9 @@ public class Catalog
         return dictionary.Select(x => x.Value.Title).Order();
     }
 
-    public IEnumerable<Book> GetBooksByAuthor(string author)
+    public IEnumerable<Book> GetBooksByAuthor(Author author)
     {
-        return dictionary.Select(x => x.Value).Where(x => x.Authors.Select(n => n.ToString()).Contains(author)).OrderBy(x => x.ReleaseDate);
+        return dictionary.Select(x => x.Value).Where(x => x.Authors.Contains(author)).OrderBy(x => x.ReleaseDate);
     }
 
     public IEnumerable<(Author, int)> GetAuthorsWithBookCount()
@@ -57,7 +53,7 @@ public class Catalog
                 line[3], 
                 new Book(
                     line[6], 
-                    new HashSet<Author>([new Author(line[0])]), 
+                    new HashSet<Author>([new Author(line[0], "")]), 
                     DateTime.Parse(line[0])
                 )
             );

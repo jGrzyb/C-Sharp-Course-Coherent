@@ -1,0 +1,33 @@
+{
+  "author": {
+    "Name": "G.K.",
+    "Surname": "Chesterton",
+    "BirthDate": "2000-02-05T00:00:00"
+  },
+  "BookEntries": [
+    {
+      "ISBN": "9780515110234",
+      "Book": {
+        "Title": "The Floating Admiral",
+        "ReleaseDate": "1990-05-10T00:00:00",
+        "Authors": [
+          {
+            "Name": "The Detection",
+            "Surname": "Club",
+            "BirthDate": "2001-01-01T00:00:00"
+          },
+          {
+            "Name": "G.K.",
+            "Surname": "Chesterton",
+            "BirthDate": "2000-02-05T00:00:00"
+          },
+          {
+            "Name": "Victor L.",
+            "Surname": "Whitechurch",
+            "BirthDate": "1999-07-04T00:00:00"
+          }
+        ]
+      }
+    }
+  ]
+}
