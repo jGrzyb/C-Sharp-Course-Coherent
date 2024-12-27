@@ -20,10 +20,19 @@ public abstract class LibraryAbstractFactory {
             while (!csvParser.EndOfData)
             {
                 string[] fields = csvParser.ReadFields() ?? [];
-                if(isTypeCorrect(fields)) {
-                    (Isbn isbn, Book book) = ParseFields(fields);
-                    catalog.dictionary.Add(isbn, book);
-                }
+                //---------------------------------------------
+
+                // if(isTypeCorrect(fields)) {
+                //     (Isbn isbn, Book book) = ParseFields(fields);
+                //     catalog.dictionary.Add(isbn, book);
+                // }
+
+                //---------------------------------------------
+
+                (Isbn isbn, Book book) = ParseFields(fields);
+                catalog.dictionary.Add(isbn, book);
+                
+                //---------------------------------------------
             }
         }
         string[] pressReleaseItems = catalog.dictionary.Values.SelectMany(x => x.GetPressRelease()).Distinct().ToArray();
@@ -74,5 +83,13 @@ public abstract class LibraryAbstractFactory {
             authorList.Add(author);
         }
         return authorList.ToArray();
+    }
+
+    protected (string, DateTime, Author[]) ParseBookFields(string[] fields)
+    {
+        string title = fields[6];
+        DateTime.TryParse(fields[3], out DateTime releaseDate);
+        Author[] authors = ParseAuthors(fields[0]);
+        return (title, releaseDate, authors);
     }
 }

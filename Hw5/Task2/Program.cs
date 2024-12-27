@@ -79,6 +79,25 @@
 // Console.WriteLine();
 
 LibraryBuilder builder = new();
+JsonRepository repository = new();
+if(!Directory.Exists("eLib"))
+{
+    Directory.CreateDirectory("eLib");
+}
+if(!Directory.Exists("pLib"))
+{
+    Directory.CreateDirectory("pLib");
+}
+
 
 Library eLibrary = builder.Build("books_info.csv", "ELibrary");
 Console.WriteLine($"\n\n{eLibrary}\n\n{eLibrary.catalog.dictionary.Count}\n\n");
+Directory.SetCurrentDirectory("eLib");
+repository.Save(eLibrary.catalog);
+
+
+Directory.SetCurrentDirectory("../");
+Library paperLibrary = builder.Build("books_info.csv", "PaperLibrary");
+Console.WriteLine($"\n\n{paperLibrary}\n\n{paperLibrary.catalog.dictionary.Count}\n\n");
+Directory.SetCurrentDirectory("pLib");
+repository.Save(paperLibrary.catalog);

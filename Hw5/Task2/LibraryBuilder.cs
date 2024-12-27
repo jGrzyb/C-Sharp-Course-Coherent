@@ -8,6 +8,9 @@ public class LibraryBuilder
             case "ELibrary":
                 factory = new ELibraryFactory();
                 break;
+            case "PaperLibrary":
+                factory = new PaperLibraryFactory();
+                break;
             default:
                 throw new ArgumentException("Invalid type");
         }
