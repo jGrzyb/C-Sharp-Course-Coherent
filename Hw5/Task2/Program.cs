@@ -105,3 +105,8 @@ Directory.SetCurrentDirectory("pLib");
 repository.Save(paperLibrary.catalog);
 
 Console.WriteLine("\n\nDone!\nCheck the output.txt file for program output and the eLib and pLib directories for the saved files.\n");
+
+
+Task.WaitAll(eLibrary.catalog.dictionary.Values.Select(x => ((EBook)x).GetPages()).ToArray());
+
+Console.WriteLine("\nEBooks pages downloaded!\n");
