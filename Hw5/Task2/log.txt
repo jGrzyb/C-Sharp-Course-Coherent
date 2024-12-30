@@ -1,0 +1,500 @@
+Invalid authors: `Aliki.`
+Invalid authors: `Avi, 1937-`
+Invalid authors: `urn:isbn:8449500877`
+Invalid authors: ``
+Invalid authors: `Avi, 1937-`
+Invalid authors: `809199`
+Invalid authors: `Aliki`
+ISBN not found for book: `Heidi`
+ISBN not found for book: `The turn of the screw, and Daisy Miller`
+ISBN not found for book: `Ivanhoe : a romance`
+ISBN not found for book: `Catch-22`
+ISBN not found for book: `Crictor`
+ISBN not found for book: `Charlie et la chocolaterie`
+ISBN not found for book: `The Red Record: Tabulated Statistics and Alleged Causes of Lynching in the United States`
+ISBN not found for book: `Heidi`
+ISBN not found for book: `At this very moment`
+ISBN not found for book: `Big plans`
+ISBN not found for book: `Maud Martha`
+ISBN not found for book: `Our Nig; or, Sketches from the life of a free black in a two-story white house, North`
+ISBN not found for book: `Five plays`
+ISBN not found for book: `Bronzeville boys and girls`
+ISBN not found for book: `Little Stevie Wonder`
+ISBN not found for book: `Scott's Ivanhoe`
+ISBN not found for book: `Tragedies II: Romeo and Juliet, Othello, King Lear. With biographical illus. and pictures of the setting of the plays`
+ISBN not found for book: `And then there were none`
+ISBN not found for book: `Black and blue magic`
+ISBN not found for book: `Cool Daddy Rat`
+ISBN not found for book: `Three tragedies: Julius Caesar, Hamlet, Macbeth`
+ISBN not found for book: `Around one cactus : owls, bats, and leaping rats`
+ISBN not found for book: `Alice alone`
+ISBN not found for book: `Annie, Bea, and Chi Chi Dolores : a school day alphabet`
+ISBN not found for book: `Alexander, who's not (Do you hear me? I mean it!) going to move`
+ISBN not found for book: `Gulliver's travels`
+ISBN not found for book: `Hedda Gabler`
+ISBN not found for book: `Alice in Wonderland`
+ISBN not found for book: `Acceleration`
+ISBN not found for book: `John Steinbeck's The grapes of wrath`
+ISBN not found for book: `Incidents in the life of a slave girl.`
+ISBN not found for book: `Babe : the gallant pig`
+Invalid authors: `Aliki.`
+Invalid authors: `Avi, 1937-`
+ISBN not found for book: `Ender's game`
+ISBN not found for book: `Henry and Beezus`
+ISBN not found for book: `The salt eaters`
+ISBN not found for book: `Abel's island`
+ISBN not found for book: `26 Fairmount Avenue`
+ISBN not found for book: `Among the hidden`
+ISBN not found for book: `Angle of repose`
+Invalid authors: `urn:isbn:8449500877`
+ISBN not found for book: `urn:isbn:8441411980`
+ISBN not found for book: `Anahita's woven riddle`
+ISBN not found for book: `Away to the goldfields!`
+ISBN not found for book: `King Henry IV, part I. Twelfth night. Tragedy of King Lear. The tempest`
+ISBN not found for book: `Abe Lincoln remembers`
+ISBN not found for book: `An abundance of Katherines`
+ISBN not found for book: `4 classic American novels`
+ISBN not found for book: `Birmingham, 1963`
+ISBN not found for book: `Courage`
+ISBN not found for book: `Dear Mr. Henshaw`
+ISBN not found for book: `Deception point`
+ISBN not found for book: `Four short stories`
+ISBN not found for book: `Ethan Frome with connections`
+ISBN not found for book: `A my name is Alice`
+ISBN not found for book: `Katie's Sunday afternoon`
+ISBN not found for book: `As the roadrunner runs : a first book of maps`
+Invalid authors: ``
+ISBN not found for book: `Acceptable risk`
+ISBN not found for book: `Anthills of the savannah`
+ISBN not found for book: `Are you a snail?`
+ISBN not found for book: `The birthday swap`
+ISBN not found for book: `Little women`
+ISBN not found for book: `Amazing grace`
+ISBN not found for book: `The autobiography of Mark Twain`
+ISBN not found for book: `Jude the obscure`
+ISBN not found for book: `At Swim-Two-Birds`
+ISBN not found for book: `Atticus of Rome`
+ISBN not found for book: `Astrobiology`
+ISBN not found for book: `Brave new world : a novel`
+ISBN not found for book: `Twelfth night. Hamlet`
+ISBN not found for book: `The call of the wild, The cruise of the Dazzler, and other stories of adventure, with the author's special report: Gold hunters of the North`
+ISBN not found for book: `Shopping at the supermarket`
+ISBN not found for book: `Quicksand`
+ISBN not found for book: `Roll of thunder, hear my cry`
+Invalid authors: `Avi, 1937-`
+ISBN not found for book: `Crispin : the cross of lead`
+ISBN not found for book: `Adam Bede`
+ISBN not found for book: `Alchemy`
+ISBN not found for book: `Angus McBean`
+ISBN not found for book: `Bone Wars`
+ISBN not found for book: `City Lullaby`
+ISBN not found for book: `Animal farm`
+ISBN not found for book: `The Grapes of wrath`
+ISBN not found for book: `Heidi, child of the mountains : adapted and abridged from the famous story`
+ISBN not found for book: `Crictor`
+ISBN not found for book: `Jazzy Miz Mozetta`
+ISBN not found for book: `Forward the foundation`
+ISBN not found for book: `Madame Bovary`
+ISBN not found for book: `Babushka's Doll`
+ISBN not found for book: `The London Shakespeare; a new annotated and critical edition of the complete works in six volumes`
+ISBN not found for book: `Bunny days`
+ISBN not found for book: `Know what I saw?`
+ISBN not found for book: `Common sense`
+Invalid authors: `809199`
+ISBN not found for book: `urn:isbn:3869304626`
+ISBN not found for book: `Digital fortress`
+ISBN not found for book: `Leaves of grass. Including a fac-simile autobiography, variorum readings of the poems, and a department of Gathered leaves`
+ISBN not found for book: `Great expectations`
+ISBN not found for book: `Fly free!`
+ISBN not found for book: `Heidi adapted from the original story`
+ISBN not found for book: `Where we stand : class matters`
+Invalid authors: `Aliki`
+ISBN not found for book: `Arsenic and old lace`
+ISBN not found for book: `Hedda Gabler : drama en cuatro actos`
+ISBN not found for book: `Three Roman plays`
+ISBN not found for book: `Gus and Grandpa at basketball`
+ISBN not found for book: `Jubilee`
+ISBN not found for book: `The new Jim Crow : mass incarceration in the age of colorblindness`
+ISBN not found for book: `And the band played on`
+ISBN not found for book: `Iola Leroy, or, Shadows uplifted`
+ISBN not found for book: `Leaves of grass`
+ISBN not found for book: `Animals on the trail with Lewis and Clark`
+ISBN not found for book: `1-2-3 peas`
+ISBN not found for book: `13 words`
+ISBN not found for book: `Selected poems`
+ISBN not found for book: `Invisibility blues : from pop to theory`
+Invalid authors: `Aliki.`
+Invalid authors: `Avi, 1937-`
+Invalid authors: `urn:isbn:8449500877`
+Invalid authors: ``
+Invalid authors: `Avi, 1937-`
+Invalid authors: `809199`
+Invalid authors: `Aliki`
+ISBN not found for book: `Heidi`
+ISBN not found for book: `The turn of the screw, and Daisy Miller`
+ISBN not found for book: `Ivanhoe : a romance`
+ISBN not found for book: `Catch-22`
+ISBN not found for book: `Crictor`
+ISBN not found for book: `Charlie et la chocolaterie`
+ISBN not found for book: `The Red Record: Tabulated Statistics and Alleged Causes of Lynching in the United States`
+ISBN not found for book: `Heidi`
+ISBN not found for book: `At this very moment`
+ISBN not found for book: `Big plans`
+ISBN not found for book: `Maud Martha`
+ISBN not found for book: `Our Nig; or, Sketches from the life of a free black in a two-story white house, North`
+ISBN not found for book: `Five plays`
+ISBN not found for book: `Bronzeville boys and girls`
+ISBN not found for book: `Little Stevie Wonder`
+ISBN not found for book: `Scott's Ivanhoe`
+ISBN not found for book: `Tragedies II: Romeo and Juliet, Othello, King Lear. With biographical illus. and pictures of the setting of the plays`
+ISBN not found for book: `And then there were none`
+ISBN not found for book: `Black and blue magic`
+ISBN not found for book: `Cool Daddy Rat`
+ISBN not found for book: `Three tragedies: Julius Caesar, Hamlet, Macbeth`
+ISBN not found for book: `Around one cactus : owls, bats, and leaping rats`
+ISBN not found for book: `Alice alone`
+ISBN not found for book: `Annie, Bea, and Chi Chi Dolores : a school day alphabet`
+ISBN not found for book: `Alexander, who's not (Do you hear me? I mean it!) going to move`
+ISBN not found for book: `Gulliver's travels`
+ISBN not found for book: `Hedda Gabler`
+ISBN not found for book: `Alice in Wonderland`
+ISBN not found for book: `Acceleration`
+ISBN not found for book: `John Steinbeck's The grapes of wrath`
+ISBN not found for book: `Incidents in the life of a slave girl.`
+ISBN not found for book: `Babe : the gallant pig`
+Invalid authors: `Aliki.`
+Invalid authors: `Avi, 1937-`
+ISBN not found for book: `Ender's game`
+ISBN not found for book: `Henry and Beezus`
+ISBN not found for book: `The salt eaters`
+ISBN not found for book: `Abel's island`
+ISBN not found for book: `26 Fairmount Avenue`
+ISBN not found for book: `Among the hidden`
+ISBN not found for book: `Angle of repose`
+Invalid authors: `urn:isbn:8449500877`
+ISBN not found for book: `urn:isbn:8441411980`
+ISBN not found for book: `Anahita's woven riddle`
+ISBN not found for book: `Away to the goldfields!`
+ISBN not found for book: `King Henry IV, part I. Twelfth night. Tragedy of King Lear. The tempest`
+ISBN not found for book: `Abe Lincoln remembers`
+ISBN not found for book: `An abundance of Katherines`
+ISBN not found for book: `4 classic American novels`
+ISBN not found for book: `Birmingham, 1963`
+ISBN not found for book: `Courage`
+ISBN not found for book: `Dear Mr. Henshaw`
+ISBN not found for book: `Deception point`
+ISBN not found for book: `Four short stories`
+ISBN not found for book: `Ethan Frome with connections`
+ISBN not found for book: `A my name is Alice`
+ISBN not found for book: `Katie's Sunday afternoon`
+ISBN not found for book: `As the roadrunner runs : a first book of maps`
+Invalid authors: ``
+ISBN not found for book: `Acceptable risk`
+ISBN not found for book: `Anthills of the savannah`
+ISBN not found for book: `Are you a snail?`
+ISBN not found for book: `The birthday swap`
+ISBN not found for book: `Little women`
+ISBN not found for book: `Amazing grace`
+ISBN not found for book: `The autobiography of Mark Twain`
+ISBN not found for book: `Jude the obscure`
+ISBN not found for book: `At Swim-Two-Birds`
+ISBN not found for book: `Atticus of Rome`
+ISBN not found for book: `Astrobiology`
+ISBN not found for book: `Brave new world : a novel`
+ISBN not found for book: `Twelfth night. Hamlet`
+ISBN not found for book: `The call of the wild, The cruise of the Dazzler, and other stories of adventure, with the author's special report: Gold hunters of the North`
+ISBN not found for book: `Shopping at the supermarket`
+ISBN not found for book: `Quicksand`
+ISBN not found for book: `Roll of thunder, hear my cry`
+Invalid authors: `Avi, 1937-`
+ISBN not found for book: `Crispin : the cross of lead`
+ISBN not found for book: `Adam Bede`
+ISBN not found for book: `Alchemy`
+ISBN not found for book: `Angus McBean`
+ISBN not found for book: `Bone Wars`
+ISBN not found for book: `City Lullaby`
+ISBN not found for book: `Animal farm`
+ISBN not found for book: `The Grapes of wrath`
+ISBN not found for book: `Heidi, child of the mountains : adapted and abridged from the famous story`
+ISBN not found for book: `Crictor`
+ISBN not found for book: `Jazzy Miz Mozetta`
+ISBN not found for book: `Forward the foundation`
+ISBN not found for book: `Madame Bovary`
+ISBN not found for book: `Babushka's Doll`
+ISBN not found for book: `The London Shakespeare; a new annotated and critical edition of the complete works in six volumes`
+ISBN not found for book: `Bunny days`
+ISBN not found for book: `Know what I saw?`
+ISBN not found for book: `Common sense`
+Invalid authors: `809199`
+ISBN not found for book: `urn:isbn:3869304626`
+ISBN not found for book: `Digital fortress`
+ISBN not found for book: `Leaves of grass. Including a fac-simile autobiography, variorum readings of the poems, and a department of Gathered leaves`
+ISBN not found for book: `Great expectations`
+ISBN not found for book: `Fly free!`
+ISBN not found for book: `Heidi adapted from the original story`
+ISBN not found for book: `Where we stand : class matters`
+Invalid authors: `Aliki`
+ISBN not found for book: `Arsenic and old lace`
+ISBN not found for book: `Hedda Gabler : drama en cuatro actos`
+ISBN not found for book: `Three Roman plays`
+ISBN not found for book: `Gus and Grandpa at basketball`
+ISBN not found for book: `Jubilee`
+ISBN not found for book: `The new Jim Crow : mass incarceration in the age of colorblindness`
+ISBN not found for book: `And the band played on`
+ISBN not found for book: `Iola Leroy, or, Shadows uplifted`
+ISBN not found for book: `Leaves of grass`
+ISBN not found for book: `Animals on the trail with Lewis and Clark`
+ISBN not found for book: `1-2-3 peas`
+ISBN not found for book: `13 words`
+ISBN not found for book: `Selected poems`
+ISBN not found for book: `Invisibility blues : from pop to theory`
+Invalid authors: `Aliki.`
+Invalid authors: `Avi, 1937-`
+Invalid authors: `urn:isbn:8449500877`
+Invalid authors: ``
+Invalid authors: `Avi, 1937-`
+Invalid authors: `809199`
+Invalid authors: `Aliki`
+ISBN not found for book: `Heidi`
+ISBN not found for book: `The turn of the screw, and Daisy Miller`
+ISBN not found for book: `Ivanhoe : a romance`
+ISBN not found for book: `Catch-22`
+ISBN not found for book: `Crictor`
+ISBN not found for book: `Charlie et la chocolaterie`
+ISBN not found for book: `The Red Record: Tabulated Statistics and Alleged Causes of Lynching in the United States`
+ISBN not found for book: `Heidi`
+ISBN not found for book: `At this very moment`
+ISBN not found for book: `Big plans`
+ISBN not found for book: `Maud Martha`
+ISBN not found for book: `Our Nig; or, Sketches from the life of a free black in a two-story white house, North`
+ISBN not found for book: `Five plays`
+ISBN not found for book: `Bronzeville boys and girls`
+ISBN not found for book: `Little Stevie Wonder`
+ISBN not found for book: `Scott's Ivanhoe`
+ISBN not found for book: `Tragedies II: Romeo and Juliet, Othello, King Lear. With biographical illus. and pictures of the setting of the plays`
+ISBN not found for book: `And then there were none`
+ISBN not found for book: `Black and blue magic`
+ISBN not found for book: `Cool Daddy Rat`
+ISBN not found for book: `Three tragedies: Julius Caesar, Hamlet, Macbeth`
+ISBN not found for book: `Around one cactus : owls, bats, and leaping rats`
+ISBN not found for book: `Alice alone`
+ISBN not found for book: `Annie, Bea, and Chi Chi Dolores : a school day alphabet`
+ISBN not found for book: `Alexander, who's not (Do you hear me? I mean it!) going to move`
+ISBN not found for book: `Gulliver's travels`
+ISBN not found for book: `Hedda Gabler`
+ISBN not found for book: `Alice in Wonderland`
+ISBN not found for book: `Acceleration`
+ISBN not found for book: `John Steinbeck's The grapes of wrath`
+ISBN not found for book: `Incidents in the life of a slave girl.`
+ISBN not found for book: `Babe : the gallant pig`
+Invalid authors: `Aliki.`
+Invalid authors: `Avi, 1937-`
+ISBN not found for book: `Ender's game`
+ISBN not found for book: `Henry and Beezus`
+ISBN not found for book: `The salt eaters`
+ISBN not found for book: `Abel's island`
+ISBN not found for book: `26 Fairmount Avenue`
+ISBN not found for book: `Among the hidden`
+ISBN not found for book: `Angle of repose`
+Invalid authors: `urn:isbn:8449500877`
+ISBN not found for book: `urn:isbn:8441411980`
+ISBN not found for book: `Anahita's woven riddle`
+ISBN not found for book: `Away to the goldfields!`
+ISBN not found for book: `King Henry IV, part I. Twelfth night. Tragedy of King Lear. The tempest`
+ISBN not found for book: `Abe Lincoln remembers`
+ISBN not found for book: `An abundance of Katherines`
+ISBN not found for book: `4 classic American novels`
+ISBN not found for book: `Birmingham, 1963`
+ISBN not found for book: `Courage`
+ISBN not found for book: `Dear Mr. Henshaw`
+ISBN not found for book: `Deception point`
+ISBN not found for book: `Four short stories`
+ISBN not found for book: `Ethan Frome with connections`
+ISBN not found for book: `A my name is Alice`
+ISBN not found for book: `Katie's Sunday afternoon`
+ISBN not found for book: `As the roadrunner runs : a first book of maps`
+Invalid authors: ``
+ISBN not found for book: `Acceptable risk`
+ISBN not found for book: `Anthills of the savannah`
+ISBN not found for book: `Are you a snail?`
+ISBN not found for book: `The birthday swap`
+ISBN not found for book: `Little women`
+ISBN not found for book: `Amazing grace`
+ISBN not found for book: `The autobiography of Mark Twain`
+ISBN not found for book: `Jude the obscure`
+ISBN not found for book: `At Swim-Two-Birds`
+ISBN not found for book: `Atticus of Rome`
+ISBN not found for book: `Astrobiology`
+ISBN not found for book: `Brave new world : a novel`
+ISBN not found for book: `Twelfth night. Hamlet`
+ISBN not found for book: `The call of the wild, The cruise of the Dazzler, and other stories of adventure, with the author's special report: Gold hunters of the North`
+ISBN not found for book: `Shopping at the supermarket`
+ISBN not found for book: `Quicksand`
+ISBN not found for book: `Roll of thunder, hear my cry`
+Invalid authors: `Avi, 1937-`
+ISBN not found for book: `Crispin : the cross of lead`
+ISBN not found for book: `Adam Bede`
+ISBN not found for book: `Alchemy`
+ISBN not found for book: `Angus McBean`
+ISBN not found for book: `Bone Wars`
+ISBN not found for book: `City Lullaby`
+ISBN not found for book: `Animal farm`
+ISBN not found for book: `The Grapes of wrath`
+ISBN not found for book: `Heidi, child of the mountains : adapted and abridged from the famous story`
+ISBN not found for book: `Crictor`
+ISBN not found for book: `Jazzy Miz Mozetta`
+ISBN not found for book: `Forward the foundation`
+ISBN not found for book: `Madame Bovary`
+ISBN not found for book: `Babushka's Doll`
+ISBN not found for book: `The London Shakespeare; a new annotated and critical edition of the complete works in six volumes`
+ISBN not found for book: `Bunny days`
+ISBN not found for book: `Know what I saw?`
+ISBN not found for book: `Common sense`
+Invalid authors: `809199`
+ISBN not found for book: `urn:isbn:3869304626`
+ISBN not found for book: `Digital fortress`
+ISBN not found for book: `Leaves of grass. Including a fac-simile autobiography, variorum readings of the poems, and a department of Gathered leaves`
+ISBN not found for book: `Great expectations`
+ISBN not found for book: `Fly free!`
+ISBN not found for book: `Heidi adapted from the original story`
+ISBN not found for book: `Where we stand : class matters`
+Invalid authors: `Aliki`
+ISBN not found for book: `Arsenic and old lace`
+ISBN not found for book: `Hedda Gabler : drama en cuatro actos`
+ISBN not found for book: `Three Roman plays`
+ISBN not found for book: `Gus and Grandpa at basketball`
+ISBN not found for book: `Jubilee`
+ISBN not found for book: `The new Jim Crow : mass incarceration in the age of colorblindness`
+ISBN not found for book: `And the band played on`
+ISBN not found for book: `Iola Leroy, or, Shadows uplifted`
+ISBN not found for book: `Leaves of grass`
+ISBN not found for book: `Animals on the trail with Lewis and Clark`
+ISBN not found for book: `1-2-3 peas`
+ISBN not found for book: `13 words`
+ISBN not found for book: `Selected poems`
+ISBN not found for book: `Invisibility blues : from pop to theory`
+Invalid authors: `Aliki.`
+Invalid authors: `Avi, 1937-`
+Invalid authors: `urn:isbn:8449500877`
+Invalid authors: ``
+Invalid authors: `Avi, 1937-`
+Invalid authors: `809199`
+Invalid authors: `Aliki`
+ISBN not found for book: `Heidi`
+ISBN not found for book: `The turn of the screw, and Daisy Miller`
+ISBN not found for book: `Ivanhoe : a romance`
+ISBN not found for book: `Catch-22`
+ISBN not found for book: `Crictor`
+ISBN not found for book: `Charlie et la chocolaterie`
+ISBN not found for book: `The Red Record: Tabulated Statistics and Alleged Causes of Lynching in the United States`
+ISBN not found for book: `Heidi`
+ISBN not found for book: `At this very moment`
+ISBN not found for book: `Big plans`
+ISBN not found for book: `Maud Martha`
+ISBN not found for book: `Our Nig; or, Sketches from the life of a free black in a two-story white house, North`
+ISBN not found for book: `Five plays`
+ISBN not found for book: `Bronzeville boys and girls`
+ISBN not found for book: `Little Stevie Wonder`
+ISBN not found for book: `Scott's Ivanhoe`
+ISBN not found for book: `Tragedies II: Romeo and Juliet, Othello, King Lear. With biographical illus. and pictures of the setting of the plays`
+ISBN not found for book: `And then there were none`
+ISBN not found for book: `Black and blue magic`
+ISBN not found for book: `Cool Daddy Rat`
+ISBN not found for book: `Three tragedies: Julius Caesar, Hamlet, Macbeth`
+ISBN not found for book: `Around one cactus : owls, bats, and leaping rats`
+ISBN not found for book: `Alice alone`
+ISBN not found for book: `Annie, Bea, and Chi Chi Dolores : a school day alphabet`
+ISBN not found for book: `Alexander, who's not (Do you hear me? I mean it!) going to move`
+ISBN not found for book: `Gulliver's travels`
+ISBN not found for book: `Hedda Gabler`
+ISBN not found for book: `Alice in Wonderland`
+ISBN not found for book: `Acceleration`
+ISBN not found for book: `John Steinbeck's The grapes of wrath`
+ISBN not found for book: `Incidents in the life of a slave girl.`
+ISBN not found for book: `Babe : the gallant pig`
+Invalid authors: `Aliki.`
+Invalid authors: `Avi, 1937-`
+ISBN not found for book: `Ender's game`
+ISBN not found for book: `Henry and Beezus`
+ISBN not found for book: `The salt eaters`
+ISBN not found for book: `Abel's island`
+ISBN not found for book: `26 Fairmount Avenue`
+ISBN not found for book: `Among the hidden`
+ISBN not found for book: `Angle of repose`
+Invalid authors: `urn:isbn:8449500877`
+ISBN not found for book: `urn:isbn:8441411980`
+ISBN not found for book: `Anahita's woven riddle`
+ISBN not found for book: `Away to the goldfields!`
+ISBN not found for book: `King Henry IV, part I. Twelfth night. Tragedy of King Lear. The tempest`
+ISBN not found for book: `Abe Lincoln remembers`
+ISBN not found for book: `An abundance of Katherines`
+ISBN not found for book: `4 classic American novels`
+ISBN not found for book: `Birmingham, 1963`
+ISBN not found for book: `Courage`
+ISBN not found for book: `Dear Mr. Henshaw`
+ISBN not found for book: `Deception point`
+ISBN not found for book: `Four short stories`
+ISBN not found for book: `Ethan Frome with connections`
+ISBN not found for book: `A my name is Alice`
+ISBN not found for book: `Katie's Sunday afternoon`
+ISBN not found for book: `As the roadrunner runs : a first book of maps`
+Invalid authors: ``
+ISBN not found for book: `Acceptable risk`
+ISBN not found for book: `Anthills of the savannah`
+ISBN not found for book: `Are you a snail?`
+ISBN not found for book: `The birthday swap`
+ISBN not found for book: `Little women`
+ISBN not found for book: `Amazing grace`
+ISBN not found for book: `The autobiography of Mark Twain`
+ISBN not found for book: `Jude the obscure`
+ISBN not found for book: `At Swim-Two-Birds`
+ISBN not found for book: `Atticus of Rome`
+ISBN not found for book: `Astrobiology`
+ISBN not found for book: `Brave new world : a novel`
+ISBN not found for book: `Twelfth night. Hamlet`
+ISBN not found for book: `The call of the wild, The cruise of the Dazzler, and other stories of adventure, with the author's special report: Gold hunters of the North`
+ISBN not found for book: `Shopping at the supermarket`
+ISBN not found for book: `Quicksand`
+ISBN not found for book: `Roll of thunder, hear my cry`
+Invalid authors: `Avi, 1937-`
+ISBN not found for book: `Crispin : the cross of lead`
+ISBN not found for book: `Adam Bede`
+ISBN not found for book: `Alchemy`
+ISBN not found for book: `Angus McBean`
+ISBN not found for book: `Bone Wars`
+ISBN not found for book: `City Lullaby`
+ISBN not found for book: `Animal farm`
+ISBN not found for book: `The Grapes of wrath`
+ISBN not found for book: `Heidi, child of the mountains : adapted and abridged from the famous story`
+ISBN not found for book: `Crictor`
+ISBN not found for book: `Jazzy Miz Mozetta`
+ISBN not found for book: `Forward the foundation`
+ISBN not found for book: `Madame Bovary`
+ISBN not found for book: `Babushka's Doll`
+ISBN not found for book: `The London Shakespeare; a new annotated and critical edition of the complete works in six volumes`
+ISBN not found for book: `Bunny days`
+ISBN not found for book: `Know what I saw?`
+ISBN not found for book: `Common sense`
+Invalid authors: `809199`
+ISBN not found for book: `urn:isbn:3869304626`
+ISBN not found for book: `Digital fortress`
+ISBN not found for book: `Leaves of grass. Including a fac-simile autobiography, variorum readings of the poems, and a department of Gathered leaves`
+ISBN not found for book: `Great expectations`
+ISBN not found for book: `Fly free!`
+ISBN not found for book: `Heidi adapted from the original story`
+ISBN not found for book: `Where we stand : class matters`
+Invalid authors: `Aliki`
+ISBN not found for book: `Arsenic and old lace`
+ISBN not found for book: `Hedda Gabler : drama en cuatro actos`
+ISBN not found for book: `Three Roman plays`
+ISBN not found for book: `Gus and Grandpa at basketball`
+ISBN not found for book: `Jubilee`
+ISBN not found for book: `The new Jim Crow : mass incarceration in the age of colorblindness`
+ISBN not found for book: `And the band played on`
+ISBN not found for book: `Iola Leroy, or, Shadows uplifted`
+ISBN not found for book: `Leaves of grass`
+ISBN not found for book: `Animals on the trail with Lewis and Clark`
+ISBN not found for book: `1-2-3 peas`
+ISBN not found for book: `13 words`
+ISBN not found for book: `Selected poems`
+ISBN not found for book: `Invisibility blues : from pop to theory`

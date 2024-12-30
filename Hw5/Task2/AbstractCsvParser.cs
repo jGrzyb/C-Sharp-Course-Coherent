@@ -1,16 +1,37 @@
+using System.Collections;
+using System.Data.Common;
 using System.Text.RegularExpressions;
 using Microsoft.VisualBasic.FileIO;
 
-public abstract class LibraryAbstractFactory 
+public abstract class AbstractCsvParser : IEnumerable<(string id, Book book)>
 {
+    private string _filePath;
     private Regex authorRegex = new(@"([\p{L}\p{M}\-\.']+, ?[\p{L}\p{M}\-\.']+(, ?\d{4})?)|([\p{L}\p{M}\-\.']+ [\p{L}\p{M}\-\.']+)");
     private Regex nameRegex = new(@"[\p{L}\p{M}\-\.']+");
     private Regex dateRegex = new(@"\d{4}");
+    private IEnumerator<(string id, Book book)> _enumerator;
 
-    public Library CreateLibrary(string filePath)
+    public AbstractCsvParser(string filePath)
     {
-        Catalog catalog = new();
-        using(TextFieldParser csvParser = new TextFieldParser(filePath)) 
+        _filePath = filePath;
+        _enumerator = GetEnumerator();
+    }
+
+    public bool TryGetNextBook(out (string id, Book book) nextBook)
+    {
+        if (_enumerator.MoveNext())
+        {
+            nextBook = _enumerator.Current;
+            return true;
+        }
+        nextBook = default;
+        return false;
+    }
+
+
+    public IEnumerator<(string id, Book book)> GetEnumerator()
+    {
+        using(TextFieldParser csvParser = new TextFieldParser(_filePath)) 
         {
             csvParser.CommentTokens = [ "#" ];
             csvParser.SetDelimiters([ "," ]);
@@ -31,29 +52,21 @@ public abstract class LibraryAbstractFactory
 
                 //---------------------------------------------
 
-                (string isbn, Book book) = ParseFields(fields);
-                if(isbn is null || book is null)
-                {
-                    continue;
-                }
-                if(catalog.dictionary.ContainsKey(isbn)) 
-                {
-                    Console.WriteLine($"Duplicate ISBN: `{isbn}`");
-                    continue;
-                }
-                catalog.dictionary.Add(isbn, book);
-                
-                //---------------------------------------------
+                yield return ParseFields(fields);
             }
         }
-        string[] pressReleaseItems = catalog.dictionary.Values.SelectMany(x => x.GetPressRelease()).Distinct().ToArray();
-        return new Library(catalog, pressReleaseItems);
+    }
+
+    IEnumerator IEnumerable.GetEnumerator()
+    {
+        return GetEnumerator();
     }
 
 
     protected abstract (string, Book) ParseFields(string[] fields);
     protected abstract bool isTypeCorrect(string[] fields);
 
+    
 
     protected Author[] ParseAuthors(string authors)
     {
@@ -61,7 +74,7 @@ public abstract class LibraryAbstractFactory
         List<Author> authorList = new();
         if(matches.Count == 0) 
         {
-            Console.WriteLine($"Invalid authors: `{authors}`");
+            Logger.Log($"Invalid authors: `{authors}`");
         }
         foreach(Match match in matches)
         {
@@ -72,7 +85,7 @@ public abstract class LibraryAbstractFactory
 
             if(nameMatches.Count == 0) 
             {
-                Console.WriteLine($"Invalid author: `{match.Value}`");
+                Logger.Log($"Invalid author: `{match.Value}`");
                 continue;
             }
 

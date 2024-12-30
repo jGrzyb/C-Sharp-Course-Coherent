@@ -1,26 +1,27 @@
-using System.Text.RegularExpressions;
-
-public class PaperLibraryFactory : LibraryAbstractFactory
+public class PaperLibraryFactory : ILibraryFactory
 {
-    protected override (string, Book) ParseFields(string[] fields)
-    {
-        var (title, releaseDate, authors) = ParseBookFields(fields);
+    Catalog? catalog;
 
-        string[] isbns = fields[5].Split(",").Where(x => !string.IsNullOrEmpty(x)).ToArray();
-        string? isbn = isbns.FirstOrDefault(x => x.Contains("isbn"))?[9..];
-        string publisher = fields[4];
-        
-        if(isbn == null)
+    public Catalog CreateCatalog(string filePath)
+    {
+        catalog = new();
+        PaperBookCsvParser csvParser = new(filePath);
+        while (csvParser.TryGetNextBook(out var entry))
         {
-            Console.WriteLine($"ISBN not found for book: `{title}`");
-            return default;
+            if (entry.id is not null && entry.book is not null && !catalog.dictionary.ContainsKey(entry.id))
+            {
+                catalog.Add(entry.id, entry.book);
+            }
         }
-
-
-        return (isbn, new PaperBook(title, new HashSet<Author>(authors), releaseDate, publisher, isbns.ToList()));
+        return catalog;
     }
-    protected override bool isTypeCorrect(string[] fields)
+
+    public string[] CreatePressReleaseItems()
     {
-        return fields.Length >= 6 && fields[5] == "";
+        if (catalog is null)
+        {
+            throw new InvalidOperationException("Catalog is not created");
+        }
+        return catalog.dictionary.Values.SelectMany(x => x.GetPressRelease()).Distinct().ToArray();
     }
 }

@@ -1,19 +1,28 @@
-public class ELibraryFactory : LibraryAbstractFactory
+public class ELibraryFactory : ILibraryFactory
 {
-    protected override (string, Book) ParseFields(string[] fields)
+    Catalog? catalog;
+
+    public Catalog CreateCatalog(string filePath)
     {
-        var (title, releaseDate, authors) = ParseBookFields(fields);
-
-        string[] formats = fields[1].Split(",");
-        string downloadUrl = fields[2];
-
-        string identifier = fields[2];
-
-
-        return (identifier, new EBook(title, new HashSet<Author>(authors), releaseDate, downloadUrl, formats));
+        catalog = new();
+        EBookCsvParser csvParser = new(filePath);
+        foreach (var entry in csvParser)
+        {
+            if(entry.id is not null && entry.book is not null && !catalog.dictionary.ContainsKey(entry.id))
+            {
+                catalog.Add(entry.id, entry.book);
+            }
+            
+        }
+        return catalog;
     }
-    protected override bool isTypeCorrect(string[] fields)
+
+    public string[] CreatePressReleaseItems()
     {
-        return fields.Length >= 6 && fields[5] != "";
+        if (catalog is null)
+        {
+            throw new InvalidOperationException("Catalog is not created");
+        }
+        return catalog.dictionary.Values.SelectMany(x => x.GetPressRelease()).Distinct().ToArray();
     }
 }
