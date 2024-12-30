@@ -2,7 +2,7 @@ public class LibraryBuilder
 {
     public Library Build(string filePath, string type)
     {
-        LibraryAbstractFactory factory;
+        ILibraryFactory factory;
         switch(type)
         {
             case "ELibrary":
@@ -14,6 +14,6 @@ public class LibraryBuilder
             default:
                 throw new ArgumentException("Invalid type");
         }
-        return factory.CreateLibrary(filePath);
+        return new Library(factory.CreateCatalog(filePath), factory.CreatePressReleaseItems());
     }
 }
