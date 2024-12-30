@@ -1,8 +1,8 @@
 using System.Text.RegularExpressions;
 
-[Serializable]
 public class Author 
 {
+    const int max_length = 200;
     private string _name = "";
     private string _surname = "";
     private DateTime? _birthDate = null;
@@ -15,7 +15,8 @@ public class Author
         }
         set
         {
-            _name = setName(value);
+            CheckName(value);
+            _name = value;
         }
     }
     public string Surname
@@ -26,7 +27,8 @@ public class Author
         }
         set
         {
-            _surname = setName(value);
+            CheckName(value);
+            _surname = value;
         }
     }
     public DateTime? BirthDate
@@ -61,13 +63,9 @@ public class Author
         return $"{Name} {Surname}";
     }
 
-    private string setName(string value)
+    private void CheckName(string value)
     {
-        if(value.Length <= 200)
-        {
-            return value;
-        }
-        else
+        if(value.Length > max_length)
         {
             throw new ArgumentException("Name is too long");
         }
