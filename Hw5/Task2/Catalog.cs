@@ -3,10 +3,6 @@ public class Catalog
     public Dictionary<Isbn, Book> dictionary = new();
 
 
-    public Catalog()
-    {
-    }
-
     public void Add(string ISBN, Book book)
     {
         dictionary.Add(new Isbn(ISBN), book);

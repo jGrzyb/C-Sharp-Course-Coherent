@@ -19,7 +19,7 @@ public class JsonRepository : IRepository
             var entry = JsonSerializer.Deserialize<DALAuthorEntry>(json);
             if(entry == null)
             {
-                Console.WriteLine("-------- Error: Could not deserialize file: " + file);
+                // Console.WriteLine("-------- Error: Could not deserialize file: " + file);
                 entry = new DALAuthorEntry();
             }
             authorsWithBooks.dictionary.Add(entry);
