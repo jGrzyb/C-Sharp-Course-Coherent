@@ -14,6 +14,10 @@ public class ELibraryFactory : ILibraryFactory
             }
             
         }
+        PageGetter pageGetter = new();
+        Task.WaitAll(catalog.dictionary.Values.ToList().Cast<EBook>().Select(async x => {
+            x.Pages = await pageGetter.GetPages(x.DownloadUrl);
+        }).ToArray());
         return catalog;
     }
 

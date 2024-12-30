@@ -25,5 +25,4 @@ Directory.SetCurrentDirectory("pLib");
 repository.Save(paperLibrary.catalog);
 
 
-Task.WaitAll(eLibrary.catalog.dictionary.Values.Select(x => ((EBook)x).GetPages()).ToArray());
 Console.WriteLine("\nEBooks pages downloaded!\n");
