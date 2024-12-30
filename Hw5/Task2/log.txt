@@ -498,509 +498,8 @@ ISBN not found for book: `1-2-3 peas`
 ISBN not found for book: `13 words`
 ISBN not found for book: `Selected poems`
 ISBN not found for book: `Invisibility blues : from pop to theory`
-Invalid authors: `Aliki.`
-Invalid authors: `Avi, 1937-`
-Invalid authors: `urn:isbn:8449500877`
 Invalid authors: ``
 Invalid authors: `Avi, 1937-`
-Invalid authors: `809199`
-Invalid authors: `Aliki`
-GET: 326  - chinamen00king_0
-GET: 42   - howmyfamilylives00kukl
-GET: 42   - crictor00unge
-GET: 340  - isbn_9780385901086
-GET: 34   - centralparkseren00godw
-GET: 38   - chickenlittle00kell
-GET: 330  - heartofsamuraiba00preu
-GET: 50   - bigplans00shea
-GET: 46   - isforphotographe00hore
-GET: 34   - atthisverymoment0000arno
-GET: 42   - firstdayingrapes00pacu
-GET: 230  - dancinginredshoe00cirr
-GET: 424  - waitingtoexhalemcmil00mcmi
-GET: 250  - gibgrayghost00snyd
-GET: 510  - fiveplays00shak
-GET: 58   - bronzevilleboys100broo
-GET: 322  - atriskhoffman00hoff
-GET: 46   - bestbugparade00murp
-GET: 56   - crickwing00cann
-GET: 138  - kissingtennessee00appe
-GET: 54   - chickensarentonl00hell
-GET: 426  - friedgreentomato00flag_0
-GET: 42   - grandaddysstars00grif
-GET: 330  - cantoranovel00lope
-GET: 42   - dogs00gibb
-GET: 50   - celiacruzqueenof00cham
-GET: 198  - homelessbird00whel
-GET: 42   - boobyhatch00lewi
-GET: 40   - cloudywithchance00barr
-GET: 134  - maudmartha00broo
-GET: 314  - forloveglory00ande
-GET: 326  - heartofdarkness200conr
-GET: 86   - williamfaulkners00barn
-GET: 118  - blackstarbright00odel
-GET: 246  - gulliverstravels1996swif
-GET: 372  - heidi100spyr
-GET: 44   - prehistoricactua00jenk
-GET: 234  - chinhomineyssecr00kimn
-GET: 42   - bigbugbook00fack
-GET: 156  - ournigorsketches00wilsrich
-GET: 244  - charlieetlachoco00biet
-GET: 206  - chandassecrets00stra
-GET: 46   - jimbeanstalk00brig
-GET: 42   - gorilla00brow
-GET: 38   - graciasthanksgiv00cowl_0
-GET: 46   - baloneyhenryp00scie
-GET: 402  - tragediesiiromeo00shak
-GET: 246  - sassafrasscypres00shan
-GET: 262  - drift00mart
-GET: 624  - scottsivanhoe00scot
-GET: 230  - ludiessong00herl_0
-GET: 414  - whenwhereienter00paul
-GET: 182  - andthentherewerechri00chri
-GET: 328  - colorofsea00hama_0
-GET: 42   - flashcrashrumble00bran_1
-GET: 42   - drawmestar00carl
-GET: 36   - lookwhoooscounti00macd
-GET: 136  - frenchtownsummer00corm_0
-GET: 394  - threetragediesju00shak
-GET: 200  - blackbluemagic000snyd
-GET: 246  - deathbenotproudmgunt00gunt
-GET: 32   - isyourmamallamat00guar
-GET: 218  - howilivenow00roso
-GET: 38   - bravolivingstone00edwa
-GET: 38   - abuelasweave00cast
-GET: 42   - cooldaddyrat00crow
-GET: 266  - isbn_9780027425000
-GET: 38   - aroundonecactuso0000fred
-GET: 38   - alexanderwhosnot00vior
-GET: 130  - ivybean00barr
-GET: 50   - ihavedream00king_0
-GET: 294  - womenraceclasswo00ange
-GET: 42   - littlesteviewond00trou
-GET: 324  - assemblingcalifo00mcph
-GET: 170  - 19varietiesofgaz00nyen
-GET: 326  - gulliverstravels1948swif
-GET: 58   - goodluckgoldothe00wong
-GET: 166  - anniejohn100kinc
-GET: 122  - lovethatdog00cree_0
-GET: 42   - insmallsmallpond00flem_0
-GET: 202  - charliepippin00boyd
-GET: 134  - heddagabler00ibse
-GET: 46   - anniebeachichido0000maur_z8l2
-GET: 58   - journeyintorainf00knig
-GET: 296  - heartofwomanange00ange
-GET: 186  - beforewewerefree00alva
-GET: 54   - alicealone0000ishe
-GET: 226  - acceleration0000mcna_a7l7
-GET: 166  - journeytoamerica00levi_0
-GET: 182  - dolphinsoflauren00lawr_0
-GET: 38   - benstrumpet00isad
-GET: 294  - houseofdiesdrear00hami_0
-GET: 126  - topdogunderdog00park
-GET: 234  - diaryofwimpykidd00kinn
-GET: 134  - heidispryi00spyr
-GET: 42   - baloneyhenryp00scie_0
-GET: 42   - baldeagle00morr
-GET: 180  - aleutiansparrow00hess
-GET: 198  - turnofscrewdaisy00jame
-GET: 390  - auntjuliascript00varg
-GET: 154  - baby000macl
-GET: 218  - listeningforlion00whel_0
-GET: 42   - blackisbrownista00adof
-GET: 198  - waltwhitmansleav00whit
-GET: 154  - junebugintrouble00mead
-GET: 374  - 101thingsyoudont00tref
-GET: 218  - jackieswildseatt00hobb_0
-GET: 470  - lambgospelaccord00moor
-GET: 54   - iriswalterslee00gues
-GET: 294  - blackpicketfence00mary
-GET: 394  - killingblackbody00robe
-GET: 182  - gingerbread000cohn
-GET: 42   - andstillturtlewa00macg
-GET: 230  - girlhearts00maze
-GET: 38   - howmyparentslear00frie
-GET: 202  - becomingfelix00wils
-GET: 262  - jazznovel00morr
-GET: 454  - street00annp
-GET: 42   - howdobirdsfindth00gans
-GET: 138  - leonardodavinci00krul
-GET: 250  - bystander00prel
-GET: 42   - guesswhatisgrowi00posa
-GET: 314  - hoteloncornerofb00ford
-GET: 278  - houseofdance00keph
-GET: 38   - everybodyneedsro00bayl
-GET: 230  - catherinecalledb00cush
-GET: 122  - bugboy00sone
-GET: 230  - democracy00didi
-GET: 470  - catch2200hell
-GET: 34   - angelinainwings00hola
-GET: 190  - aliceinwonderlan00lewi_7
-GET: 294  - growingup04bake
-GET: 246  - girlwithpearlear2003chev
-GET: 174  - johnsteinbecksgr00gala
-GET: 650  - greatmigration00wilk
-GET: 34   - nonotitus00masu
-GET: 422  - homecoming00voig_0
-GET: 628  - ivanhoeromancescot
-GET: 214  - henrybeezus00clea_0
-GET: 186  - fallinguppoemsdr00silv_0
-GET: 42   - diggingupdinosau00alik_0
-GET: 42   - coyotesallaround00murp
-GET: 262  - doomedqueenanne00meye_0
-GET: 326  - thereisconfusion00faus
-GET: 298  - johnnytremainnov00forb_0
-GET: 118  - dawn00wies
-GET: 38   - bunyans00wood
-GET: 166  - hiroshima00hers_0
-GET: 226  - childofdandelion00nanj
-GET: 250  - jasonsgold00hobb_0
-GET: 262  - budnotbuddy00curt_0
-GET: 198  - doubledutch00drap
-GET: 266  - drfranklinsislan00hala
-GET: 42   - arcticlightsarct00mill
-GET: 438  - comingintocountr00mcph
-GET: 230  - downriver000hobb
-GET: 42   - farming00gibb
-GET: 28   - blackmeetswhite00font
-GET: 138  - daughterofsea00dohe
-GET: 202  - ifyoucomesoftly00wood
-GET: 342  - endersgame00card_0
-GET: 130  - abelsisland0000stei
-GET: 42   - beinwithyouthisw00niko
-GET: 198  - acrossfiveaprils00iren_0
-GET: 138  - greenangel00hoff_0
-GET: 78   - 26fairmountavenu0000depa_c3u1
-GET: 118  - angleofrepose00pesk
-GET: 214  - annatoinfinitepo00ames
-GET: 278  - breath00napo
-GET: 42   - blackwhite00maca
-GET: 38   - lamunecadeelizab00stuv
-GET: 56   - annieoldone00mile
-GET: 184  - thebanplays00soph
-GET: 442  - dracula1998stok
-GET: 42   - cinderellasrat00medd
-GET: 200  - adventuresofhuck00staf
-GET: 262  - countdown00mika_0
-GET: 154  - closetoshoreterr00capu
-GET: 30   - americabeautiful00scho
-GET: 102  - indigo000hoff
-GET: 390  - anahitaswovenrid0001sayr
-GET: 166  - amonghiddenshado00marg_0
-GET: 40   - growingvegetable00ehle_0
-GET: 310  - salteaters0000bamb
-GET: 250  - crispinatedgeof00avi1
-GET: 38   - killerwhales00simo
-GET: 218  - cowboyghost00peck_0
-GET: 42   - belindaballerina00youn
-GET: 232  - passinglars00lars
-GET: 266  - awaytogoldfields00derb_0
-GET: 200  - canyons00paul_0
-GET: 250  - julie00geor_0
-GET: 50   - 999tadpoles00kenk
-GET: 202  - isbn_0766607135
-GET: 506  - anniebetweenstat00elli
-GET: 266  - becomingnaomileo00ryan
-GET: 214  - growingwings00wint
-GET: 118  - jazminsnotebook00grim_0
-GET: 90   - animalsasleep00robe
-GET: 138  - keeshashouse00fros
-GET: 330  - insunburnedcount00brys
-GET: 38   - abelincolnrememb0000turn
-GET: 42   - goodnightbabybea00asch
-GET: 240  - abelincolngrowsu00carl
-GET: 42   - dolleymadisonsav00brow
-GET: 50   - birmingham196300weat
-GET: 58   - animalsense00acke
-GET: 170  - lettersfromrif00hess
-GET: 218  - emmajeanlazarusf00tars_0
-GET: 278  - abundanceofkathe0000gree_y0c3
-GET: 310  - crybelovedcountr00pato
-GET: 520  - bornconfused00desa
-GET: 42   - ellasarahgetsdre00chod
-GET: 118  - childrenofwildwe00frie
-GET: 38   - alincolnme00bord
-GET: 40   - 10littlerubberdu00carl
-GET: 314  - citiesofplain00mcca
-GET: 56   - animalsbornalive00hell
-GET: 182  - everytimerainbow00will_0
-GET: 42   - hondofabian00mcca
-GET: 42   - chrysanthemum00henk_0
-GET: 374  - diceyssong00voig_0
-GET: 276  - blessmeultima00anay
-GET: 42   - courage00wabe
-GET: 34   - babyduckbadeye00hest
-GET: 360  - animaldreamsnove00king
-GET: 742  - 4classicamerica000hawt
-GET: 70   - knightsofkitchen00scie_0
-GET: 758  - deceptionpoint100brow
-GET: 32   - bugsbugsbugs00barn_0
-GET: 34   - fivelittlechicks00tafu
-GET: 874  - junglebooksecondkipl00kipl
-GET: 166  - frozenstiff00shah
-GET: 518  - foundationearth00asim
-GET: 354  - intimeofbutter00alva
-GET: 298  - littlebee00clea
-GET: 170  - indianchiefs00free
-GET: 166  - dearmrhenshaw00clea_0
-GET: 506  - kinghenryivparti00shak
-GET: 330  - incompletereveng00wins
-GET: 170  - ethanfromewithco00whar
-GET: 282  - flush00hiaa
-GET: 170  - dillondillon00bank
-GET: 246  - anthillsofsavann0000ache_d2w5
-GET: 42   - arrowhawk00scha
-GET: 186  - beyondmangotree00zems
-GET: 42   - froggygoestobed00lond_0
-GET: 150  - deathofsalesmanc1977mill
-GET: 90   - everywhere00broo
-GET: 40   - alexanderwhoused00vior
-GET: 202  - luckybreaks00patr
-GET: 282  - bravingelementst00lask
-GET: 262  - downsiders00shus
-GET: 234  - annaofbyzantium00barr_0
-GET: 186  - darknessoverdenm00levi
-GET: 42   - katiessundayafte00mayh
-GET: 136  - aldoapplesauce00hurw
-GET: 58   - justdream00vana
-GET: 42   - birthdayswap0000lope
-GET: 364  - askmenoquestionsver00very
-GET: 42   - mynameisalice0000baye
-GET: 170  - grannytorrellima00cree_0
-GET: 42   - justanotherordin00clem
-GET: 50   - autumnleaves00robb
-GET: 322  - amazinggrace0000lind
-GET: 330  - bravenewworld00huxl
-GET: 202  - lordofdeep00sali
-GET: 34   - anotherimportant00brow
-GET: 50   - bicycleman00saya_0
-GET: 278  - juliuscaesar00shak_1
-GET: 294  - fourshortstories00melv
-GET: 42   - intalltallgrass00flem
-GET: 182  - changesinlatitud00hobb
-GET: 154  - heaven00john
-GET: 236  - afterdancingdays00rost
-GET: 250  - darkwaterrising00hale
-GET: 214  - acceptablerisk0000unse_c6n4
-GET: 38   - bugsafari00barn
-GET: 46   - emelineatcircus00pric
-GET: 550  - dune00herb
-GET: 326  - dinnerathomesick00tyle_0
-GET: 346  - fool00moor
-GET: 244  - deathbenotproud000gunt
-GET: 346  - crookedlittlehe000lamo
-GET: 506  - roadtodune00herb
-GET: 218  - intoforestnovel00hegl
-GET: 394  - betweenrockandha00rals
-GET: 38   - eachlivingthing00ryde
-GET: 262  - closetofamous00baue
-GET: 18   - shoppingatsuperm0000depr
-GET: 326  - atswimtwobirdsobri00obri
-GET: 262  - brotherskeepers00wide
-GET: 42   - iknowoldladywhos00jack_0
-GET: 46   - howmuchismillion00schw
-GET: 68   - knightsofkitchen1993scie
-GET: 42   - bigchickens00hela
-GET: 230  - quicksand00lars
-GET: 42   - celebratingramad00hoyt
-GET: 422  - atcrossingplaces00cro_4ts
-GET: 538  - callofwildthe00lond
-GET: 420  - judeobscure100hard
-GET: 458  - darwinsradio00bear_0
-GET: 230  - rollofthunderheatayl00tayl
-GET: 280  - crispincrossofle00avi1
-GET: 42   - babybirdsfirstne00asch
-GET: 440  - chapterhousedune00herb_0
-GET: 34   - slowlyslowlyslow00carl
-GET: 234  - acrosslines00reed_0
-GET: 134  - arthurforveryfir00macl
-GET: 342  - coppersun00drap
-GET: 150  - corruption00benj
-GET: 326  - deathinveniceot000mann
-GET: 186  - atticusofrome30b00dene
-GET: 102  - animalfarm0000wald
-GET: 374  - twelfthnighthaml00shak
-GET: 42   - letscountitoutje00carl
-GET: 102  - littlewomen00esco
-GET: 34   - citylullaby00sing
-GET: 230  - alchemy0000mahy
-GET: 530  - grapesofwrath00stei_0
-GET: 42   - comingonhomesoon00wood
-GET: 70   - angusmcbean0000mcbe
-GET: 182  - crash00spin
-GET: 38   - bracelet00uchi_0
-GET: 296  - billybuddsailoro00melv
-GET: 42   - asroadrunnerruns0000hart
-GET: 122  - iamamericantrues00stan_0
-GET: 154  - jimugly00flei_0
-GET: 42   - grandfathersjour00saya
-GET: 376  - burgersdaughter00gord
-GET: 34   - iloveyoupurplest00joos
-GET: 346  - bruiser00shus
-GET: 266  - greatfeudsinscie00hell_0
-GET: 42   - dangerearthquake00simo_0
-GET: 266  - bootcamp00stra
-GET: 324  - bonewars00davi
-GET: 30   - heidichildofmoun00spyr
-GET: 102  - astrobiology00grad
-GET: 506  - heroesofvalley00stro
-GET: 154  - commodoreperryin00blum
-GET: 42   - chickenlittle00embe
-GET: 566  - autobiographyofm0000twai
-GET: 250  - farnorthhob00hobb
-GET: 406  - coldsassytree00burn_1
-GET: 54   - bucklemyshoe00silv
-GET: 266  - dogtagsummer00part
-GET: 42   - harryterriblewh00gack
-GET: 182  - heartofchampion00deuk
-GET: 170  - chickenfeathers00cowl
-GET: 202  - badferr00ferr
-GET: 70   - haroldpurplecray00john
-GET: 250  - blackhorsesforki00mcca
-GET: 66   - blueberriesforsa00mccl_0
-GET: 42   - childrenofearthr00schi_1
-GET: 134  - daisymiller1986jame
-GET: 58   - blackberriesinda00juke_0
-GET: 186  - jumped00will
-GET: 310  - madamebovary1949flau
-GET: 138  - buddhaboy00koja_0
-GET: 42   - hildamustbedanci00wils
-GET: 38   - crictorunge00unge
-GET: 368  - forwardfoundatio00asim_0
-GET: 182  - bronxmasquerade000grim
-GET: 42   - istherereallyhu000curt
-GET: 36   - babushkasdoll0000pola_u9p0
-GET: 138  - insideout00true
-GET: 38   - 100daysofschool00trud_kve
-GET: 202  - boymeetsboy000levi
-GET: 42   - lookwhaticando00arue
-GET: 42   - mailingmay00tunn_0
-GET: 522  - adambede0000elio_d7o9
-GET: 326  - journeythroughge00dunh_0
-GET: 214  - bygreathornspoo000flei
-GET: 690  - lindbergh000berg
-GET: 154  - cricketintimessq00seld_0
-GET: 224  - harounseaofstori00rush_0
-GET: 202  - justella00hadd_0
-GET: 70   - makewayforduckl000mccl
-GET: 214  - bygreathornspoon00flei
-GET: 550  - lookhomewardang000wolf
-GET: 214  - innuevayork00mohr
-GET: 42   - book00lyon
-GET: 102  - commonsense50pain
-GET: 182  - frommixedupfiles1967koni
-GET: 38   - 1hunter00path
-GET: 42   - comealongdaisy00simm
-GET: 22   - corduroygoestosc00henn
-GET: 230  - gettingneartoba000coul
-GET: 134  - achinglyalice00phyl
-GET: 34   - kipperschristmas00inkp
-GET: 458  - incarceron00fish
-GET: 38   - lightning00simo_0
-GET: 42   - lookuplookdown00hoba
-GET: 54   - magicschoolbusex00cole_0
-GET: 102  - littlemermaidoth00ande
-GET: 522  - greatexpectation00dick_0
-GET: 390  - digitalfortress000brow
-GET: 38   - deepinforest00turk
-GET: 138  - diamondwillow00fros
-GET: 38   - anansitalkingmel00kimm
-GET: 42   - howmanywayscanyo00jenk
-GET: 548  - leavesofgrassinc00whit
-GET: 42   - diaryofworm00cron_0
-GET: 908  - londonshakespear05shak
-GET: 38   - areyousnail0000alle
-GET: 42   - comeonrain00hess
-GET: 42   - howbenfranklinst00scha
-GET: 278  - chasingredbird000cree
-GET: 42   - families00morr
-GET: 58   - bunnydays00nyeu
-GET: 234  - lizziebrightbuc00schm
-GET: 182  - wherewestandclas0000hook
-GET: 166  - bearstone00hobb
-GET: 30   - heidiadaptedfrom00spyr
-GET: 42   - henrysfirstmoonb00look
-GET: 42   - jazzymizmozetta00robe
-GET: 138  - howangelpeterson00paul_0
-GET: 36   - buenasnochesluna00brow_0
-GET: 250  - hoyos00sach
-GET: 102  - callitcourage00sper_0
-GET: 198  - fantasticvoyage1975asim
-GET: 38   - fossilstelloflon00alik
-GET: 414  - draculastoker00stok
-GET: 102  - heyworldhereiam00litt
-GET: 362  - intobeautifulnor00urre
-GET: 280  - buckingsarge00curt
-GET: 262  - blackwoman00toni
-GET: 282  - salvagebonesnove00ward
-GET: 170  - freewill00lync_0
-GET: 42   - howmanyfeetinbed00hamm_0
-GET: 250  - autobiographyoff00grea_0
-GET: 298  - fiveequationstha00guil_0
-GET: 42   - flyfree00thon
-GET: 102  - arsenicoldlace00kess
-GET: 150  - brianswinter00paul
-GET: 40   - diddinosaurshave00zoeh
-GET: 407  - cihm_95050
-GET: 446  - allwomenarewhite00hull
-GET: 312  - danielhalfhumang00chot
-GET: 566  - crankhopk00hopk
-GET: 246  - dubliners00joyc_3
-GET: 678  - threeromanplays00shak
-GET: 38   - corduroy1976free
-GET: 42   - fullofenergy00hewi
-GET: 130  - heddagablerdrama1272ibse
-GET: 50   - ifyoudecidetogot00mcnu
-GET: 138  - childrenofgreatd00free
-GET: 264  - tonimorrison00bloo
-GET: 340  - mosesmanofmounta00hurs_0
-GET: 182  - grasshoppersumme00turn
-GET: 254  - flagellants00poli
-GET: 42   - ada00pric
-GET: 216  - francie00engl
-GET: 58   - fables00lobe_0
-GET: 122  - howoliverolsonch00mill
-GET: 38   - doctordesotogoes00stei_0
-GET: 342  - newjimcrowmassin0000alex
-GET: 50   - bigbadbruce00peet
-GET: 66   - kipperstoz00inkp
-GET: 246  - isbn_9780385014809
-GET: 42   - 10000dresses00ewer
-GET: 202  - hatchet00paul_1
-GET: 42   - knowwhatisaw00fish
-GET: 50   - johnhenry00lest_0
-GET: 312  - andbandplayedon0000ward
-GET: 238  - aintiwoman00bell
-GET: 438  - jubileewalkm00walk
-GET: 150  - selectedpoems000broo
-GET: 564  - leavesofgrass1whit
-GET: 42   - jethrobyrdfairyc00grah
-GET: 42   - chestersway00henk_0
-GET: 154  - hurricanesong00volp
-GET: 300  - iolaleroyorshadoharp
-GET: 34   - iwentwalking00will_0
-GET: 438  - isbn_9780743226721
-GET: 454  - foundationsedge1983asim
-GET: 330  - birdsoffeatherno00wins
-GET: 202  - hush00wood
-GET: 136  - animalsontrailwi00pate
-GET: 46   - hipcat00lond
-GET: 40   - antcities00dorr
-GET: 200  - heartbeat00cree
-GET: 438  - homegirlsblackfe00smit
-GET: 96   - isbn_9781566892186
-GET: 38   - 123peas0000bake
-GET: 54   - irasleepsover00wabe
-GET: 166  - jamesgiantpeach00dahl_1
-GET: 148  - journeyhome000uchi
-GET: 42   - howwhaleswalkedi00mcnu
-GET: 42   - graphicalphabet00pell
-GET: 170  - faithelectricdog00jenn
-GET: 292  - invisibilityblue0000wall
-GET: 56   - gusgrandpaatbask00mill
-GET: 122  - locomotion00wood_0
-GET: 46   - 13words0000snic
-GET: 214  - justsostories00kipl_0
 ISBN not found for book: `Heidi`
 ISBN not found for book: `The turn of the screw, and Daisy Miller`
 ISBN not found for book: `Ivanhoe : a romance`
@@ -1119,509 +618,234 @@ ISBN not found for book: `1-2-3 peas`
 ISBN not found for book: `13 words`
 ISBN not found for book: `Selected poems`
 ISBN not found for book: `Invisibility blues : from pop to theory`
-Invalid authors: `Aliki.`
-Invalid authors: `Avi, 1937-`
-Invalid authors: `urn:isbn:8449500877`
 Invalid authors: ``
 Invalid authors: `Avi, 1937-`
+ISBN not found for book: `Heidi`
+ISBN not found for book: `The turn of the screw, and Daisy Miller`
+ISBN not found for book: `Ivanhoe : a romance`
+ISBN not found for book: `Catch-22`
+ISBN not found for book: `Crictor`
+ISBN not found for book: `Charlie et la chocolaterie`
+ISBN not found for book: `The Red Record: Tabulated Statistics and Alleged Causes of Lynching in the United States`
+ISBN not found for book: `Heidi`
+ISBN not found for book: `At this very moment`
+ISBN not found for book: `Big plans`
+ISBN not found for book: `Maud Martha`
+ISBN not found for book: `Our Nig; or, Sketches from the life of a free black in a two-story white house, North`
+ISBN not found for book: `Five plays`
+ISBN not found for book: `Bronzeville boys and girls`
+ISBN not found for book: `Little Stevie Wonder`
+ISBN not found for book: `Scott's Ivanhoe`
+ISBN not found for book: `Tragedies II: Romeo and Juliet, Othello, King Lear. With biographical illus. and pictures of the setting of the plays`
+ISBN not found for book: `And then there were none`
+ISBN not found for book: `Black and blue magic`
+ISBN not found for book: `Cool Daddy Rat`
+ISBN not found for book: `Three tragedies: Julius Caesar, Hamlet, Macbeth`
+ISBN not found for book: `Around one cactus : owls, bats, and leaping rats`
+ISBN not found for book: `Alice alone`
+ISBN not found for book: `Annie, Bea, and Chi Chi Dolores : a school day alphabet`
+ISBN not found for book: `Alexander, who's not (Do you hear me? I mean it!) going to move`
+ISBN not found for book: `Gulliver's travels`
+ISBN not found for book: `Hedda Gabler`
+ISBN not found for book: `Alice in Wonderland`
+ISBN not found for book: `Acceleration`
+ISBN not found for book: `John Steinbeck's The grapes of wrath`
+ISBN not found for book: `Incidents in the life of a slave girl.`
+ISBN not found for book: `Babe : the gallant pig`
+Invalid authors: `Aliki.`
+Invalid authors: `Avi, 1937-`
+ISBN not found for book: `Ender's game`
+ISBN not found for book: `Henry and Beezus`
+ISBN not found for book: `The salt eaters`
+ISBN not found for book: `Abel's island`
+ISBN not found for book: `26 Fairmount Avenue`
+ISBN not found for book: `Among the hidden`
+ISBN not found for book: `Angle of repose`
+Invalid authors: `urn:isbn:8449500877`
+ISBN not found for book: `urn:isbn:8441411980`
+ISBN not found for book: `Anahita's woven riddle`
+ISBN not found for book: `Away to the goldfields!`
+ISBN not found for book: `King Henry IV, part I. Twelfth night. Tragedy of King Lear. The tempest`
+ISBN not found for book: `Abe Lincoln remembers`
+ISBN not found for book: `An abundance of Katherines`
+ISBN not found for book: `4 classic American novels`
+ISBN not found for book: `Birmingham, 1963`
+ISBN not found for book: `Courage`
+ISBN not found for book: `Dear Mr. Henshaw`
+ISBN not found for book: `Deception point`
+ISBN not found for book: `Four short stories`
+ISBN not found for book: `Ethan Frome with connections`
+ISBN not found for book: `A my name is Alice`
+ISBN not found for book: `Katie's Sunday afternoon`
+ISBN not found for book: `As the roadrunner runs : a first book of maps`
+Invalid authors: ``
+ISBN not found for book: `Acceptable risk`
+ISBN not found for book: `Anthills of the savannah`
+ISBN not found for book: `Are you a snail?`
+ISBN not found for book: `The birthday swap`
+ISBN not found for book: `Little women`
+ISBN not found for book: `Amazing grace`
+ISBN not found for book: `The autobiography of Mark Twain`
+ISBN not found for book: `Jude the obscure`
+ISBN not found for book: `At Swim-Two-Birds`
+ISBN not found for book: `Atticus of Rome`
+ISBN not found for book: `Astrobiology`
+ISBN not found for book: `Brave new world : a novel`
+ISBN not found for book: `Twelfth night. Hamlet`
+ISBN not found for book: `The call of the wild, The cruise of the Dazzler, and other stories of adventure, with the author's special report: Gold hunters of the North`
+ISBN not found for book: `Shopping at the supermarket`
+ISBN not found for book: `Quicksand`
+ISBN not found for book: `Roll of thunder, hear my cry`
+Invalid authors: `Avi, 1937-`
+ISBN not found for book: `Crispin : the cross of lead`
+ISBN not found for book: `Adam Bede`
+ISBN not found for book: `Alchemy`
+ISBN not found for book: `Angus McBean`
+ISBN not found for book: `Bone Wars`
+ISBN not found for book: `City Lullaby`
+ISBN not found for book: `Animal farm`
+ISBN not found for book: `The Grapes of wrath`
+ISBN not found for book: `Heidi, child of the mountains : adapted and abridged from the famous story`
+ISBN not found for book: `Crictor`
+ISBN not found for book: `Jazzy Miz Mozetta`
+ISBN not found for book: `Forward the foundation`
+ISBN not found for book: `Madame Bovary`
+ISBN not found for book: `Babushka's Doll`
+ISBN not found for book: `The London Shakespeare; a new annotated and critical edition of the complete works in six volumes`
+ISBN not found for book: `Bunny days`
+ISBN not found for book: `Know what I saw?`
+ISBN not found for book: `Common sense`
 Invalid authors: `809199`
+ISBN not found for book: `urn:isbn:3869304626`
+ISBN not found for book: `Digital fortress`
+ISBN not found for book: `Leaves of grass. Including a fac-simile autobiography, variorum readings of the poems, and a department of Gathered leaves`
+ISBN not found for book: `Great expectations`
+ISBN not found for book: `Fly free!`
+ISBN not found for book: `Heidi adapted from the original story`
+ISBN not found for book: `Where we stand : class matters`
 Invalid authors: `Aliki`
-GET: 130  - ivybean00barr
-GET: 134  - heidispryi00spyr
-GET: 34   - centralparkseren00godw
-GET: 56   - crickwing00cann
-GET: 326  - chinamen00king_0
-GET: 38   - chickenlittle00kell
-GET: 424  - waitingtoexhalemcmil00mcmi
-GET: 340  - isbn_9780385901086
-GET: 426  - friedgreentomato00flag_0
-GET: 50   - bigplans00shea
-GET: 50   - celiacruzqueenof00cham
-GET: 230  - dancinginredshoe00cirr
-GET: 330  - heartofsamuraiba00preu
-GET: 372  - heidi100spyr
-GET: 134  - maudmartha00broo
-GET: 314  - forloveglory00ande
-GET: 42   - howmyfamilylives00kukl
-GET: 322  - atriskhoffman00hoff
-GET: 244  - charlieetlachoco00biet
-GET: 470  - catch2200hell
-GET: 126  - topdogunderdog00park
-GET: 42   - grandaddysstars00grif
-GET: 42   - boobyhatch00lewi
-GET: 34   - atthisverymoment0000arno
-GET: 218  - howilivenow00roso
-GET: 170  - 19varietiesofgaz00nyen
-GET: 166  - anniejohn100kinc
-GET: 330  - cantoranovel00lope
-GET: 156  - ournigorsketches00wilsrich
-GET: 326  - heartofdarkness200conr
-GET: 46   - isforphotographe00hore
-GET: 46   - baloneyhenryp00scie
-GET: 38   - abuelasweave00cast
-GET: 40   - cloudywithchance00barr
-GET: 58   - bronzevilleboys100broo
-GET: 42   - andstillturtlewa00macg
-GET: 46   - jimbeanstalk00brig
-GET: 42   - littlesteviewond00trou
-GET: 234  - diaryofwimpykidd00kinn
-GET: 198  - homelessbird00whel
-GET: 510  - fiveplays00shak
-GET: 118  - blackstarbright00odel
-GET: 38   - benstrumpet00isad
-GET: 42   - bigbugbook00fack
-GET: 230  - ludiessong00herl_0
-GET: 44   - prehistoricactua00jenk
+ISBN not found for book: `Arsenic and old lace`
+ISBN not found for book: `Hedda Gabler : drama en cuatro actos`
+ISBN not found for book: `Three Roman plays`
+ISBN not found for book: `Gus and Grandpa at basketball`
+ISBN not found for book: `Jubilee`
+ISBN not found for book: `The new Jim Crow : mass incarceration in the age of colorblindness`
+ISBN not found for book: `And the band played on`
+ISBN not found for book: `Iola Leroy, or, Shadows uplifted`
+ISBN not found for book: `Leaves of grass`
+ISBN not found for book: `Animals on the trail with Lewis and Clark`
+ISBN not found for book: `1-2-3 peas`
+ISBN not found for book: `13 words`
+ISBN not found for book: `Selected poems`
+ISBN not found for book: `Invisibility blues : from pop to theory`
+Invalid authors: ``
+Invalid authors: `Avi, 1937-`
 GET: 624  - scottsivanhoe00scot
-GET: 182  - andthentherewerechri00chri
-GET: 234  - chinhomineyssecr00kimn
-GET: 42   - dogs00gibb
-GET: 206  - chandassecrets00stra
-GET: 246  - sassafrasscypres00shan
-GET: 122  - bugboy00sone
-GET: 200  - blackbluemagic000snyd
-GET: 122  - lovethatdog00cree_0
-GET: 42   - baloneyhenryp00scie_0
-GET: 324  - assemblingcalifo00mcph
-GET: 32   - isyourmamallamat00guar
-GET: 328  - colorofsea00hama_0
-GET: 262  - drift00mart
-GET: 36   - lookwhoooscounti00macd
-GET: 42   - cooldaddyrat00crow
-GET: 250  - gibgrayghost00snyd
-GET: 86   - williamfaulkners00barn
-GET: 46   - bestbugparade00murp
-GET: 138  - kissingtennessee00appe
-GET: 414  - whenwhereienter00paul
-GET: 136  - frenchtownsummer00corm_0
-GET: 182  - dolphinsoflauren00lawr_0
-GET: 394  - threetragediesju00shak
-GET: 42   - gorilla00brow
-GET: 42   - drawmestar00carl
-GET: 38   - graciasthanksgiv00cowl_0
-GET: 402  - tragediesiiromeo00shak
-GET: 202  - charliepippin00boyd
-GET: 54   - chickensarentonl00hell
-GET: 38   - bravolivingstone00edwa
-GET: 202  - becomingfelix00wils
-GET: 42   - flashcrashrumble00bran_1
-GET: 294  - womenraceclasswo00ange
-GET: 218  - jackieswildseatt00hobb_0
-GET: 58   - goodluckgoldothe00wong
-GET: 266  - isbn_9780027425000
-GET: 38   - alexanderwhosnot00vior
-GET: 198  - waltwhitmansleav00whit
-GET: 54   - iriswalterslee00gues
-GET: 186  - fallinguppoemsdr00silv_0
-GET: 50   - ihavedream00king_0
-GET: 262  - jazznovel00morr
-GET: 374  - 101thingsyoudont00tref
-GET: 326  - gulliverstravels1948swif
-GET: 180  - aleutiansparrow00hess
-GET: 394  - killingblackbody00robe
-GET: 190  - aliceinwonderlan00lewi_7
-GET: 226  - acceleration0000mcna_a7l7
-GET: 138  - leonardodavinci00krul
 GET: 628  - ivanhoeromancescot
-GET: 470  - lambgospelaccord00moor
-GET: 34   - angelinainwings00hola
-GET: 42   - insmallsmallpond00flem_0
-GET: 174  - johnsteinbecksgr00gala
-GET: 246  - deathbenotproudmgunt00gunt
-GET: 42   - baldeagle00morr
-GET: 42   - firstdayingrapes00pacu
-GET: 54   - alicealone0000ishe
-GET: 294  - houseofdiesdrear00hami_0
-GET: 166  - journeytoamerica00levi_0
-GET: 58   - journeyintorainf00knig
-GET: 390  - auntjuliascript00varg
-GET: 154  - baby000macl
-GET: 38   - aroundonecactuso0000fred
-GET: 186  - beforewewerefree00alva
-GET: 198  - turnofscrewdaisy00jame
-GET: 182  - gingerbread000cohn
-GET: 186  - beyondmangotree00zems
-GET: 230  - girlhearts00maze
-GET: 42   - blackisbrownista00adof
-GET: 42   - howdobirdsfindth00gans
-GET: 294  - growingup04bake
-GET: 294  - blackpicketfence00mary
-GET: 650  - greatmigration00wilk
 GET: 134  - heddagabler00ibse
-GET: 250  - jasonsgold00hobb_0
-GET: 42   - farming00gibb
-GET: 422  - homecoming00voig_0
-GET: 38   - everybodyneedsro00bayl
-GET: 154  - junebugintrouble00mead
-GET: 296  - heartofwomanange00ange
-GET: 34   - nonotitus00masu
-GET: 42   - arcticlightsarct00mill
-GET: 46   - anniebeachichido0000maur_z8l2
-GET: 184  - thebanplays00soph
-GET: 218  - listeningforlion00whel_0
-GET: 42   - guesswhatisgrowi00posa
-GET: 454  - street00annp
-GET: 250  - bystander00prel
-GET: 230  - catherinecalledb00cush
-GET: 42   - diggingupdinosau00alik_0
-GET: 278  - houseofdance00keph
-GET: 298  - johnnytremainnov00forb_0
-GET: 246  - girlwithpearlear2003chev
-GET: 226  - childofdandelion00nanj
-GET: 38   - howmyparentslear00frie
-GET: 230  - democracy00didi
-GET: 438  - comingintocountr00mcph
-GET: 198  - doubledutch00drap
-GET: 28   - blackmeetswhite00font
-GET: 42   - goodnightbabybea00asch
-GET: 342  - endersgame00card_0
-GET: 262  - doomedqueenanne00meye_0
-GET: 42   - beinwithyouthisw00niko
-GET: 138  - greenangel00hoff_0
-GET: 118  - dawn00wies
-GET: 202  - ifyoucomesoftly00wood
-GET: 166  - hiroshima00hers_0
-GET: 230  - downriver000hobb
-GET: 138  - daughterofsea00dohe
-GET: 262  - budnotbuddy00curt_0
-GET: 38   - bunyans00wood
-GET: 310  - salteaters0000bamb
-GET: 198  - acrossfiveaprils00iren_0
-GET: 278  - breath00napo
-GET: 214  - henrybeezus00clea_0
-GET: 38   - lamunecadeelizab00stuv
-GET: 130  - abelsisland0000stei
-GET: 90   - animalsasleep00robe
-GET: 214  - annatoinfinitepo00ames
-GET: 200  - adventuresofhuck00staf
-GET: 56   - annieoldone00mile
-GET: 42   - blackwhite00maca
-GET: 262  - countdown00mika_0
-GET: 42   - coyotesallaround00murp
-GET: 38   - alincolnme00bord
-GET: 78   - 26fairmountavenu0000depa_c3u1
-GET: 250  - crispinatedgeof00avi1
-GET: 118  - angleofrepose00pesk
-GET: 166  - amonghiddenshado00marg_0
-GET: 266  - drfranklinsislan00hala
-GET: 232  - passinglars00lars
-GET: 390  - anahitaswovenrid0001sayr
-GET: 520  - bornconfused00desa
-GET: 214  - growingwings00wint
-GET: 40   - growingvegetable00ehle_0
-GET: 40   - 10littlerubberdu00carl
 GET: 42   - crictor00unge
-GET: 154  - closetoshoreterr00capu
-GET: 218  - cowboyghost00peck_0
-GET: 42   - belindaballerina00youn
-GET: 118  - jazminsnotebook00grim_0
-GET: 102  - indigo000hoff
-GET: 170  - lettersfromrif00hess
-GET: 38   - killerwhales00simo
-GET: 30   - americabeautiful00scho
-GET: 326  - thereisconfusion00faus
-GET: 50   - 999tadpoles00kenk
-GET: 442  - dracula1998stok
-GET: 360  - animaldreamsnove00king
-GET: 202  - isbn_0766607135
-GET: 38   - bracelet00uchi_0
-GET: 138  - keeshashouse00fros
-GET: 42   - hondofabian00mcca
-GET: 506  - kinghenryivparti00shak
-GET: 874  - junglebooksecondkipl00kipl
-GET: 38   - abelincolnrememb0000turn
-GET: 200  - canyons00paul_0
-GET: 250  - julie00geor_0
-GET: 56   - animalsbornalive00hell
-GET: 266  - awaytogoldfields00derb_0
-GET: 218  - emmajeanlazarusf00tars_0
-GET: 150  - deathofsalesmanc1977mill
-GET: 276  - blessmeultima00anay
-GET: 90   - everywhere00broo
-GET: 170  - indianchiefs00free
-GET: 50   - birmingham196300weat
-GET: 246  - gulliverstravels1996swif
-GET: 310  - crybelovedcountr00pato
-GET: 354  - intimeofbutter00alva
-GET: 314  - hoteloncornerofb00ford
-GET: 314  - citiesofplain00mcca
-GET: 42   - ellasarahgetsdre00chod
-GET: 244  - deathbenotproud000gunt
-GET: 42   - courage00wabe
-GET: 42   - chrysanthemum00henk_0
-GET: 182  - everytimerainbow00will_0
-GET: 118  - childrenofwildwe00frie
-GET: 166  - dearmrhenshaw00clea_0
-GET: 34   - babyduckbadeye00hest
-GET: 58   - animalsense00acke
-GET: 298  - littlebee00clea
-GET: 170  - dillondillon00bank
-GET: 42   - froggygoestobed00lond_0
-GET: 282  - flush00hiaa
-GET: 758  - deceptionpoint100brow
-GET: 34   - fivelittlechicks00tafu
-GET: 506  - anniebetweenstat00elli
-GET: 266  - becomingnaomileo00ryan
-GET: 262  - downsiders00shus
-GET: 294  - fourshortstories00melv
+GET: 38   - alexanderwhosnot00vior
+GET: 46   - anniebeachichido0000maur_z8l2
+GET: 130  - abelsisland0000stei
+GET: 310  - salteaters0000bamb
+GET: 42   - littlesteviewond00trou
+GET: 342  - endersgame00card_0
+GET: 326  - gulliverstravels1948swif
+GET: 182  - andthentherewerechri00chri
 GET: 278  - abundanceofkathe0000gree_y0c3
-GET: 250  - darkwaterrising00hale
+GET: 78   - 26fairmountavenu0000depa_c3u1
+GET: 190  - aliceinwonderlan00lewi_7
+GET: 758  - deceptionpoint100brow
+GET: 166  - amonghiddenshado00marg_0
+GET: 214  - henrybeezus00clea_0
+GET: 506  - kinghenryivparti00shak
+GET: 402  - tragediesiiromeo00shak
+GET: 174  - johnsteinbecksgr00gala
+GET: 58   - bronzevilleboys100broo
+GET: 266  - awaytogoldfields00derb_0
+GET: 54   - alicealone0000ishe
+GET: 38   - aroundonecactuso0000fred
+GET: 200  - blackbluemagic000snyd
 GET: 742  - 4classicamerica000hawt
-GET: 32   - bugsbugsbugs00barn_0
-GET: 166  - frozenstiff00shah
-GET: 46   - emelineatcircus00pric
+GET: 470  - catch2200hell
+GET: 166  - dearmrhenshaw00clea_0
 GET: 246  - anthillsofsavann0000ache_d2w5
-GET: 70   - knightsofkitchen00scie_0
-GET: 214  - acceptablerisk0000unse_c6n4
-GET: 202  - badferr00ferr
-GET: 42   - mynameisalice0000baye
-GET: 234  - acrosslines00reed_0
-GET: 518  - foundationearth00asim
-GET: 42   - arrowhawk00scha
-GET: 170  - grannytorrellima00cree_0
-GET: 550  - dune00herb
-GET: 34   - anotherimportant00brow
-GET: 50   - autumnleaves00robb
-GET: 186  - darknessoverdenm00levi
-GET: 38   - bugsafari00barn
-GET: 364  - askmenoquestionsver00very
-GET: 234  - annaofbyzantium00barr_0
-GET: 218  - intoforestnovel00hegl
-GET: 166  - bearstone00hobb
-GET: 38   - areyousnail0000alle
-GET: 102  - littlewomen00esco
-GET: 40   - alexanderwhoused00vior
-GET: 50   - bicycleman00saya_0
-GET: 42   - letscountitoutje00carl
-GET: 282  - bravingelementst00lask
-GET: 42   - asroadrunnerruns0000hart
-GET: 322  - amazinggrace0000lind
-GET: 202  - lordofdeep00sali
-GET: 42   - cinderellasrat00medd
-GET: 42   - birthdayswap0000lope
-GET: 186  - atticusofrome30b00dene
-GET: 236  - afterdancingdays00rost
-GET: 326  - atswimtwobirdsobri00obri
-GET: 70   - haroldpurplecray00john
-GET: 374  - twelfthnighthaml00shak
-GET: 566  - autobiographyofm0000twai
-GET: 102  - astrobiology00grad
-GET: 58   - justdream00vana
 GET: 330  - bravenewworld00huxl
-GET: 240  - abelincolngrowsu00carl
-GET: 346  - fool00moor
 GET: 420  - judeobscure100hard
-GET: 182  - heartofchampion00deuk
-GET: 538  - callofwildthe00lond
-GET: 330  - insunburnedcount00brys
-GET: 42   - chickenlittle00embe
-GET: 68   - knightsofkitchen1993scie
-GET: 42   - dolleymadisonsav00brow
-GET: 506  - roadtodune00herb
-GET: 18   - shoppingatsuperm0000depr
-GET: 42   - iknowoldladywhos00jack_0
-GET: 46   - howmuchismillion00schw
-GET: 42   - intalltallgrass00flem
-GET: 346  - crookedlittlehe000lamo
-GET: 154  - heaven00john
-GET: 42   - dangerearthquake00simo_0
-GET: 136  - aldoapplesauce00hurw
-GET: 202  - boymeetsboy000levi
-GET: 458  - darwinsradio00bear_0
-GET: 66   - blueberriesforsa00mccl_0
-GET: 42   - justanotherordin00clem
-GET: 38   - eachlivingthing00ryde
-GET: 154  - commodoreperryin00blum
-GET: 42   - celebratingramad00hoyt
-GET: 262  - brotherskeepers00wide
-GET: 182  - changesinlatitud00hobb
-GET: 326  - dinnerathomesick00tyle_0
-GET: 394  - betweenrockandha00rals
-GET: 42   - bigchickens00hela
-GET: 330  - incompletereveng00wins
-GET: 154  - cricketintimessq00seld_0
-GET: 342  - coppersun00drap
-GET: 134  - arthurforveryfir00macl
-GET: 280  - crispincrossofle00avi1
-GET: 250  - farnorthhob00hobb
-GET: 326  - deathinveniceot000mann
-GET: 422  - atcrossingplaces00cro_4ts
-GET: 170  - ethanfromewithco00whar
-GET: 522  - adambede0000elio_d7o9
-GET: 202  - luckybreaks00patr
-GET: 440  - chapterhousedune00herb_0
-GET: 230  - quicksand00lars
-GET: 230  - alchemy0000mahy
-GET: 266  - dogtagsummer00part
-GET: 376  - burgersdaughter00gord
-GET: 42   - babybirdsfirstne00asch
-GET: 262  - closetofamous00baue
-GET: 70   - angusmcbean0000mcbe
-GET: 324  - bonewars00davi
-GET: 296  - billybuddsailoro00melv
-GET: 250  - blackhorsesforki00mcca
-GET: 54   - bucklemyshoe00silv
-GET: 406  - coldsassytree00burn_1
-GET: 42   - childrenofearthr00schi_1
-GET: 346  - bruiser00shus
-GET: 214  - bygreathornspoo000flei
-GET: 34   - citylullaby00sing
-GET: 170  - chickenfeathers00cowl
-GET: 42   - katiessundayafte00mayh
-GET: 266  - bootcamp00stra
-GET: 266  - greatfeudsinscie00hell_0
-GET: 134  - daisymiller1986jame
-GET: 102  - animalfarm0000wald
-GET: 154  - jimugly00flei_0
-GET: 530  - grapesofwrath00stei_0
-GET: 42   - grandfathersjour00saya
-GET: 138  - buddhaboy00koja_0
-GET: 30   - heidichildofmoun00spyr
-GET: 150  - corruption00benj
-GET: 326  - journeythroughge00dunh_0
-GET: 224  - harounseaofstori00rush_0
-GET: 138  - insideout00true
-GET: 42   - comingonhomesoon00wood
-GET: 122  - iamamericantrues00stan_0
-GET: 42   - jazzymizmozetta00robe
-GET: 374  - diceyssong00voig_0
-GET: 182  - crash00spin
-GET: 42   - istherereallyhu000curt
-GET: 214  - innuevayork00mohr
-GET: 506  - heroesofvalley00stro
-GET: 70   - makewayforduckl000mccl
-GET: 182  - frommixedupfiles1967koni
-GET: 368  - forwardfoundatio00asim_0
-GET: 362  - intobeautifulnor00urre
-GET: 42   - mailingmay00tunn_0
-GET: 36   - babushkasdoll0000pola_u9p0
-GET: 182  - bronxmasquerade000grim
-GET: 230  - gettingneartoba000coul
-GET: 202  - justella00hadd_0
-GET: 38   - 100daysofschool00trud_kve
-GET: 58   - blackberriesinda00juke_0
-GET: 38   - crictorunge00unge
-GET: 186  - jumped00will
-GET: 38   - 1hunter00path
-GET: 690  - lindbergh000berg
-GET: 38   - lightning00simo_0
-GET: 908  - londonshakespear05shak
+GET: 566  - autobiographyofm0000twai
+GET: 390  - anahitaswovenrid0001sayr
+GET: 42   - cooldaddyrat00crow
+GET: 118  - angleofrepose00pesk
+GET: 42   - courage00wabe
 GET: 230  - rollofthunderheatayl00tayl
-GET: 42   - lookwhaticando00arue
-GET: 34   - slowlyslowlyslow00carl
-GET: 42   - harryterriblewh00gack
-GET: 42   - lookuplookdown00hoba
-GET: 42   - hildamustbedanci00wils
-GET: 58   - bunnydays00nyeu
-GET: 42   - book00lyon
-GET: 22   - corduroygoestosc00henn
-GET: 138  - diamondwillow00fros
-GET: 42   - knowwhatisaw00fish
-GET: 102  - callitcourage00sper_0
-GET: 54   - magicschoolbusex00cole_0
-GET: 102  - commonsense50pain
-GET: 550  - lookhomewardang000wolf
-GET: 42   - diaryofworm00cron_0
-GET: 150  - brianswinter00paul
-GET: 42   - howmanywayscanyo00jenk
-GET: 134  - achinglyalice00phyl
-GET: 42   - comeonrain00hess
-GET: 34   - iloveyoupurplest00joos
-GET: 38   - anansitalkingmel00kimm
-GET: 407  - cihm_95050
-GET: 390  - digitalfortress000brow
-GET: 38   - deepinforest00turk
-GET: 214  - bygreathornspoon00flei
-GET: 522  - greatexpectation00dick_0
-GET: 234  - lizziebrightbuc00schm
-GET: 458  - incarceron00fish
-GET: 280  - buckingsarge00curt
-GET: 312  - danielhalfhumang00chot
-GET: 30   - heidiadaptedfrom00spyr
-GET: 42   - henrysfirstmoonb00look
-GET: 278  - chasingredbird000cree
-GET: 34   - kipperschristmas00inkp
-GET: 36   - buenasnochesluna00brow_0
-GET: 122  - locomotion00wood_0
-GET: 42   - flyfree00thon
-GET: 182  - wherewestandclas0000hook
-GET: 42   - families00morr
-GET: 102  - heyworldhereiam00litt
-GET: 42   - howbenfranklinst00scha
-GET: 198  - fantasticvoyage1975asim
-GET: 214  - justsostories00kipl_0
-GET: 262  - blackwoman00toni
-GET: 102  - littlemermaidoth00ande
+GET: 42   - asroadrunnerruns0000hart
+GET: 102  - littlewomen00esco
+GET: 522  - adambede0000elio_d7o9
+GET: 38   - abelincolnrememb0000turn
+GET: 280  - crispincrossofle00avi1
+GET: 322  - amazinggrace0000lind
+GET: 230  - quicksand00lars
+GET: 134  - heidispryi00spyr
+GET: 326  - atswimtwobirdsobri00obri
+GET: 368  - forwardfoundatio00asim_0
+GET: 374  - twelfthnighthaml00shak
+GET: 214  - acceptablerisk0000unse_c6n4
 GET: 548  - leavesofgrassinc00whit
-GET: 414  - draculastoker00stok
-GET: 250  - hoyos00sach
-GET: 42   - howmanyfeetinbed00hamm_0
-GET: 170  - faithelectricdog00jenn
-GET: 42   - jethrobyrdfairyc00grah
-GET: 170  - freewill00lync_0
-GET: 264  - tonimorrison00bloo
-GET: 138  - howangelpeterson00paul_0
-GET: 34   - iwentwalking00will_0
-GET: 42   - comealongdaisy00simm
-GET: 102  - arsenicoldlace00kess
-GET: 38   - fossilstelloflon00alik
-GET: 50   - ifyoudecidetogot00mcnu
-GET: 38   - corduroy1976free
-GET: 250  - autobiographyoff00grea_0
-GET: 454  - foundationsedge1983asim
-GET: 340  - mosesmanofmounta00hurs_0
-GET: 216  - francie00engl
-GET: 122  - howoliverolsonch00mill
-GET: 678  - threeromanplays00shak
-GET: 254  - flagellants00poli
-GET: 330  - birdsoffeatherno00wins
-GET: 38   - doctordesotogoes00stei_0
-GET: 42   - fullofenergy00hewi
-GET: 246  - dubliners00joyc_3
-GET: 40   - diddinosaurshave00zoeh
-GET: 566  - crankhopk00hopk
-GET: 282  - salvagebonesnove00ward
-GET: 96   - isbn_9781566892186
-GET: 312  - andbandplayedon0000ward
-GET: 58   - fables00lobe_0
-GET: 56   - gusgrandpaatbask00mill
-GET: 50   - bigbadbruce00peet
-GET: 438  - jubileewalkm00walk
-GET: 446  - allwomenarewhite00hull
-GET: 278  - juliuscaesar00shak_1
-GET: 238  - aintiwoman00bell
-GET: 42   - ada00pric
-GET: 42   - graphicalphabet00pell
-GET: 182  - grasshoppersumme00turn
-GET: 438  - isbn_9780743226721
-GET: 342  - newjimcrowmassin0000alex
-GET: 46   - hipcat00lond
-GET: 298  - fiveequationstha00guil_0
-GET: 202  - hatchet00paul_1
-GET: 40   - antcities00dorr
-GET: 42   - 10000dresses00ewer
+GET: 18   - shoppingatsuperm0000depr
+GET: 34   - citylullaby00sing
+GET: 390  - digitalfortress000brow
+GET: 42   - katiessundayafte00mayh
+GET: 530  - grapesofwrath00stei_0
+GET: 36   - babushkasdoll0000pola_u9p0
+GET: 102  - commonsense50pain
+GET: 102  - animalfarm0000wald
+GET: 226  - acceleration0000mcna_a7l7
 GET: 130  - heddagablerdrama1272ibse
-GET: 246  - isbn_9780385014809
-GET: 166  - jamesgiantpeach00dahl_1
-GET: 50   - johnhenry00lest_0
-GET: 300  - iolaleroyorshadoharp
-GET: 38   - 123peas0000bake
-GET: 148  - journeyhome000uchi
-GET: 42   - howwhaleswalkedi00mcnu
-GET: 42   - chestersway00henk_0
-GET: 202  - hush00wood
-GET: 438  - homegirlsblackfe00smit
-GET: 46   - 13words0000snic
-GET: 136  - animalsontrailwi00pate
-GET: 150  - selectedpoems000broo
+GET: 58   - bunnydays00nyeu
+GET: 522  - greatexpectation00dick_0
+GET: 230  - alchemy0000mahy
+GET: 50   - birmingham196300weat
+GET: 102  - astrobiology00grad
+GET: 324  - bonewars00davi
 GET: 564  - leavesofgrass1whit
-GET: 292  - invisibilityblue0000wall
-GET: 154  - hurricanesong00volp
-GET: 66   - kipperstoz00inkp
-GET: 200  - heartbeat00cree
-GET: 54   - irasleepsover00wabe
+GET: 538  - callofwildthe00lond
+GET: 38   - crictorunge00unge
+GET: 38   - 123peas0000bake
+GET: 300  - iolaleroyorshadoharp
+GET: 244  - charlieetlachoco00biet
+GET: 30   - heidichildofmoun00spyr
+GET: 136  - animalsontrailwi00pate
+GET: 34   - atthisverymoment0000arno
+GET: 342  - newjimcrowmassin0000alex
+GET: 156  - ournigorsketches00wilsrich
+GET: 908  - londonshakespear05shak
+GET: 42   - knowwhatisaw00fish
+GET: 42   - jazzymizmozetta00robe
+GET: 198  - turnofscrewdaisy00jame
 GET: 310  - madamebovary1949flau
-GET: 138  - childrenofgreatd00free
+GET: 70   - angusmcbean0000mcbe
+GET: 42   - mynameisalice0000baye
+GET: 372  - heidi100spyr
+GET: 182  - wherewestandclas0000hook
+GET: 46   - 13words0000snic
+GET: 30   - heidiadaptedfrom00spyr
+GET: 150  - selectedpoems000broo
+GET: 312  - andbandplayedon0000ward
+GET: 438  - jubileewalkm00walk
+GET: 134  - maudmartha00broo
+GET: 678  - threeromanplays00shak
+GET: 170  - ethanfromewithco00whar
+GET: 50   - bigplans00shea
+GET: 42   - flyfree00thon
+GET: 186  - atticusofrome30b00dene
+GET: 42   - birthdayswap0000lope
+GET: 294  - fourshortstories00melv
+GET: 102  - arsenicoldlace00kess
+GET: 510  - fiveplays00shak
+GET: 38   - areyousnail0000alle
+GET: 394  - threetragediesju00shak
+GET: 56   - gusgrandpaatbask00mill
+GET: 292  - invisibilityblue0000wall
 ISBN not found for book: `Heidi`
 ISBN not found for book: `The turn of the screw, and Daisy Miller`
 ISBN not found for book: `Ivanhoe : a romance`

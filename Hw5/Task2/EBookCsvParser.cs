@@ -6,15 +6,17 @@ public class EBookCsvParser : AbstractCsvParser
 
     protected override (string, Book) ParseFields(string[] fields)
     {
-        var (title, releaseDate, authors) = ParseBookFields(fields);
+        if(fields[5] == "")
+        {
+            var (title, releaseDate, authors) = ParseBookFields(fields);
 
-        string[] formats = fields[1].Split(",");
-        string downloadUrl = fields[2];
+            string[] formats = fields[1].Split(",");
+            string downloadUrl = fields[2];
 
-        string identifier = fields[2];
-
-
-        return (identifier, new EBook(title, new HashSet<Author>(authors), releaseDate, downloadUrl, formats));
+            string identifier = fields[2];
+            return (identifier, new EBook(title, new HashSet<Author>(authors), releaseDate, downloadUrl, formats));
+        }
+        return default;
     }
     protected override bool isTypeCorrect(string[] fields)
     {

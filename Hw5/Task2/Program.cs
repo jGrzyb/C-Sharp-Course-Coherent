@@ -24,5 +24,5 @@ File.AppendAllText("output.txt", "\n\n\n" + paperLibrary.ToString());
 Directory.SetCurrentDirectory("pLib");
 repository.Save(paperLibrary.catalog);
 
-
-Console.WriteLine("\nEBooks pages downloaded!\n");
+Console.WriteLine($"{eLibrary.catalog.dictionary.Count} books in eLibrary");
+Console.WriteLine($"{paperLibrary.catalog.dictionary.Count} books in paperLibrary");
