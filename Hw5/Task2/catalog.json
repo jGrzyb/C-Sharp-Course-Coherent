@@ -1,0 +1,387 @@
+{
+  "dictionary": [
+    {
+      "author": {
+        "Name": "The Detection",
+        "Surname": "Club",
+        "BirthDate": "2001-01-01T00:00:00"
+      },
+      "BookEntries": [
+        {
+          "ISBN": "9780515110234",
+          "Book": {
+            "Title": "The Floating Admiral",
+            "ReleaseDate": "1990-05-10T00:00:00",
+            "Authors": [
+              {
+                "Name": "The Detection",
+                "Surname": "Club",
+                "BirthDate": "2001-01-01T00:00:00"
+              },
+              {
+                "Name": "G.K.",
+                "Surname": "Chesterton",
+                "BirthDate": "2000-02-05T00:00:00"
+              },
+              {
+                "Name": "Victor L.",
+                "Surname": "Whitechurch",
+                "BirthDate": "1999-07-04T00:00:00"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "author": {
+        "Name": "G.K.",
+        "Surname": "Chesterton",
+        "BirthDate": "2000-02-05T00:00:00"
+      },
+      "BookEntries": [
+        {
+          "ISBN": "9780515110234",
+          "Book": {
+            "Title": "The Floating Admiral",
+            "ReleaseDate": "1990-05-10T00:00:00",
+            "Authors": [
+              {
+                "Name": "The Detection",
+                "Surname": "Club",
+                "BirthDate": "2001-01-01T00:00:00"
+              },
+              {
+                "Name": "G.K.",
+                "Surname": "Chesterton",
+                "BirthDate": "2000-02-05T00:00:00"
+              },
+              {
+                "Name": "Victor L.",
+                "Surname": "Whitechurch",
+                "BirthDate": "1999-07-04T00:00:00"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "author": {
+        "Name": "Victor L.",
+        "Surname": "Whitechurch",
+        "BirthDate": "1999-07-04T00:00:00"
+      },
+      "BookEntries": [
+        {
+          "ISBN": "9780515110234",
+          "Book": {
+            "Title": "The Floating Admiral",
+            "ReleaseDate": "1990-05-10T00:00:00",
+            "Authors": [
+              {
+                "Name": "The Detection",
+                "Surname": "Club",
+                "BirthDate": "2001-01-01T00:00:00"
+              },
+              {
+                "Name": "G.K.",
+                "Surname": "Chesterton",
+                "BirthDate": "2000-02-05T00:00:00"
+              },
+              {
+                "Name": "Victor L.",
+                "Surname": "Whitechurch",
+                "BirthDate": "1999-07-04T00:00:00"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "author": {
+        "Name": "The medival",
+        "Surname": "Murders",
+        "BirthDate": "1980-03-06T00:00:00"
+      },
+      "BookEntries": [
+        {
+          "ISBN": "9780743285452",
+          "Book": {
+            "Title": "The Sword of Shame",
+            "ReleaseDate": "2006-01-01T00:00:00",
+            "Authors": [
+              {
+                "Name": "The medival",
+                "Surname": "Murders",
+                "BirthDate": "1980-03-06T00:00:00"
+              },
+              {
+                "Name": "Philip",
+                "Surname": "Gooden",
+                "BirthDate": "1898-02-03T00:00:00"
+              },
+              {
+                "Name": "Susanna",
+                "Surname": "Gregory",
+                "BirthDate": "1998-09-09T00:00:00"
+              },
+              {
+                "Name": "Michael",
+                "Surname": "Jecks",
+                "BirthDate": "2003-05-04T00:00:00"
+              },
+              {
+                "Name": "Brenard",
+                "Surname": "Knight",
+                "BirthDate": "2002-02-01T00:00:00"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "author": {
+        "Name": "Philip",
+        "Surname": "Gooden",
+        "BirthDate": "1898-02-03T00:00:00"
+      },
+      "BookEntries": [
+        {
+          "ISBN": "9780743285452",
+          "Book": {
+            "Title": "The Sword of Shame",
+            "ReleaseDate": "2006-01-01T00:00:00",
+            "Authors": [
+              {
+                "Name": "The medival",
+                "Surname": "Murders",
+                "BirthDate": "1980-03-06T00:00:00"
+              },
+              {
+                "Name": "Philip",
+                "Surname": "Gooden",
+                "BirthDate": "1898-02-03T00:00:00"
+              },
+              {
+                "Name": "Susanna",
+                "Surname": "Gregory",
+                "BirthDate": "1998-09-09T00:00:00"
+              },
+              {
+                "Name": "Michael",
+                "Surname": "Jecks",
+                "BirthDate": "2003-05-04T00:00:00"
+              },
+              {
+                "Name": "Brenard",
+                "Surname": "Knight",
+                "BirthDate": "2002-02-01T00:00:00"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "author": {
+        "Name": "Susanna",
+        "Surname": "Gregory",
+        "BirthDate": "1998-09-09T00:00:00"
+      },
+      "BookEntries": [
+        {
+          "ISBN": "9780743285452",
+          "Book": {
+            "Title": "The Sword of Shame",
+            "ReleaseDate": "2006-01-01T00:00:00",
+            "Authors": [
+              {
+                "Name": "The medival",
+                "Surname": "Murders",
+                "BirthDate": "1980-03-06T00:00:00"
+              },
+              {
+                "Name": "Philip",
+                "Surname": "Gooden",
+                "BirthDate": "1898-02-03T00:00:00"
+              },
+              {
+                "Name": "Susanna",
+                "Surname": "Gregory",
+                "BirthDate": "1998-09-09T00:00:00"
+              },
+              {
+                "Name": "Michael",
+                "Surname": "Jecks",
+                "BirthDate": "2003-05-04T00:00:00"
+              },
+              {
+                "Name": "Brenard",
+                "Surname": "Knight",
+                "BirthDate": "2002-02-01T00:00:00"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "author": {
+        "Name": "Michael",
+        "Surname": "Jecks",
+        "BirthDate": "2003-05-04T00:00:00"
+      },
+      "BookEntries": [
+        {
+          "ISBN": "9780743285452",
+          "Book": {
+            "Title": "The Sword of Shame",
+            "ReleaseDate": "2006-01-01T00:00:00",
+            "Authors": [
+              {
+                "Name": "The medival",
+                "Surname": "Murders",
+                "BirthDate": "1980-03-06T00:00:00"
+              },
+              {
+                "Name": "Philip",
+                "Surname": "Gooden",
+                "BirthDate": "1898-02-03T00:00:00"
+              },
+              {
+                "Name": "Susanna",
+                "Surname": "Gregory",
+                "BirthDate": "1998-09-09T00:00:00"
+              },
+              {
+                "Name": "Michael",
+                "Surname": "Jecks",
+                "BirthDate": "2003-05-04T00:00:00"
+              },
+              {
+                "Name": "Brenard",
+                "Surname": "Knight",
+                "BirthDate": "2002-02-01T00:00:00"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "author": {
+        "Name": "Brenard",
+        "Surname": "Knight",
+        "BirthDate": "2002-02-01T00:00:00"
+      },
+      "BookEntries": [
+        {
+          "ISBN": "9780743285452",
+          "Book": {
+            "Title": "The Sword of Shame",
+            "ReleaseDate": "2006-01-01T00:00:00",
+            "Authors": [
+              {
+                "Name": "The medival",
+                "Surname": "Murders",
+                "BirthDate": "1980-03-06T00:00:00"
+              },
+              {
+                "Name": "Philip",
+                "Surname": "Gooden",
+                "BirthDate": "1898-02-03T00:00:00"
+              },
+              {
+                "Name": "Susanna",
+                "Surname": "Gregory",
+                "BirthDate": "1998-09-09T00:00:00"
+              },
+              {
+                "Name": "Michael",
+                "Surname": "Jecks",
+                "BirthDate": "2003-05-04T00:00:00"
+              },
+              {
+                "Name": "Brenard",
+                "Surname": "Knight",
+                "BirthDate": "2002-02-01T00:00:00"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "author": {
+        "Name": "Michael",
+        "Surname": "Jecks",
+        "BirthDate": "1997-07-06T00:00:00"
+      },
+      "BookEntries": [
+        {
+          "ISBN": "9780060763442",
+          "Book": {
+            "Title": "The Last Templar",
+            "ReleaseDate": "1995-01-01T00:00:00",
+            "Authors": [
+              {
+                "Name": "Michael",
+                "Surname": "Jecks",
+                "BirthDate": "1997-07-06T00:00:00"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "author": {
+        "Name": "Michael",
+        "Surname": "Jecks",
+        "BirthDate": "1993-02-04T00:00:00"
+      },
+      "BookEntries": [
+        {
+          "ISBN": "9780060763466",
+          "Book": {
+            "Title": "The Merchant\u0027s Partner",
+            "ReleaseDate": "1996-06-13T00:00:00",
+            "Authors": [
+              {
+                "Name": "Michael",
+                "Surname": "Jecks",
+                "BirthDate": "1993-02-04T00:00:00"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "author": {
+        "Name": "Philip",
+        "Surname": "Gooden",
+        "BirthDate": "1992-01-08T00:00:00"
+      },
+      "BookEntries": [
+        {
+          "ISBN": "9781569475126",
+          "Book": {
+            "Title": "The Salisbury Manuscript",
+            "ReleaseDate": "2008-01-01T00:00:00",
+            "Authors": [
+              {
+                "Name": "Philip",
+                "Surname": "Gooden",
+                "BirthDate": "1992-01-08T00:00:00"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

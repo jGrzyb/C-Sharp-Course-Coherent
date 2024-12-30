@@ -1,7 +1,9 @@
 using System.Text.RegularExpressions;
+using System.Text.Json.Serialization;
 
 public class Isbn 
 {
+    [JsonInclude]
     public string ISBN { get; }
 
     private readonly Regex r0 = new(@"\d{3}-\d{1}-\d{2}-\d{6}-\d{1}");
