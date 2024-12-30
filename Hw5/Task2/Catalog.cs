@@ -1,16 +1,19 @@
+using System.Text.RegularExpressions;
+using Microsoft.VisualBasic.FileIO;
+
 public class Catalog
 {
-    public Dictionary<Isbn, Book> dictionary = new();
+    public Dictionary<string, Book> dictionary = new();
 
 
     public void Add(string ISBN, Book book)
     {
-        dictionary.Add(new Isbn(ISBN), book);
+        dictionary.Add(ISBN, book);
     }
 
-    public Book? GetBook(string ISBN)
+    public Book? GetBook(string source)
     {
-        return dictionary.FirstOrDefault(x => x.Key.ISBN == ISBN).Value;
+        return dictionary.FirstOrDefault(x => x.Key == source).Value;
     }
 
     public IEnumerable<string> GetTitlesAlphabetical()
@@ -36,4 +39,5 @@ public class Catalog
         return string.Join(Environment.NewLine, dictionary.Select(x => x.Value.ToString()));
     }
 
+    protected bool isKeyCorrect(string key) => true;
 }
