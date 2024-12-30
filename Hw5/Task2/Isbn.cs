@@ -11,10 +11,10 @@ public class Isbn
 
     public Isbn(string ISBN) 
     {
-        if(!r0.Match(ISBN).Success && !r1.Match(ISBN).Success) 
-        {
-            throw new ArgumentException("Bad format of ISBN. It should be: XXX-X-XX-XXXXXX-X or XXXXXXXXXXXXX where X is digit");
-        }
+        // if(!r0.Match(ISBN).Success && !r1.Match(ISBN).Success) 
+        // {
+        //     throw new ArgumentException("Bad format of ISBN. It should be: XXX-X-XX-XXXXXX-X or XXXXXXXXXXXXX where X is digit");
+        // }
         this.ISBN = ISBN;
     }
 }
