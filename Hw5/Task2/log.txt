@@ -738,3 +738,229 @@ ISBN not found for book: `1-2-3 peas`
 ISBN not found for book: `13 words`
 ISBN not found for book: `Selected poems`
 ISBN not found for book: `Invisibility blues : from pop to theory`
+Invalid authors: ``
+Invalid authors: `Avi, 1937-`
+GET: 624  - scottsivanhoe00scot
+GET: 628  - ivanhoeromancescot
+GET: 134  - heddagabler00ibse
+GET: 42   - crictor00unge
+GET: 38   - alexanderwhosnot00vior
+GET: 46   - anniebeachichido0000maur_z8l2
+GET: 130  - abelsisland0000stei
+GET: 310  - salteaters0000bamb
+GET: 42   - littlesteviewond00trou
+GET: 342  - endersgame00card_0
+GET: 326  - gulliverstravels1948swif
+GET: 182  - andthentherewerechri00chri
+GET: 278  - abundanceofkathe0000gree_y0c3
+GET: 78   - 26fairmountavenu0000depa_c3u1
+GET: 190  - aliceinwonderlan00lewi_7
+GET: 758  - deceptionpoint100brow
+GET: 166  - amonghiddenshado00marg_0
+GET: 214  - henrybeezus00clea_0
+GET: 506  - kinghenryivparti00shak
+GET: 402  - tragediesiiromeo00shak
+GET: 174  - johnsteinbecksgr00gala
+GET: 58   - bronzevilleboys100broo
+GET: 266  - awaytogoldfields00derb_0
+GET: 54   - alicealone0000ishe
+GET: 38   - aroundonecactuso0000fred
+GET: 200  - blackbluemagic000snyd
+GET: 742  - 4classicamerica000hawt
+GET: 470  - catch2200hell
+GET: 166  - dearmrhenshaw00clea_0
+GET: 246  - anthillsofsavann0000ache_d2w5
+GET: 330  - bravenewworld00huxl
+GET: 420  - judeobscure100hard
+GET: 566  - autobiographyofm0000twai
+GET: 390  - anahitaswovenrid0001sayr
+GET: 42   - cooldaddyrat00crow
+GET: 118  - angleofrepose00pesk
+GET: 42   - courage00wabe
+GET: 230  - rollofthunderheatayl00tayl
+GET: 42   - asroadrunnerruns0000hart
+GET: 102  - littlewomen00esco
+GET: 522  - adambede0000elio_d7o9
+GET: 38   - abelincolnrememb0000turn
+GET: 280  - crispincrossofle00avi1
+GET: 322  - amazinggrace0000lind
+GET: 230  - quicksand00lars
+GET: 134  - heidispryi00spyr
+GET: 326  - atswimtwobirdsobri00obri
+GET: 368  - forwardfoundatio00asim_0
+GET: 374  - twelfthnighthaml00shak
+GET: 214  - acceptablerisk0000unse_c6n4
+GET: 548  - leavesofgrassinc00whit
+GET: 18   - shoppingatsuperm0000depr
+GET: 34   - citylullaby00sing
+GET: 390  - digitalfortress000brow
+GET: 42   - katiessundayafte00mayh
+GET: 530  - grapesofwrath00stei_0
+GET: 36   - babushkasdoll0000pola_u9p0
+GET: 102  - commonsense50pain
+GET: 102  - animalfarm0000wald
+GET: 226  - acceleration0000mcna_a7l7
+GET: 130  - heddagablerdrama1272ibse
+GET: 58   - bunnydays00nyeu
+GET: 522  - greatexpectation00dick_0
+GET: 230  - alchemy0000mahy
+GET: 50   - birmingham196300weat
+GET: 102  - astrobiology00grad
+GET: 324  - bonewars00davi
+GET: 564  - leavesofgrass1whit
+GET: 538  - callofwildthe00lond
+GET: 38   - crictorunge00unge
+GET: 38   - 123peas0000bake
+GET: 300  - iolaleroyorshadoharp
+GET: 244  - charlieetlachoco00biet
+GET: 30   - heidichildofmoun00spyr
+GET: 136  - animalsontrailwi00pate
+GET: 34   - atthisverymoment0000arno
+GET: 342  - newjimcrowmassin0000alex
+GET: 156  - ournigorsketches00wilsrich
+GET: 908  - londonshakespear05shak
+GET: 42   - knowwhatisaw00fish
+GET: 42   - jazzymizmozetta00robe
+GET: 198  - turnofscrewdaisy00jame
+GET: 310  - madamebovary1949flau
+GET: 70   - angusmcbean0000mcbe
+GET: 42   - mynameisalice0000baye
+GET: 372  - heidi100spyr
+GET: 182  - wherewestandclas0000hook
+GET: 46   - 13words0000snic
+GET: 30   - heidiadaptedfrom00spyr
+GET: 150  - selectedpoems000broo
+GET: 312  - andbandplayedon0000ward
+GET: 438  - jubileewalkm00walk
+GET: 134  - maudmartha00broo
+GET: 678  - threeromanplays00shak
+GET: 170  - ethanfromewithco00whar
+GET: 50   - bigplans00shea
+GET: 42   - flyfree00thon
+GET: 186  - atticusofrome30b00dene
+GET: 42   - birthdayswap0000lope
+GET: 294  - fourshortstories00melv
+GET: 102  - arsenicoldlace00kess
+GET: 510  - fiveplays00shak
+GET: 38   - areyousnail0000alle
+GET: 394  - threetragediesju00shak
+GET: 56   - gusgrandpaatbask00mill
+GET: 292  - invisibilityblue0000wall
+ISBN not found for book: `Heidi`
+ISBN not found for book: `The turn of the screw, and Daisy Miller`
+ISBN not found for book: `Ivanhoe : a romance`
+ISBN not found for book: `Catch-22`
+ISBN not found for book: `Crictor`
+ISBN not found for book: `Charlie et la chocolaterie`
+ISBN not found for book: `The Red Record: Tabulated Statistics and Alleged Causes of Lynching in the United States`
+ISBN not found for book: `Heidi`
+ISBN not found for book: `At this very moment`
+ISBN not found for book: `Big plans`
+ISBN not found for book: `Maud Martha`
+ISBN not found for book: `Our Nig; or, Sketches from the life of a free black in a two-story white house, North`
+ISBN not found for book: `Five plays`
+ISBN not found for book: `Bronzeville boys and girls`
+ISBN not found for book: `Little Stevie Wonder`
+ISBN not found for book: `Scott's Ivanhoe`
+ISBN not found for book: `Tragedies II: Romeo and Juliet, Othello, King Lear. With biographical illus. and pictures of the setting of the plays`
+ISBN not found for book: `And then there were none`
+ISBN not found for book: `Black and blue magic`
+ISBN not found for book: `Cool Daddy Rat`
+ISBN not found for book: `Three tragedies: Julius Caesar, Hamlet, Macbeth`
+ISBN not found for book: `Around one cactus : owls, bats, and leaping rats`
+ISBN not found for book: `Alice alone`
+ISBN not found for book: `Annie, Bea, and Chi Chi Dolores : a school day alphabet`
+ISBN not found for book: `Alexander, who's not (Do you hear me? I mean it!) going to move`
+ISBN not found for book: `Gulliver's travels`
+ISBN not found for book: `Hedda Gabler`
+ISBN not found for book: `Alice in Wonderland`
+ISBN not found for book: `Acceleration`
+ISBN not found for book: `John Steinbeck's The grapes of wrath`
+ISBN not found for book: `Incidents in the life of a slave girl.`
+ISBN not found for book: `Babe : the gallant pig`
+Invalid authors: `Aliki.`
+Invalid authors: `Avi, 1937-`
+ISBN not found for book: `Ender's game`
+ISBN not found for book: `Henry and Beezus`
+ISBN not found for book: `The salt eaters`
+ISBN not found for book: `Abel's island`
+ISBN not found for book: `26 Fairmount Avenue`
+ISBN not found for book: `Among the hidden`
+ISBN not found for book: `Angle of repose`
+Invalid authors: `urn:isbn:8449500877`
+ISBN not found for book: `urn:isbn:8441411980`
+ISBN not found for book: `Anahita's woven riddle`
+ISBN not found for book: `Away to the goldfields!`
+ISBN not found for book: `King Henry IV, part I. Twelfth night. Tragedy of King Lear. The tempest`
+ISBN not found for book: `Abe Lincoln remembers`
+ISBN not found for book: `An abundance of Katherines`
+ISBN not found for book: `4 classic American novels`
+ISBN not found for book: `Birmingham, 1963`
+ISBN not found for book: `Courage`
+ISBN not found for book: `Dear Mr. Henshaw`
+ISBN not found for book: `Deception point`
+ISBN not found for book: `Four short stories`
+ISBN not found for book: `Ethan Frome with connections`
+ISBN not found for book: `A my name is Alice`
+ISBN not found for book: `Katie's Sunday afternoon`
+ISBN not found for book: `As the roadrunner runs : a first book of maps`
+Invalid authors: ``
+ISBN not found for book: `Acceptable risk`
+ISBN not found for book: `Anthills of the savannah`
+ISBN not found for book: `Are you a snail?`
+ISBN not found for book: `The birthday swap`
+ISBN not found for book: `Little women`
+ISBN not found for book: `Amazing grace`
+ISBN not found for book: `The autobiography of Mark Twain`
+ISBN not found for book: `Jude the obscure`
+ISBN not found for book: `At Swim-Two-Birds`
+ISBN not found for book: `Atticus of Rome`
+ISBN not found for book: `Astrobiology`
+ISBN not found for book: `Brave new world : a novel`
+ISBN not found for book: `Twelfth night. Hamlet`
+ISBN not found for book: `The call of the wild, The cruise of the Dazzler, and other stories of adventure, with the author's special report: Gold hunters of the North`
+ISBN not found for book: `Shopping at the supermarket`
+ISBN not found for book: `Quicksand`
+ISBN not found for book: `Roll of thunder, hear my cry`
+Invalid authors: `Avi, 1937-`
+ISBN not found for book: `Crispin : the cross of lead`
+ISBN not found for book: `Adam Bede`
+ISBN not found for book: `Alchemy`
+ISBN not found for book: `Angus McBean`
+ISBN not found for book: `Bone Wars`
+ISBN not found for book: `City Lullaby`
+ISBN not found for book: `Animal farm`
+ISBN not found for book: `The Grapes of wrath`
+ISBN not found for book: `Heidi, child of the mountains : adapted and abridged from the famous story`
+ISBN not found for book: `Crictor`
+ISBN not found for book: `Jazzy Miz Mozetta`
+ISBN not found for book: `Forward the foundation`
+ISBN not found for book: `Madame Bovary`
+ISBN not found for book: `Babushka's Doll`
+ISBN not found for book: `The London Shakespeare; a new annotated and critical edition of the complete works in six volumes`
+ISBN not found for book: `Bunny days`
+ISBN not found for book: `Know what I saw?`
+ISBN not found for book: `Common sense`
+Invalid authors: `809199`
+ISBN not found for book: `urn:isbn:3869304626`
+ISBN not found for book: `Digital fortress`
+ISBN not found for book: `Leaves of grass. Including a fac-simile autobiography, variorum readings of the poems, and a department of Gathered leaves`
+ISBN not found for book: `Great expectations`
+ISBN not found for book: `Fly free!`
+ISBN not found for book: `Heidi adapted from the original story`
+ISBN not found for book: `Where we stand : class matters`
+Invalid authors: `Aliki`
+ISBN not found for book: `Arsenic and old lace`
+ISBN not found for book: `Hedda Gabler : drama en cuatro actos`
+ISBN not found for book: `Three Roman plays`
+ISBN not found for book: `Gus and Grandpa at basketball`
+ISBN not found for book: `Jubilee`
+ISBN not found for book: `The new Jim Crow : mass incarceration in the age of colorblindness`
+ISBN not found for book: `And the band played on`
+ISBN not found for book: `Iola Leroy, or, Shadows uplifted`
+ISBN not found for book: `Leaves of grass`
+ISBN not found for book: `Animals on the trail with Lewis and Clark`
+ISBN not found for book: `1-2-3 peas`
+ISBN not found for book: `13 words`
+ISBN not found for book: `Selected poems`
+ISBN not found for book: `Invisibility blues : from pop to theory`
