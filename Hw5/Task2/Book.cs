@@ -23,8 +23,11 @@ public class Book
         Authors = new HashSet<Author>(authors);
     }
 
+    public virtual string[] GetPressRelease() => [];
+
     public override string ToString()
     {
-        return $"\"{Title}\"   -   {string.Join(", ", Authors)}";
+        return Title.PadLeft(40) + " - " + string.Join(", ", Authors);
+        // return $"\"{Title}\"   -   {string.Join(", ", Authors)}";
     }
 }

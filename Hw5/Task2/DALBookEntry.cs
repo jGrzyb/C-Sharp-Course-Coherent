@@ -8,9 +8,9 @@ public class DALBookEntry
     {
     }
 
-    public DALBookEntry(Isbn isbn, Book book)
+    public DALBookEntry(string isbn, Book book)
     {
-        ISBN = isbn.ISBN;
+        ISBN = isbn;
         Book = new DALBook(book);
     }
 
